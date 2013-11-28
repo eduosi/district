@@ -6,14 +6,17 @@ MySQL - 5.6.14-log
 /*!40101 SET NAMES utf8 */;
 
 create table `district` (
-	`id` int ,
-	`name` varchar (30),
-	`parentid` int ,
-	`initial` varchar (3),
-	`initials` varchar (30),
-	`pinyin` varchar (90),
-	`suffix` varchar (30),
-	`order` tinyint (2)
+	`id` int unsigned NOT NULL AUTO_INCREMENT,
+	`name` varchar(10) NOT NULL,
+	`parentid` int unsigned NOT NULL DEFAULT '0',
+	`initial` varchar (3) NOT NULL DEFAULT '',
+	`initials` char(10) NOT NULL DEFAULT '',
+    `pinyin` varchar(30) NOT NULL DEFAULT '',
+	`suffix` varchar(10) NOT NULL DEFAULT '',
+	`order` tinyint(2) unsigned NOT NULL DEFAULT '0',
+	PRIMARY KEY (`id`),
+	KEY `parentid` (`parentid`),
+	KEY `initial` (`initial`)
 ); 
 insert into `district` (`id`, `name`, `parentid`, `initial`, `initials`, `pinyin`, `suffix`, `order`) values('1','北京','0','b','bj','beijing','市','1');
 insert into `district` (`id`, `name`, `parentid`, `initial`, `initials`, `pinyin`, `suffix`, `order`) values('2','天津','0','t','tj','tianjin','市','2');
