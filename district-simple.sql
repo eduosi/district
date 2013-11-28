@@ -6,10 +6,13 @@ MySQL - 5.6.14-log
 /*!40101 SET NAMES utf8 */;
 
 create table `district` (
-	`id` int ,
-	`name` varchar (30),
-	`parentid` int ,
-	`order` tinyint (2)
+	`id` int unsigned NOT NULL AUTO_INCREMENT,
+	`name` varchar(10) NOT NULL,
+	`parentid` int unsigned NOT NULL DEFAULT '0',
+	`order` tinyint(2) unsigned NOT NULL DEFAULT '0',
+	PRIMARY KEY (`id`),
+	KEY `parentid` (`parentid`),
+	KEY `initial` (`initial`)
 ); 
 insert into `district` (`id`, `name`, `parentid`, `order`) values('1','北京','0','1');
 insert into `district` (`id`, `name`, `parentid`, `order`) values('2','天津','0','2');
