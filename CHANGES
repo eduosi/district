@@ -1,0 +1,18 @@
+Changes 3.0
+												13 Feb 2014
+	*) 删除广州市萝岗区
+	*) 广州市从化市更名为广州市从化区
+	*) 广州市增城市更名为广州市增城区
+	
+	更新脚本：
+	DELETE FROM `district` WHERE `id`='2222';
+	UPDATE `district` SET `suffix`='区' WHERE `id`='2223';
+	UPDATE `district` SET `suffix`='区' WHERE `id`='2224';
+
+Changes 2.0.
+												
+	*) 
+
+Changes 1.0
+												
+	*) The first public version.

@@ -6,13 +6,10 @@ MySQL - 5.6.14-log
 /*!40101 SET NAMES utf8 */;
 
 create table `district` (
-	`id` int unsigned NOT NULL AUTO_INCREMENT,
-	`name` varchar(10) NOT NULL,
-	`parentid` int unsigned NOT NULL DEFAULT '0',
-	`order` tinyint(2) unsigned NOT NULL DEFAULT '0',
-	PRIMARY KEY (`id`),
-	KEY `parentid` (`parentid`),
-	KEY `initial` (`initial`)
+	`id` int ,
+	`name` varchar (30),
+	`parentid` int ,
+	`order` tinyint (2)
 ); 
 insert into `district` (`id`, `name`, `parentid`, `order`) values('1','北京','0','1');
 insert into `district` (`id`, `name`, `parentid`, `order`) values('2','天津','0','2');
@@ -2235,7 +2232,6 @@ insert into `district` (`id`, `name`, `parentid`, `order`) values('2218','黄埔
 insert into `district` (`id`, `name`, `parentid`, `order`) values('2219','番禺','321','7');
 insert into `district` (`id`, `name`, `parentid`, `order`) values('2220','花都','321','8');
 insert into `district` (`id`, `name`, `parentid`, `order`) values('2221','南沙','321','9');
-insert into `district` (`id`, `name`, `parentid`, `order`) values('2222','萝岗','321','10');
 insert into `district` (`id`, `name`, `parentid`, `order`) values('2223','增城','321','11');
 insert into `district` (`id`, `name`, `parentid`, `order`) values('2224','从化','321','12');
 insert into `district` (`id`, `name`, `parentid`, `order`) values('2225','武江','322','1');

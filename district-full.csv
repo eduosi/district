@@ -2220,9 +2220,8 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 2219	番禺	321	f	fy	fanyu		区	440113	020	7
 2220	花都	321	h	hd	huadou		区	440114	020	8
 2221	南沙	321	n	ns	nansha		区	440115	020	9
-2222	萝岗	321	l	lg	luogang		区	440116	020	10
-2223	增城	321	z	zc	zengcheng		市	440183	020	11
-2224	从化	321	c	ch	conghua		市	440184	020	12
+2223	增城	321	z	zc	zengcheng		区	440183	020	11
+2224	从化	321	c	ch	conghua		区	440184	020	12
 2225	武江	322	w	wj	wujiang		区	440203	0751	1
 2226	浈江	322	z	zj	zhenjiang		区	440204	0751	2
 2227	曲江	322	q	qj	qujiang		区	440205	0751	3
