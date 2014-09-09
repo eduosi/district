@@ -1,3 +1,157 @@
+Changes 4.0
+												09 Sep 2014
+
+	*) 临沂市苍山县更名为临沂市兰陵县
+	*) 山东省撤销县级文登市，设立威海市文登区
+	*) 新疆维吾尔族自治区新增县级双河市
+	*) 更新阿克苏区号
+	*) 更新新疆维吾尔族自治区北屯市行政代码
+	*) 更新新疆维吾尔族自治区铁门关市行政代码和区号
+	*) 更新新疆维吾尔族自治区数据
+	*) 修改喀什拼音 kashen 为 kashi
+	*) 删除茂名市茂港区
+	*) 茂名市电白县更新为茂名市电白区
+	*) 更新茂名市下辖行政区排序
+	*) 三亚市新增海棠、吉阳、天涯、崖州四区
+	*) 哈尔滨市双城市更名为双城区
+	*) 删除连云港市新浦区
+	*) 更新连云港市下辖行政区排序
+	*) 连云港市赣榆县更名为连云港市赣榆区
+	*) 南平市建阳市更名为南平市建阳区
+	*) 重庆市璧山县更名为重庆市璧山区
+	*) 重庆市铜梁县更名为重庆市铜梁区
+	*) 沈阳市东陵区更名为沈阳市浑南区
+	*) 日喀则地区更名日喀则市
+	*) 原日喀则地区日喀则市更名为日喀则市桑珠孜区
+	*) 伊犁哈萨克自治州新增县级市霍尔果斯市
+	*) 更新伊犁哈萨克自治州下级行政区域排序
+	*) 桂林市临桂县更名为临桂区
+	*) 广安市新增前锋区
+	*) 更新广安市区号
+	*) 更新广安市下辖行政区区号和排序
+	*) 达州市达县更名为达州市大川区
+	*) 潮州市潮安县更名为潮州市潮安区
+	*) 玉林市新增福绵区
+	*) 更新玉林市下辖行政区排序
+	*) 删除绍兴市绍兴县，新增绍兴市柯桥区
+	*) 绍兴市上虞市更名为上虞区，同时更新行政代码
+	*) 更新绍兴市下辖行政区排序
+	*) 删除潮州市梅县，新增梅州市梅县区
+	*) 赣州市南康市更名为赣州市南康区
+	*) 删除济宁市市中区
+	*) 删除济宁市兖州市，新增济宁市兖州区
+	*) 更新济宁市下辖区排序
+	*) 修正巴音郭楞蒙古自治州博湖县行政代码
+
+	更新脚本：
+	UPDATE `district` SET `name` = '兰陵' , `initial` = 'l' , `initials` = 'll' , `pinyin` = 'lanling' WHERE `id` = '1794'; 
+	UPDATE `district` SET `suffix` = '区' WHERE `id` = '1779'; 
+	INSERT INTO `district` (`name`, `parentid`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `area_code`, `order`) VALUES ('双河', '31', 's', 'sh', 'shuanghe', '市', '659007', '0909', '21'); 
+	UPDATE `district` SET `area_code` = '0997' WHERE `id` = '474'; 
+	UPDATE `district` SET `code` = '659005' WHERE `id` = '466'; 
+	UPDATE `district` SET `code` = '659006' , `area_code` = '0996' WHERE `id` = '465'; 
+	UPDATE `district` SET `name` = '乌鲁木齐', `initial` = 'w', `initials` = 'wlmq', `pinyin` = 'wulumuqi', `code` = '650100', `code` = '0996 0991' WHERE `id` = '465'; 
+	UPDATE `district` SET `parentid` = 465 WHERE `parentid` = 467; 
+	UPDATE `district` SET `name` = '克拉玛依', `initial` = 'k', `initials` = 'klmy', `pinyin` = 'kelamayi', `code` = '650200', `area_code` = '0990' WHERE `id` = '466'; 
+	UPDATE `district` SET `parentid` = 466 WHERE `parentid` = 468; 
+	UPDATE `district` SET `name` = '吐鲁番', initial` = 't', `initials` = 'tlf', `pinyin` = 'tulufan', `suffix` = '地区', `code` = '652100', `area_code` = '0995' WHERE `id` = '467'; 
+	UPDATE `district` SET `parentid` = 467 WHERE `parentid` = 469;
+	UPDATE `district` SET `name` = '哈密', `initial` = 'h', `initials` = 'hm', `pinyin` = 'hami', `extra` = '回族', `suffix` = '地区', `code` = '652200', `area_code` = '0902' WHERE `id` = '468'; 
+	UPDATE `district` SET `parentid` = 468 WHERE `parentid` = 470;
+	UPDATE `district` SET `name` = '昌吉', `initial` = 'c', `initials` = 'cj', `pinyin` = 'changji', `suffix` = '自治州', `code` = '652300', `area_code` = '0994' WHERE `id` = '469'; 
+	UPDATE `district` SET `parentid` = 469 WHERE `parentid` = 471;
+	UPDATE `district` SET `name` = '博尔塔拉', `initial` = 'b', initials` = 'betl', `pinyin` = 'boertala', `extra` = '蒙古', `suffix` = '自治州', `code` = '652700', `area_code` = '0909' WHERE `id` = '470'; 
+	UPDATE `district` SET `parentid` = 470 WHERE `parentid` = 472; 
+	UPDATE `district` SET `name` = '巴音郭楞', `initial` = 'b', `initials` = 'bygl', `pinyin` = 'bayinguoleng', `extra` = '蒙古', `suffix` = '自治州', `code` = '652800', `area_code` = '0996' WHERE `id` = '471'; 
+	UPDATE `district` SET `parentid` = 471 WHERE `parentid` = 473;
+	UPDATE `district` SET `name` = '阿克苏', `initial` = 'a', `initials` = 'aks', `pinyin` = 'akesu', `extra` = '柯尔克孜', `suffix` = '地区', `code` = '652900', `area_code` = '0997' WHERE `id` = '472'; 
+	UPDATE `district` SET `parentid` = 472 WHERE `parentid` = 474;
+	UPDATE `zhubao_dc`.`district` SET `name` = '克孜勒苏', `initial` = 'k', `initials` = 'kzls', `pinyin` = 'kezilesu', `suffix` = '自治州', `code` = '653000', `area_code` = '0908' WHERE `id` = '473'; 
+	UPDATE `district` SET `parentid` = 473 WHERE `parentid` = 475;
+	UPDATE `zhubao_dc`.`district` SET `name` = '喀什', `initial` = 'k', `initials` = 'ks', `pinyin` = 'kashi', `suffix` = '地区', `code` = '653100', `area_code` = '0998' WHERE `id` = '474'; 
+	UPDATE `district` SET `parentid` = 474 WHERE `parentid` = 476;
+	UPDATE `zhubao_dc`.`district` SET `name` = '和田', initial` = 'h', `initials` = 'ht', `pinyin` = 'hetian', `extra` = '哈萨克', `suffix` = '地区', `code` = '653200', `area_code` = '0903' WHERE `id` = '475'; 
+	UPDATE `district` SET `parentid` = 475 WHERE `parentid` = 477;
+	UPDATE `zhubao_dc`.`district` SET `name` = '伊犁', `initial` = 'y', `initials` = 'yl', `pinyin` = 'yili', `suffix` = '自治州', `code` = '654000', `area_code` = '0999' WHERE `id` = '476'; 
+	UPDATE `district` SET `parentid` = 476 WHERE `parentid` = 478;
+	UPDATE `zhubao_dc`.`district` SET `name` = '塔城', `initial` = 't', `initials` = 'tc', `pinyin` = 'tacheng', `suffix` = '地区', `code` = '654200', `area_code` = '0901' WHERE `id` = '477'; 
+	UPDATE `district` SET `parentid` = 477 WHERE `parentid` = 479;
+	UPDATE `zhubao_dc`.`district` SET `name` = '阿勒泰', `initial` = 'a', `initials` = 'alt', `pinyin` = 'aletai', `suffix` = '地区', `code` = '654300', `area_code` = '0906' WHERE `id` = '478'; 
+	UPDATE `district` SET `parentid` = 478 WHERE `parentid` = 480;
+	UPDATE `zhubao_dc`.`district` SET `name` = '石河子', `initial` = 's', `initials` = 'shz', `pinyin` = 'shihezi', `suffix` = '市', `code` = '659001', `area_code` = '0993' WHERE `id` = '479'; 
+	UPDATE `zhubao_dc`.`district` SET `name` = '阿拉尔', `initial` = 'a', `initials` = 'ale', `pinyin` = 'alaer', `suffix` = '市', `code` = '659002', `area_code` = '0997' WHERE `id` = '480'; 
+	UPDATE `zhubao_dc`.`district` SET `name` = '图木舒克', `initial` = 't', `initials` = 'tmsk', `pinyin` = 'tumushuke', `suffix` = '市', `code` = '659003', `area_code` = '0998' WHERE `id` = '481'; 
+	UPDATE `zhubao_dc`.`district` SET `name` = '五家渠', `initial` = 'w', `initials` = 'wjq', `pinyin` = 'wujiaqu', `suffix` = '市', `code` = '659004', `area_code` = '0994' WHERE `id` = '482'; 
+	UPDATE `zhubao_dc`.`district` SET `name` = '北屯', `initial` = 'b', `initials` = 'bt', `pinyin` = 'beitun', `suffix` = '市', `code` = '659005', `area_code` = '0906' WHERE `id` = '483';
+	UPDATE `zhubao_dc`.`district` SET `name` = '铁门关', `initial` = 't', `initials` = 'tmg', `pinyin` = 'tiemenguan', `suffix` = '市', `code` = '659006', `area_code` = '0996' WHERE `id` = '484'; 
+	DELETE FROM `zhubao_dc`.`district` WHERE `id` = '2273'; 
+	UPDATE `zhubao_dc`.`district` SET `suffix` = '区', `order` = '2' WHERE `id` = '2274'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '3' WHERE `id` = '2275'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '4' WHERE `id` = '2276'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '5' WHERE `id` = '2277'; 
+	INSERT INTO `zhubao_dc`.`district` (`name`, `parentid`, `initial`, `initials`, `pinyin`, `suffix`, `area_code`) VALUES ('海棠', '357', 'h', 'ht', 'haitang', '区', '0898'); 
+	INSERT INTO `zhubao_dc`.`district` (`name`, `parentid`, `initial`, `initials`, `pinyin`, `suffix`, `area_code`) VALUES ('吉阳', '357', 'j', 'jy', 'jiyang', '区', '0898'); 
+	INSERT INTO `zhubao_dc`.`district` (`name`, `parentid`, `initial`, `initials`, `pinyin`, `suffix`, `area_code`) VALUES ('天涯', '357', 't', 'ty', 'tianya', '区', '0898'); 
+	INSERT INTO `zhubao_dc`.`district` (`name`, `parentid`, `initial`, `initials`, `pinyin`, `suffix`, `area_code`) VALUES ('崖州', '357', 'y', 'yz', 'yazhou', '区', '0898'); 
+	UPDATE `zhubao_dc`.`district` SET `suffix` = '区' WHERE `id` = '1100'; 
+	DELETE FROM `zhubao_dc`.`district` WHERE `id` = '1271'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '2' WHERE `id` = '1272'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '3' WHERE `id` = '1273'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '4' WHERE `id` = '1274'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '5' WHERE `id` = '1275'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '6' WHERE `id` = '1276'; 
+	UPDATE `zhubao_dc`.`district` SET `suffix` = '区' WHERE `id` = '1273'; 
+	UPDATE `zhubao_dc`.`district` SET `suffix` = '区' WHERE `id` = '1580'; 
+	UPDATE `zhubao_dc`.`district` SET `suffix` = '区' WHERE `id` = '109'; 
+	UPDATE `zhubao_dc`.`district` SET `suffix` = '区' WHERE `id` = '107'; 
+	UPDATE `zhubao_dc`.`district` SET `name` = '浑南' , `initial` = 'h' , `initials` = 'hn' , `pinyin` = 'hunnan' WHERE `id` = '931'; 
+	UPDATE `zhubao_dc`.`district` SET `suffix` = '市' WHERE `id` = '424'; 
+	UPDATE `zhubao_dc`.`district` SET `name` = '桑珠孜' , `initial` = 's' , `initials` = 'szz' , `pinyin` = 'sangzhuzi' , `suffix` = '区' WHERE `id` = '2876'; 
+	INSERT INTO `zhubao_dc`.`district` (`name`, `parentid`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `area_code`, `order`) VALUES ('霍尔果斯', '476', 'h', 'hegs', 'huoerguosi', '市', '654004', '0999', 3); 
+	UPDATE `zhubao_dc`.`district` SET `order` = '4' WHERE `id` = '3255'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '5' WHERE `id` = '3256'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '6' WHERE `id` = '3257'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '7' WHERE `id` = '3258'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '8' WHERE `id` = '3259'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '9' WHERE `id` = '3260'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '10' WHERE `id` = '3261'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '11' WHERE `id` = '3262'; 
+	UPDATE `zhubao_dc`.`district` SET `suffix` = '区' WHERE `id` = '2362'; 
+	INSERT INTO `zhubao_dc`.`district` (`name`, `parentid`, `initial`, `initials`, `pinyin`, `suffix`, `area_code`, `order`) VALUES ('前锋', '388', 'q', 'qf', 'qianfeng', '区', '0826', '2'); 
+	UPDATE `zhubao_dc`.`district` SET `area_code` = '0826' WHERE `id` = '388'; 
+	UPDATE `zhubao_dc`.`district` SET `area_code` = '0826' WHERE `id` = '2552'; 
+	UPDATE `zhubao_dc`.`district` SET `area_code` = '0826' , `order` = '3' WHERE `id` = '2553'; 
+	UPDATE `zhubao_dc`.`district` SET `area_code` = '0826' , `order` = '4' WHERE `id` = '2554'; 
+	UPDATE `zhubao_dc`.`district` SET `area_code` = '0826' , `order` = '5' WHERE `id` = '2555'; 
+	UPDATE `zhubao_dc`.`district` SET `area_code` = '0826' , `order` = '6' WHERE `id` = '2556';
+	UPDATE `zhubao_dc`.`district` SET `name` = '达川' , `initials` = 'dc' , `pinyin` = 'dachuan' , `suffix` = '区' WHERE `id` = '2558';
+	UPDATE `zhubao_dc`.`district` SET `suffix` = '区' WHERE `id` = '2322'; 
+	INSERT INTO `zhubao_dc`.`district` (`name`, `parentid`, `initial`, `initials`, `pinyin`, `suffix`, `order`) VALUES ('福绵', '350', 'f', 'fj', 'fujin', '区', 2); 
+	UPDATE `zhubao_dc`.`district` SET `order` = '3' WHERE `id` = '2398'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '4' WHERE `id` = '2399'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '5' WHERE `id` = '2400'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '6' WHERE `id` = '2401'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '7' WHERE `id` = '2402'; 
+	UPDATE `zhubao_dc`.`district` SET `name` = '柯桥' , `initial` = 'k' , `initials` = 'kq' , `pinyin` = 'keqiao' , `suffix` = '区' , `code` = '330603' WHERE `id` = '1365'; 
+	UPDATE `zhubao_dc`.`district` SET `suffix` = '区' , `code` = '330604' , `order` = '3' WHERE `id` = '1368'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '4' WHERE `id` = '1366'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '5' WHERE `id` = '1367'; 
+	UPDATE `zhubao_dc`.`district` SET `suffix` = '区' , `code` = '441403' WHERE `id` = '2292'; 
+	UPDATE `zhubao_dc`.`district` SET `suffix` = '区' WHERE `id` = '1650'; 
+	DELETE FROM `zhubao_dc`.`district` WHERE `id` = '1760'; 
+	UPDATE `zhubao_dc`.`district` SET `suffix` = '区' , `code` = '370812', `order` = 2 WHERE `id` = '1770'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '1' WHERE `id` = '1761'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '3' WHERE `id` = '1762'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '4' WHERE `id` = '1763'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '5' WHERE `id` = '1764'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '6' WHERE `id` = '1765'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '7' WHERE `id` = '1766'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '8' WHERE `id` = '1767'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '9' WHERE `id` = '1768'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '10' WHERE `id` = '1769'; 
+	UPDATE `zhubao_dc`.`district` SET `order` = '11' WHERE `id` = '1771'; 
+	UPDATE `zhubao_dc`.`district` SET `code` = '652829' WHERE `id` = '3219'; 
+
 Changes 3.0
 												13 Feb 2014
 	*) 删除广州市萝岗区

@@ -1,4 +1,3 @@
-id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 1	北京	0	b	bj	beijing		市	110000	010	1
 2	天津	0	t	tj	tianjin		市	120000	022	2
 3	上海	0	s	sh	shanghai		市	310000	021	3
@@ -105,9 +104,9 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 104	永川	4	y	yc	yongchuan		区	500118	023	18
 105	南川	4	n	nc	nanchuan		区	500119	023	19
 106	潼南	4	t	tn	tongnan		县	500223	023	20
-107	铜梁	4	t	tl	tongliang		县	500224	023	21
+107	铜梁	4	t	tl	tongliang		区	500224	023	21
 108	荣昌	4	r	rc	rongchang		县	500226	023	22
-109	璧山	4	b	bs	bishan		县	500227	023	23
+109	璧山	4	b	bs	bishan		区	500227	023	23
 110	梁平	4	l	lp	liangping		县	500228	023	24
 111	城口	4	c	ck	chengkou		县	500229	023	25
 112	丰都	4	f	fd	fengdou		县	500230	023	26
@@ -386,7 +385,7 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 385	南充	23	n	nc	nanchong		市	511300	0817	11
 386	眉山	23	m	ms	meishan		市	511400	028	12
 387	宜宾	23	y	yb	yibin		市	511500	0831	13
-388	广安	23	g	ga	guangan		市	511600		14
+388	广安	23	g	ga	guangan		市	511600	0826	14
 389	达州	23	d	dz	dazhou		市	511700	0818	15
 390	雅安	23	y	ya	yaan		市	511800	0835	16
 391	巴中	23	b	bz	bazhong		市	511900	0827	17
@@ -422,7 +421,7 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 421	拉萨	26	l	ls	lasa		市	540100	0891	1
 422	昌都	26	c	cd	changdou		地区	542100	0895	2
 423	山南	26	s	sn	shannan		地区	542200	0893	3
-424	日喀则	26	r	rkz	rikaze		地区	542300	0892	4
+424	日喀则	26	r	rkz	rikaze		市	542300	0892	4
 425	那曲	26	n	nq	neiqu		地区	542400	0896	5
 426	阿里	26	a	al	ali		地区	542500	0897	6
 427	林芝	26	l	lz	linzhi		地区	542600	0894	7
@@ -463,26 +462,26 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 462	吴忠	30	w	wz	wuzhong		市	640300	0953	3
 463	固原	30	g	gy	guyuan		市	640400	0954	4
 464	中卫	30	z	zw	zhongwei		市	640500		5
-465	铁门关	31	t	tmg	tiemenguan		市			1
-466	北屯	31	b	bt	beitun		市		0906	2
-467	乌鲁木齐	31	w	wlmq	wulumuqi		市	650100	0991	3
-468	克拉玛依	31	k	klmy	kelamayi		市	650200	0990	4
-469	吐鲁番	31	t	tlf	tulufan		地区	652100	0995	5
-470	哈密	31	h	hm	hami		地区	652200	0902	6
-471	昌吉	31	c	cj	changji	回族	自治州	652300	0994	7
-472	博尔塔拉	31	b	betl	boertala	蒙古	自治州	652700	0909	8
-473	巴音郭楞	31	b	bygl	bayinguoleng	蒙古	自治州	652800	0996	9
-474	阿克苏	31	a	aks	akesu		地区	652900		10
-475	克孜勒苏	31	k	kzls	kezilesu	柯尔克孜	自治州	653000	0908	11
-476	喀什	31	k	ks	kashen		地区	653100	0998	12
-477	和田	31	h	ht	hetian		地区	653200	0903	13
-478	伊犁	31	y	yl	yili	哈萨克	自治州	654000	0999	14
-479	塔城	31	t	tc	tacheng		地区	654200	0901	15
-480	阿勒泰	31	a	alt	aletai		地区	654300	0906	16
-481	石河子	31	s	shz	shihezi		市	659001	0993	17
-482	阿拉尔	31	a	ale	alaer		市	659002	0997	18
-483	图木舒克	31	t	tmsk	tumushuke		市	659003	0998	19
-484	五家渠	31	w	wjq	wujiaqu		市	659004	0994	20
+465	乌鲁木齐	31	w	wlmq	wulumuqi		市	650100	0991	1
+466	克拉玛依	31	k	klmy	kelamayi		市	650200	0990	2
+467	吐鲁番	31	t	tlf	tulufan		地区	652100	0995	3
+468	哈密	31	h	hm	hami	回族	地区	652200	0902	4
+469	昌吉	31	c	cj	changji		自治州	652300	0994	5
+470	博尔塔拉	31	b	betl	boertala	蒙古	自治州	652700	0909	6
+471	巴音郭楞	31	b	bygl	bayinguoleng	蒙古	自治州	652800	0996	7
+472	阿克苏	31	a	aks	akesu	柯尔克孜	地区	652900	0997	8
+473	克孜勒苏	31	k	kzls	kezilesu		自治州	653000	0908	9
+474	喀什	31	k	ks	kashi		地区	653100	0998	10
+475	和田	31	h	ht	hetian	哈萨克	地区	653200	0903	11
+476	伊犁	31	y	yl	yili		自治州	654000	0999	12
+477	塔城	31	t	tc	tacheng		地区	654200	0901	13
+478	阿勒泰	31	a	alt	aletai		地区	654300	0906	14
+479	石河子	31	s	shz	shihezi		市	659001	0993	15
+480	阿拉尔	31	a	ale	alaer		市	659002	0997	16
+481	图木舒克	31	t	tmsk	tumushuke		市	659003	0998	17
+482	五家渠	31	w	wjq	wujiaqu		市	659004	0994	18
+483	北屯	31	b	bt	beitun		市	659005	0906	19
+484	铁门关	31	t	tmg	tiemenguan		市	659006	0996	20
 485	台北	32	t	tb	taibei		市	63	02	1
 486	高雄	32	g	gx	gaoxiong		市	64	07	2
 487	基隆	32	j	jl	jilong		市	10017	02	3
@@ -929,7 +928,7 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 928	皇姑	159	h	hg	huanggu		区	210105	024	4
 929	铁西	159	t	tx	tiexi		区	210106	024	5
 930	苏家屯	159	s	sjt	sujiatun		区	210111	024	6
-931	东陵	159	d	dl	dongling		区	210112	024	7
+931	浑南	159	h	hn	hunnan		区	210112	024	7
 932	沈北新区	159	s	sbxq	shenbeixinqu			210113	024	8
 933	于洪	159	y	yh	yuhong		区	210114	024	9
 934	辽中	159	l	lz	liaozhong		县	210122	024	10
@@ -1098,7 +1097,7 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 1097	木兰	182	m	ml	mulan		县	230127	0451	13
 1098	通河	182	t	th	tonghe		县	230128	0451	14
 1099	延寿	182	y	ys	yanshou		县	230129	0451	15
-1100	双城	182	s	sc	shuangcheng		市	230182	0451	16
+1100	双城	182	s	sc	shuangcheng		区	230182	0451	16
 1101	尚志	182	s	sz	shangzhi		市	230183	0451	17
 1102	五常	182	w	wc	wuchang		市	230184	0451	18
 1103	龙沙	183	l	ls	longsha		区	230202	0452	1
@@ -1269,12 +1268,11 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 1268	如皋	200	r	rg	rugao		市	320682	0513	7
 1269	海门	200	h	hm	haimen		市	320684	0513	8
 1270	连云	201	l	ly	lianyun		区	320703	0518	1
-1271	新浦	201	x	xp	xinpu		区	320705	0518	2
-1272	海州	201	h	hz	haizhou		区	320706	0518	3
-1273	赣榆	201	g	gy	ganyu		县	320721	0518	4
-1274	东海	201	d	dh	donghai		县	320722	0518	5
-1275	灌云	201	g	gy	guanyun		县	320723	0518	6
-1276	灌南	201	g	gn	guannan		县	320724	0518	7
+1272	海州	201	h	hz	haizhou		区	320706	0518	2
+1273	赣榆	201	g	gy	ganyu		区	320721	0518	3
+1274	东海	201	d	dh	donghai		县	320722	0518	4
+1275	灌云	201	g	gy	guanyun		县	320723	0518	5
+1276	灌南	201	g	gn	guannan		县	320724	0518	6
 1277	清河	202	q	qh	qinghe		区	320802	0517	1
 1278	淮安	202	h	ha	huaian		区	320803	0517	2
 1279	淮阴	202	h	hy	huaiyin		区	320804	0517	3
@@ -1363,10 +1361,10 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 1362	长兴	212	z	zx	zhangxing		县	330522	0572	4
 1363	安吉	212	a	aj	anji		县	330523	0572	5
 1364	越城	213	y	yc	yuecheng		区	330602	0575	1
-1365	绍兴	213	s	sx	shaoxing		县	330621	0575	2
-1366	新昌	213	x	xc	xinchang		县	330624	0575	3
-1367	诸暨	213	z	zj	zhuji		市	330681	0575	4
-1368	上虞	213	s	sy	shangyu		市	330682	0575	5
+1365	柯桥	213	k	kq	keqiao		区	330603	0575	2
+1366	新昌	213	x	xc	xinchang		县	330624	0575	4
+1367	诸暨	213	z	zj	zhuji		市	330681	0575	5
+1368	上虞	213	s	sy	shangyu		区	330604	0575	3
 1369	嵊州	213	s	sz	shengzhou		市	330683	0575	6
 1370	婺城	214	w	wc	wucheng		区	330702	0579	1
 1371	金东	214	j	jd	jindong		区	330703	0579	2
@@ -1578,7 +1576,7 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 1577	邵武	241	s	sw	shaowu		市	350781	0599	7
 1578	武夷山	241	w	wys	wuyishan		市	350782	0599	8
 1579	建瓯	241	j	jo	jianou		市	350783	0599	9
-1580	建阳	241	j	jy	jianyang		市	350784	0599	10
+1580	建阳	241	j	jy	jianyang		区	350784	0599	10
 1581	新罗	242	x	xl	xinluo		区	350802	0597	1
 1582	长汀	242	z	zt	zhangting		县	350821	0597	2
 1583	永定	242	y	yd	yongding		县	350822	0597	3
@@ -1648,7 +1646,7 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 1647	寻乌	250	x	xw	xunwu		县	360734	0797	15
 1648	石城	250	s	sc	shicheng		县	360735	0797	16
 1649	瑞金	250	r	rj	ruijin		市	360781	0797	17
-1650	南康	250	n	nk	nankang		市	360782	0797	18
+1650	南康	250	n	nk	nankang		区	360782	0797	18
 1651	吉州	251	j	jz	jizhou		区	360802	0796	1
 1652	青原	251	q	qy	qingyuan		区	360803	0796	2
 1653	吉安	251	j	ja	jian		县	360821	0796	3
@@ -1758,8 +1756,7 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 1757	安丘	261	a	aq	anqiu		市	370784	0536	10
 1758	高密	261	g	gm	gaomi		市	370785	0536	11
 1759	昌邑	261	c	cy	changyi		市	370786	0536	12
-1760	市中	262	s	sz	shizhong		区	370802	0537	1
-1761	任城	262	r	rc	rencheng		区	370811	0537	2
+1761	任城	262	r	rc	rencheng		区	370811	0537	1
 1762	微山	262	w	ws	weishan		县	370826	0537	3
 1763	鱼台	262	y	yt	yutai		县	370827	0537	4
 1764	金乡	262	j	jx	jinxiang		县	370828	0537	5
@@ -1768,8 +1765,8 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 1767	泗水	262	s	ss	sishui		县	370831	0537	8
 1768	梁山	262	l	ls	liangshan		县	370832	0537	9
 1769	曲阜	262	q	qf	qufu		市	370881	0537	10
-1770	兖州	262	y	yz	yanzhou		市	370882	0537	11
-1771	邹城	262	z	zc	zoucheng		市	370883	0537	12
+1770	兖州	262	y	yz	yanzhou		区	370812	0537	2
+1771	邹城	262	z	zc	zoucheng		市	370883	0537	11
 1772	泰山	263	t	ts	taishan		区	370902	0538	1
 1773	岱岳	263	d	dy	daiyue		区	370911	0538	2
 1774	宁阳	263	n	ny	ningyang		县	370921	0538	3
@@ -1777,7 +1774,7 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 1776	新泰	263	x	xt	xintai		市	370982	0538	5
 1777	肥城	263	f	fc	feicheng		市	370983	0538	6
 1778	环翠	264	h	hc	huancui		区	371002	0631	1
-1779	文登	264	w	wd	wendeng		市	371081	0631	2
+1779	文登	264	w	wd	wendeng		区	371081	0631	2
 1780	荣成	264	r	rc	rongcheng		市	371082	0631	3
 1781	乳山	264	r	rs	rushan		市	371083	0631	4
 1782	东港	265	d	dg	donggang		区	371102	0633	1
@@ -1792,7 +1789,7 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 1791	沂南	267	y	yn	yinan		县	371321	0539	4
 1792	郯城	267	t	tc	tancheng		县	371322	0539	5
 1793	沂水	267	y	ys	yishui		县	371323	0539	6
-1794	苍山	267	c	cs	cangshan		县	371324	0539	7
+1794	兰陵	267	l	ll	lanling		县	371324	0539	7
 1795	费县	267	f	fx	feixian			371325	0539	8
 1796	平邑	267	p	py	pingyi		县	371326	0539	9
 1797	莒南	267	j	jn	junan		县	371327	0539	10
@@ -2270,11 +2267,10 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 2270	雷州	328	l	lz	leizhou		市	440882	0759	8
 2271	吴川	328	w	wc	wuchuan		市	440883	0759	9
 2272	茂南	329	m	mn	maonan		区	440902	0668	1
-2273	茂港	329	m	mg	maogang		区	440903	0668	2
-2274	电白	329	d	db	dianbai		县	440923	0668	3
-2275	高州	329	g	gz	gaozhou		市	440981	0668	4
-2276	化州	329	h	hz	huazhou		市	440982	0668	5
-2277	信宜	329	x	xy	xinyi		市	440983	0668	6
+2274	电白	329	d	db	dianbai		区	440923	0668	2
+2275	高州	329	g	gz	gaozhou		市	440981	0668	3
+2276	化州	329	h	hz	huazhou		市	440982	0668	4
+2277	信宜	329	x	xy	xinyi		市	440983	0668	5
 2278	端州	330	d	dz	duanzhou		区	441202	0758	1
 2279	鼎湖	330	d	dh	dinghu		区	441203	0758	2
 2280	广宁	330	g	gn	guangning		县	441223	0758	3
@@ -2289,7 +2285,7 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 2289	惠东	331	h	hd	huidong		县	441323	0752	4
 2290	龙门	331	l	lm	longmen		县	441324	0752	5
 2291	梅江	332	m	mj	meijiang		区	441402	0753	1
-2292	梅县	332	m	mx	meixian			441421	0753	2
+2292	梅县	332	m	mx	meixian		区	441403	0753	2
 2293	大埔	332	d	dp	dapu		县	441422	0753	3
 2294	丰顺	332	f	fs	fengshun		县	441423	0753	4
 2295	五华	332	w	wh	wuhua		县	441424	0753	5
@@ -2319,7 +2315,7 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 2319	英德	336	y	yd	yingde		市	441881	0763	7
 2320	连州	336	l	lz	lianzhou		市	441882	0763	8
 2321	湘桥	339	x	xq	xiangqiao		区	445102	0768	1
-2322	潮安	339	c	ca	chaoan		县	445121	0768	2
+2322	潮安	339	c	ca	chaoan		区	445121	0768	2
 2323	饶平	339	r	rp	raoping		县	445122	0768	3
 2324	榕城	340	r	rc	rongcheng		区	445202	0663	1
 2325	揭东	340	j	jd	jiedong		县	445221	0663	2
@@ -2359,7 +2355,7 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 2359	七星	344	q	qx	qixing		区	450305	0773	4
 2360	雁山	344	y	ys	yanshan		区	450311	0773	5
 2361	阳朔	344	y	ys	yangshuo		县	450321	0773	6
-2362	临桂	344	l	lg	lingui		县	450322	0773	7
+2362	临桂	344	l	lg	lingui		区	450322	0773	7
 2363	灵川	344	l	lc	lingchuan		县	450323	0773	8
 2364	全州	344	q	qz	quanzhou		县	450324	0773	9
 2365	兴安	344	x	xa	xingan		县	450325	0773	10
@@ -2395,11 +2391,11 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 2395	桂平	349	g	gp	guiping		市	450821	0775	4
 2396	平南	349	p	pn	pingnan		县	450881	0775	5
 2397	玉州	350	y	yz	yuzhou		区	450902	0775	1
-2398	容县	350	r	rx	rongxian			450921	0775	2
-2399	陆川	350	l	lc	luchuan		县	450922	0775	3
-2400	博白	350	b	bb	bobai		县	450923	0775	4
-2401	兴业	350	x	xy	xingye		县	450924	0775	5
-2402	北流	350	b	bl	beiliu		市	450981	0775	6
+2398	容县	350	r	rx	rongxian			450921	0775	3
+2399	陆川	350	l	lc	luchuan		县	450922	0775	4
+2400	博白	350	b	bb	bobai		县	450923	0775	5
+2401	兴业	350	x	xy	xingye		县	450924	0775	6
+2402	北流	350	b	bl	beiliu		市	450981	0775	7
 2403	右江	351	y	yj	youjiang		区	451002	0776	1
 2404	田阳	351	t	ty	tianyang		县	451021	0776	2
 2405	田东	351	t	td	tiandong		县	451022	0776	3
@@ -2549,13 +2545,13 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 2549	筠连	387	y	yl	yunlian		县	511527	0831	8
 2550	兴文	387	x	xw	xingwen		县	511528	0831	9
 2551	屏山	387	p	ps	pingshan		县	511529	0831	10
-2552	广安	388	g	ga	guangan		区	511602		1
-2553	岳池	388	y	yc	yuechi		县	511621		2
-2554	武胜	388	w	ws	wusheng		县	511622		3
-2555	邻水	388	l	ls	linshui		县	511623		4
-2556	华蓥	388	h	hy	huaying		市	511681		5
+2552	广安	388	g	ga	guangan		区	511602	0826	1
+2553	岳池	388	y	yc	yuechi		县	511621	0826	3
+2554	武胜	388	w	ws	wusheng		县	511622	0826	4
+2555	邻水	388	l	ls	linshui		县	511623	0826	5
+2556	华蓥	388	h	hy	huaying		市	511681	0826	6
 2557	通川	389	t	tc	tongchuan		区	511702	0818	1
-2558	达县	389	d	dx	daxian			511721	0818	2
+2558	达川	389	d	dc	dachuan		区	511721	0818	2
 2559	宣汉	389	x	xh	xuanhan		县	511722	0818	3
 2560	开江	389	k	kj	kaijiang		县	511723	0818	4
 2561	大竹	389	d	dz	dazhu		县	511724	0818	5
@@ -2873,7 +2869,7 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 2873	隆子	423	l	lz	longzi		县	542231	0893	10
 2874	错那	423	c	cn	cuonei		县	542232	0893	11
 2875	浪卡子	423	l	lkz	langkazi		县	542233	0893	12
-2876	日喀则	424	r	rkz	rikaze		市	542301	0892	1
+2876	桑珠孜	424	s	szz	sangzhuzi		区	542301	0892	1
 2877	南木林	424	n	nml	nanmulin		县	542322	0892	2
 2878	江孜	424	j	jz	jiangzi		县	542323	0892	3
 2879	定日	424	d	dr	dingri		县	542324	0892	4
@@ -3179,101 +3175,101 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 3179	沙坡头	464	s	spt	shapotou		区	640502		1
 3180	中宁	464	z	zn	zhongning		县	640521		2
 3181	海原	464	h	hy	haiyuan		县	640522		3
-3182	天山	467	t	ts	tianshan		区	650102	0991	1
-3183	沙依巴克	467	s	sybk	shayibake		区	650103	0991	2
-3184	新市	467	x	xs	xinshi		区	650104	0991	3
-3185	水磨沟	467	s	smg	shuimogou		区	650105	0991	4
-3186	头屯河	467	t	tth	toutunhe		区	650106	0991	5
-3187	达坂城	467	d	dbc	dabancheng		区	650107	0991	6
-3188	米东	467	m	md	midong		区	650109	0991	7
-3189	乌鲁木齐	467	w	wlmq	wulumuqi		县	650121	0991	8
-3190	独山子	468	d	dsz	dushanzi		区	650202	0990	1
-3191	克拉玛依	468	k	klmy	kelamayi		区	650203	0990	2
-3192	白碱滩	468	b	bjt	baijiantan		区	650204	0990	3
-3193	乌尔禾	468	w	weh	wuerhe		区	650205	0990	4
-3194	吐鲁番	469	t	tlf	tulufan		市	652101	0995	1
-3195	鄯善	469	s	ss	shanshan		县	652122	0995	2
-3196	托克逊	469	t	tkx	tuokexun		县	652123	0995	3
-3197	哈密	470	h	hm	hami		市	652201	0902	1
-3198	巴里坤	470	b	blk	balikun	哈萨克	自治县	652222	0902	2
-3199	伊吾	470	y	yw	yiwu		县	652223	0902	3
-3200	昌吉	471	c	cj	changji		市	652301	0994	1
-3201	阜康	471	f	fk	fukang		市	652302	0994	2
-3202	呼图壁	471	h	htb	hutubi		县	652323	0994	3
-3203	玛纳斯	471	m	mns	manasi		县	652324	0994	4
-3204	奇台	471	q	qt	qitai		县	652325	0994	5
-3205	吉木萨尔	471	j	jmse	jimusaer		县	652327	0994	6
-3206	木垒	471	m	ml	mulei	哈萨克	自治县	652328	0994	7
-3207	阿拉山口	472	a	alsk	alashankou		市		0909	1
-3208	博乐	472	b	bl	bole		市	652701	0909	2
-3209	精河	472	j	jh	jinghe		县	652722	0909	3
-3210	温泉	472	w	wq	wenquan		县	652723	0909	4
-3211	库尔勒	473	k	kel	kuerle		市	652801	0996	1
-3212	轮台	473	l	lt	luntai		县	652822	0996	2
-3213	尉犁	473	w	wl	weili		县	652823	0996	3
-3214	若羌	473	r	rq	ruoqiang		县	652824	0996	4
-3215	且末	473	q	qm	qiemo		县	652825	0996	5
-3216	焉耆	473	y	yq	yanqi	回族	自治县	652826	0996	6
-3217	和静	473	h	hj	hejing		县	652827	0996	7
-3218	和硕	473	h	hs	heshuo		县	652828	0996	8
-3219	博湖	473	b	bh	bohu		县	博湖县	0996	9
-3220	阿克苏	474	a	aks	akesu		市	652901		1
-3221	温宿	474	w	ws	wensu		县	652922		2
-3222	库车	474	k	kc	kuche		县	652923		3
-3223	沙雅	474	s	sy	shaya		县	652924		4
-3224	新和	474	x	xh	xinhe		县	652925		5
-3225	拜城	474	b	bc	baicheng		县	652926		6
-3226	乌什	474	w	ws	wushen		县	652927		7
-3227	阿瓦提	474	a	awt	awati		县	652928		8
-3228	柯坪	474	k	kp	keping		县	652929		9
-3229	阿图什	475	a	ats	atushen		市	653001	0908	1
-3230	阿克陶	475	a	akt	aketao		县	653022	0908	2
-3231	阿合奇	475	a	ahq	aheqi		县	653023	0997	3
-3232	乌恰	475	w	wq	wuqia		县	653024	0908	4
-3233	喀什	476	k	ks	kashen		市	653101	0998	1
-3234	疏附	476	s	sf	shufu		县	653121	0998	2
-3235	疏勒	476	s	sl	shule		县	653122	0998	3
-3236	英吉沙	476	y	yjs	yingjisha		县	653123	0998	4
-3237	泽普	476	z	zp	zepu		县	653124	0998	5
-3238	莎车	476	s	sc	shache		县	653125	0998	6
-3239	叶城	476	y	yc	yecheng		县	653126	0998	7
-3240	麦盖提	476	m	mgt	maigaiti		县	653127	0998	8
-3241	岳普湖	476	y	yph	yuepuhu		县	653128	0998	9
-3242	伽师	476	j	js	jiashi		县	653129	0998	10
-3243	巴楚	476	b	bc	bachu		县	653130	0998	11
-3244	塔什库尔干	476	t	tskeg	tashenkuergan	塔吉克	自治县	653131	0998	12
-3245	和田	477	h	ht	hetian		市	653201	0903	1
-3246	和田	477	h	ht	hetian		县	653221	0903	2
-3247	墨玉	477	m	my	moyu		县	653222	0903	3
-3248	皮山	477	p	ps	pishan		县	653223	0903	4
-3249	洛浦	477	l	lp	luopu		县	653224	0903	5
-3250	策勒	477	c	cl	cele		县	653225	0903	6
-3251	于田	477	y	yt	yutian		县	653226	0903	7
-3252	民丰	477	m	mf	minfeng		县	653227	0903	8
-3253	伊宁	478	y	yn	yining		市	654002	0999	1
-3254	奎屯	478	k	kt	kuitun		市	654003	0999	2
-3255	伊宁	478	y	yn	yining		县	654021	0999	3
-3256	察布查尔锡伯	478	c	cbcexb	chabuchaerxibo		自治县	654022	0999	4
-3257	霍城	478	h	hc	huocheng		县	654023	0999	5
-3258	巩留	478	g	gl	gongliu		县	654024	0999	6
-3259	新源	478	x	xy	xinyuan		县	654025	0999	7
-3260	昭苏	478	z	zs	zhaosu		县	654026	0999	8
-3261	特克斯	478	t	tks	tekesi		县	654027	0999	9
-3262	尼勒克	478	n	nlk	nileke		县	654028	0999	10
-3263	塔城	479	t	tc	tacheng		市	654201	0901	1
-3264	乌苏	479	w	ws	wusu		市	654202	0901	2
-3265	额敏	479	e	em	emin		县	654221	0901	3
-3266	沙湾	479	s	sw	shawan		县	654223	0901	4
-3267	托里	479	t	tl	tuoli		县	654224	0901	5
-3268	裕民	479	y	ym	yumin		县	654225	0901	6
-3269	和布克赛尔	479	h	hbkse	hebukesaier	蒙古	自治县	654226	0901	7
-3270	阿勒泰	480	a	alt	aletai		市	654301	0906	1
-3271	布尔津	480	b	bej	buerjin		县	654321	0906	2
-3272	富蕴	480	f	fy	fuyun		县	654322	0906	3
-3273	福海	480	f	fh	fuhai		县	654323	0906	4
-3274	哈巴河	480	h	hbh	habahe		县	654324	0906	5
-3275	青河	480	q	qh	qinghe		县	654325	0906	6
-3276	吉木乃	480	j	jmn	jimunai		县	654326	0906	7
+3182	天山	465	t	ts	tianshan		区	650102	0991	1
+3183	沙依巴克	465	s	sybk	shayibake		区	650103	0991	2
+3184	新市	465	x	xs	xinshi		区	650104	0991	3
+3185	水磨沟	465	s	smg	shuimogou		区	650105	0991	4
+3186	头屯河	465	t	tth	toutunhe		区	650106	0991	5
+3187	达坂城	465	d	dbc	dabancheng		区	650107	0991	6
+3188	米东	465	m	md	midong		区	650109	0991	7
+3189	乌鲁木齐	465	w	wlmq	wulumuqi		县	650121	0991	8
+3190	独山子	466	d	dsz	dushanzi		区	650202	0990	1
+3191	克拉玛依	466	k	klmy	kelamayi		区	650203	0990	2
+3192	白碱滩	466	b	bjt	baijiantan		区	650204	0990	3
+3193	乌尔禾	466	w	weh	wuerhe		区	650205	0990	4
+3194	吐鲁番	467	t	tlf	tulufan		市	652101	0995	1
+3195	鄯善	467	s	ss	shanshan		县	652122	0995	2
+3196	托克逊	467	t	tkx	tuokexun		县	652123	0995	3
+3197	哈密	468	h	hm	hami		市	652201	0902	1
+3198	巴里坤	468	b	blk	balikun	哈萨克	自治县	652222	0902	2
+3199	伊吾	468	y	yw	yiwu		县	652223	0902	3
+3200	昌吉	469	c	cj	changji		市	652301	0994	1
+3201	阜康	469	f	fk	fukang		市	652302	0994	2
+3202	呼图壁	469	h	htb	hutubi		县	652323	0994	3
+3203	玛纳斯	469	m	mns	manasi		县	652324	0994	4
+3204	奇台	469	q	qt	qitai		县	652325	0994	5
+3205	吉木萨尔	469	j	jmse	jimusaer		县	652327	0994	6
+3206	木垒	469	m	ml	mulei	哈萨克	自治县	652328	0994	7
+3207	阿拉山口	470	a	alsk	alashankou		市		0909	1
+3208	博乐	470	b	bl	bole		市	652701	0909	2
+3209	精河	470	j	jh	jinghe		县	652722	0909	3
+3210	温泉	470	w	wq	wenquan		县	652723	0909	4
+3211	库尔勒	471	k	kel	kuerle		市	652801	0996	1
+3212	轮台	471	l	lt	luntai		县	652822	0996	2
+3213	尉犁	471	w	wl	weili		县	652823	0996	3
+3214	若羌	471	r	rq	ruoqiang		县	652824	0996	4
+3215	且末	471	q	qm	qiemo		县	652825	0996	5
+3216	焉耆	471	y	yq	yanqi	回族	自治县	652826	0996	6
+3217	和静	471	h	hj	hejing		县	652827	0996	7
+3218	和硕	471	h	hs	heshuo		县	652828	0996	8
+3219	博湖	471	b	bh	bohu		县	652829	0996	9
+3220	阿克苏	472	a	aks	akesu		市	652901		1
+3221	温宿	472	w	ws	wensu		县	652922		2
+3222	库车	472	k	kc	kuche		县	652923		3
+3223	沙雅	472	s	sy	shaya		县	652924		4
+3224	新和	472	x	xh	xinhe		县	652925		5
+3225	拜城	472	b	bc	baicheng		县	652926		6
+3226	乌什	472	w	ws	wushen		县	652927		7
+3227	阿瓦提	472	a	awt	awati		县	652928		8
+3228	柯坪	472	k	kp	keping		县	652929		9
+3229	阿图什	473	a	ats	atushen		市	653001	0908	1
+3230	阿克陶	473	a	akt	aketao		县	653022	0908	2
+3231	阿合奇	473	a	ahq	aheqi		县	653023	0997	3
+3232	乌恰	473	w	wq	wuqia		县	653024	0908	4
+3233	喀什	474	k	ks	kashen		市	653101	0998	1
+3234	疏附	474	s	sf	shufu		县	653121	0998	2
+3235	疏勒	474	s	sl	shule		县	653122	0998	3
+3236	英吉沙	474	y	yjs	yingjisha		县	653123	0998	4
+3237	泽普	474	z	zp	zepu		县	653124	0998	5
+3238	莎车	474	s	sc	shache		县	653125	0998	6
+3239	叶城	474	y	yc	yecheng		县	653126	0998	7
+3240	麦盖提	474	m	mgt	maigaiti		县	653127	0998	8
+3241	岳普湖	474	y	yph	yuepuhu		县	653128	0998	9
+3242	伽师	474	j	js	jiashi		县	653129	0998	10
+3243	巴楚	474	b	bc	bachu		县	653130	0998	11
+3244	塔什库尔干	474	t	tskeg	tashenkuergan	塔吉克	自治县	653131	0998	12
+3245	和田	475	h	ht	hetian		市	653201	0903	1
+3246	和田	475	h	ht	hetian		县	653221	0903	2
+3247	墨玉	475	m	my	moyu		县	653222	0903	3
+3248	皮山	475	p	ps	pishan		县	653223	0903	4
+3249	洛浦	475	l	lp	luopu		县	653224	0903	5
+3250	策勒	475	c	cl	cele		县	653225	0903	6
+3251	于田	475	y	yt	yutian		县	653226	0903	7
+3252	民丰	475	m	mf	minfeng		县	653227	0903	8
+3253	伊宁	476	y	yn	yining		市	654002	0999	1
+3254	奎屯	476	k	kt	kuitun		市	654003	0999	2
+3255	伊宁	476	y	yn	yining		县	654021	0999	4
+3256	察布查尔锡伯	476	c	cbcexb	chabuchaerxibo		自治县	654022	0999	5
+3257	霍城	476	h	hc	huocheng		县	654023	0999	6
+3258	巩留	476	g	gl	gongliu		县	654024	0999	7
+3259	新源	476	x	xy	xinyuan		县	654025	0999	8
+3260	昭苏	476	z	zs	zhaosu		县	654026	0999	9
+3261	特克斯	476	t	tks	tekesi		县	654027	0999	10
+3262	尼勒克	476	n	nlk	nileke		县	654028	0999	11
+3263	塔城	477	t	tc	tacheng		市	654201	0901	1
+3264	乌苏	477	w	ws	wusu		市	654202	0901	2
+3265	额敏	477	e	em	emin		县	654221	0901	3
+3266	沙湾	477	s	sw	shawan		县	654223	0901	4
+3267	托里	477	t	tl	tuoli		县	654224	0901	5
+3268	裕民	477	y	ym	yumin		县	654225	0901	6
+3269	和布克赛尔	477	h	hbkse	hebukesaier	蒙古	自治县	654226	0901	7
+3270	阿勒泰	478	a	alt	aletai		市	654301	0906	1
+3271	布尔津	478	b	bej	buerjin		县	654321	0906	2
+3272	富蕴	478	f	fy	fuyun		县	654322	0906	3
+3273	福海	478	f	fh	fuhai		县	654323	0906	4
+3274	哈巴河	478	h	hbh	habahe		县	654324	0906	5
+3275	青河	478	q	qh	qinghe		县	654325	0906	6
+3276	吉木乃	478	j	jmn	jimunai		县	654326	0906	7
 3277	松山	485	s	ss	songshan		区	6300100	02	1
 3278	信义	485	x	xy	xinyi		区	6300200	02	2
 3279	大安	485	d	da	daan		区	6300300	02	3
@@ -3574,3 +3570,11 @@ id	name	parentid	initial	initials	pinyin	extra	suffix	code	area_code	order
 3574	西屿	504	x	xy	xiyu		乡	1001604	07	4
 3575	望安	504	w	wa	wangan		乡	1001605	07	5
 3576	七美	504	q	qm	qimei		乡	1001606	07	6
+3577	双河	31	s	sh	shuanghe		市	659007	0909	21
+3578	海棠	357	h	ht	haitang		区		0898	0
+3579	吉阳	357	j	jy	jiyang		区		0898	0
+3580	天涯	357	t	ty	tianya		区		0898	0
+3581	崖州	357	y	yz	yazhou		区		0898	0
+3582	霍尔果斯	476	h	hegs	huoerguosi		市	654004	0999	3
+3583	前锋	388	q	qf	qianfeng		区		0826	2
+3584	福绵	350	f	fj	fujin		区		0775	2
