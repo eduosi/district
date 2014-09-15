@@ -7,7 +7,7 @@ Changes 5.1
 	UPDATE `district` SET `suffix` = '自治区' WHERE `id` = '7'; 
 	UPDATE `district` SET `suffix` = '省' WHERE `id` = '8'; 
 
-	感谢：wwb-dev(https://github.com/wwb-dev "wwb-dev") 对错误数据的纠正
+	感谢：[id]: http://example.com/  "Title" 对错误数据的纠正
 
 Changes 5.0
 												11 Sep 2014
