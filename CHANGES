@@ -1,5 +1,17 @@
+Changes 5.1
+												15 Sep 2014
+	*) 修正错误的内蒙古行政区级别为：自治区
+	*) 修正错误的辽宁行政区级别为：省
+
+	更新脚本：
+	UPDATE `district` SET `suffix` = '自治区' WHERE `id` = '7'; 
+	UPDATE `district` SET `suffix` = '省' WHERE `id` = '8'; 
+
+	感谢：wwb-dev(https://github.com/wwb-dev "wwb-dev") 对错误数据的纠正
+
 Changes 5.0
 												11 Sep 2014
+
 	*) 更新三亚市下级行政区排序
 	*) 删除更新脚本中 SQL 中的库名
 	*) STANDARD 版和 SIMPLE 版保留行政代码
@@ -9,7 +21,6 @@ Changes 5.0
 	UPDATE `district` SET `order` = '2' WHERE `id` = '3579'; 
 	UPDATE `district` SET `order` = '3' WHERE `id` = '3580'; 
 	UPDATE `district` SET `order` = '4' WHERE `id` = '3581'; 
-
 
 Changes 4.0
 												09 Sep 2014
