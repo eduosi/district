@@ -531,28 +531,27 @@
 531	圣方济各	34	s	sfjg	shengfangjige		堂区		853	7
 532	路氹城	34	l	ldc	ludangcheng				853	8
 533	长安	125	z	za	zhangan		区	130102	0311	1
-534	桥东	125	q	qd	qiaodong		区	130103	0311	2
-535	桥西	125	q	qx	qiaoxi		区	130104	0311	3
-536	新华	125	x	xh	xinhua		区	130105	0311	4
-537	井陉矿	125	j	jxk	jingxingkuang		区	130107	0311	5
-538	裕华	125	y	yh	yuhua		区	130108	0311	6
-539	井陉	125	j	jx	jingxing		县	130121	0311	7
-540	正定	125	z	zd	zhengding		县	130123	0311	8
-541	栾城	125	l	lc	luancheng		县	130124	0311	9
-542	行唐	125	x	xt	xingtang		县	130125	0311	10
-543	灵寿	125	l	ls	lingshou		县	130126	0311	11
-544	高邑	125	g	gy	gaoyi		县	130127	0311	12
-545	深泽	125	s	sz	shenze		县	130128	0311	13
-546	赞皇	125	z	zh	zanhuang		县	130129	0311	14
-547	无极	125	w	wj	wuji		县	130130	0311	15
-548	平山	125	p	ps	pingshan		县	130131	0311	16
-549	元氏	125	y	ys	yuanshi		县	130132	0311	17
-550	赵县	125	z	zx	zhaoxian			130133	0311	18
-551	辛集	125	x	xj	xinji		市	130181	0311	19
-552	藁城	125	g	gc	gaocheng		市	130182	0311	20
-553	晋州	125	j	jz	jinzhou		市	130183	0311	21
-554	新乐	125	x	xl	xinle		市	130184	0311	22
-555	鹿泉	125	l	lq	luquan		市	130185	0311	23
+535	桥西	125	q	qx	qiaoxi		区	130104	0311	2
+536	新华	125	x	xh	xinhua		区	130105	0311	3
+537	井陉矿	125	j	jxk	jingxingkuang		区	130107	0311	4
+538	裕华	125	y	yh	yuhua		区	130108	0311	5
+539	井陉	125	j	jx	jingxing		县	130121	0311	6
+540	正定	125	z	zd	zhengding		县	130123	0311	7
+541	栾城	125	l	lc	luancheng		县	130124	0311	8
+542	行唐	125	x	xt	xingtang		县	130125	0311	9
+543	灵寿	125	l	ls	lingshou		县	130126	0311	10
+544	高邑	125	g	gy	gaoyi		县	130127	0311	11
+545	深泽	125	s	sz	shenze		县	130128	0311	12
+546	赞皇	125	z	zh	zanhuang		县	130129	0311	13
+547	无极	125	w	wj	wuji		县	130130	0311	14
+548	平山	125	p	ps	pingshan		县	130131	0311	15
+549	元氏	125	y	ys	yuanshi		县	130132	0311	16
+550	赵县	125	z	zx	zhaoxian			130133	0311	17
+551	辛集	125	x	xj	xinji		市	130181	0311	18
+552	藁城	125	g	gc	gaocheng		市	130182	0311	19
+553	晋州	125	j	jz	jinzhou		市	130183	0311	20
+554	新乐	125	x	xl	xinle		市	130184	0311	21
+555	鹿泉	125	l	lq	luquan		市	130185	0311	22
 556	路南	126	l	ln	lunan		区	130202	0315	1
 557	路北	126	l	lb	lubei		区	130203	0315	2
 558	古冶	126	g	gy	guye		区	130204	0315	3

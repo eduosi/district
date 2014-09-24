@@ -1,3 +1,12 @@
+Changes 6.0
+												24 Sep 2014
+	*) 删除石家庄市河东区
+	*) 石家庄市下级行政区重新排序
+
+	更新脚本：
+	DELETE FROM `district` WHERE `id` = '534';
+	UPDATE `district` SET `order` = `order` - 1 WHERE `parentid` = 125 AND `order` > 1;
+
 Changes 5.1
 												15 Sep 2014
 	*) 修正错误的内蒙古行政区级别为：自治区

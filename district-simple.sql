@@ -6,9 +6,9 @@ MySQL - 5.6.16-log
 /*!40101 SET NAMES utf8 */;
 
 create table `district` (
-	`id` mediumint (8),
+	`id` smallint (5),
 	`name` varchar (30),
-	`parentid` mediumint (8),
+	`parentid` smallint (5),
 	`code` char (21),
 	`order` tinyint (2)
 ); 
@@ -545,28 +545,27 @@ insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('530',
 insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('531','圣方济各','34','','7');
 insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('532','路氹城','34','','8');
 insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('533','长安','125','130102','1');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('534','桥东','125','130103','2');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('535','桥西','125','130104','3');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('536','新华','125','130105','4');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('537','井陉矿','125','130107','5');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('538','裕华','125','130108','6');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('539','井陉','125','130121','7');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('540','正定','125','130123','8');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('541','栾城','125','130124','9');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('542','行唐','125','130125','10');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('543','灵寿','125','130126','11');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('544','高邑','125','130127','12');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('545','深泽','125','130128','13');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('546','赞皇','125','130129','14');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('547','无极','125','130130','15');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('548','平山','125','130131','16');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('549','元氏','125','130132','17');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('550','赵县','125','130133','18');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('551','辛集','125','130181','19');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('552','藁城','125','130182','20');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('553','晋州','125','130183','21');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('554','新乐','125','130184','22');
-insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('555','鹿泉','125','130185','23');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('535','桥西','125','130104','2');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('536','新华','125','130105','3');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('537','井陉矿','125','130107','4');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('538','裕华','125','130108','5');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('539','井陉','125','130121','6');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('540','正定','125','130123','7');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('541','栾城','125','130124','8');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('542','行唐','125','130125','9');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('543','灵寿','125','130126','10');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('544','高邑','125','130127','11');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('545','深泽','125','130128','12');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('546','赞皇','125','130129','13');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('547','无极','125','130130','14');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('548','平山','125','130131','15');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('549','元氏','125','130132','16');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('550','赵县','125','130133','17');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('551','辛集','125','130181','18');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('552','藁城','125','130182','19');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('553','晋州','125','130183','20');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('554','新乐','125','130184','21');
+insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('555','鹿泉','125','130185','22');
 insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('556','路南','126','130202','1');
 insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('557','路北','126','130203','2');
 insert into `district` (`id`, `name`, `parentid`, `code`, `order`) values('558','古冶','126','130204','3');
