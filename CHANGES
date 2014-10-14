@@ -1,3 +1,20 @@
+Changes 7.0
+
+	*) 删除河南省开封市开封县
+	*) 新增河南省开封市祥符区
+	*) 河南省开封市下级行政区重新排序
+	*) 云浮市云安县更名为云安区
+	*) 滨州市沾化县更名为沾化区
+
+	更新脚本：
+	UPDATE `district` SET `initial` = 'x' , `initials` = 'xf' , `suffix` = '区' , `code` = '410212' WHERE `id` = '1855';
+	UPDATE `district` SET `order` = '6' WHERE `id` = '1855'; 
+	UPDATE `district` SET `order` = '7' WHERE `id` = '1852'; 
+	UPDATE `district` SET `order` = '8' WHERE `id` = '1853'; 
+	UPDATE `district` SET `order` = '9' WHERE `id` = '1854'; 
+	UPDATE `district` SET `suffix` = '区' WHERE `id` = '2332';
+	UPDATE `district` SET `suffix` = '区' WHERE `id` = '1823'; 
+
 Changes 6.0
 												24 Sep 2014
 	*) 删除石家庄市河东区
