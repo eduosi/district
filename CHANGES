@@ -1,5 +1,116 @@
-Changes 7.0
+Changes 8.0
+												13 Dec 2014
+	*) 撤销昌都地区，设立昌都市
+	*) 撤销原昌都地区昌都县，设立昌都市卡若区
+	*) 长春市九台市更名为九台区，行政代码更新为 220113
+	*) 更新长春市下级行政区域排序
+	*) 阳江市阳东县更名为阳东区
+	*) 眉山市彭山县更名为彭山区
+	*) 德州市陵县更名为陵城区，行政代码更新为 371403
+	*) 撤销石家庄市桥东区
+	*) 石家庄市藁城市更名为藁城县，更新行政代码为 130109
+	*) 石家庄市鹿泉市更名为鹿泉区，更新行政代码为 130110
+	*) 石家庄栾城县更名为栾城区，更新行政代码为 130111
+	*) 重排石家庄市下级行政区域顺序
+	*) 撤销开封市金明区
+	*) 重排开封市下级行政区域顺序
+	*) 更新云浮市云安区行政代码为 445302
+	*) 重排云浮市下级行政区域顺序
+	*) 十堰市郧县更名为郧阳区，行政代码更新为 420304
+	*) 重庆市璧山区行政代码更新为 500120
+	*) 重庆市铜梁区行政代码更新为 500151
+	*) 重排重庆市下级行政区域顺序
+	*) 南平市建阳区行政代码更新为 350703
+	*) 重排南平市下级行政区域顺序
+	*) 威海市文登区行政代码更新为 371003
+	*) 茂名市电白区行政代码更新为 440904
+	*) 广州市从化区行政代码更新为 440117
+	*) 广州市增城区行政代码更新为 440118
+	*) 重排广州市下级行政区域顺序
+	--- 以下感谢 @黄盛 同学纠正错误和提供信息
+	*) 修正福绵错误拼音和，增加行政代码
+	*) 吉林市蛟河市行政代码更新为 220281
+	*) 更新那曲地区双湖县行政代码为 542431
+	*) 更新嘉峪关市镜铁区行政代码为 620201
+	*) 更新白城市通榆县行政代码为 220822
+	*) 重排白城市下级行政区域排序
 
+	更新脚本：
+	UPDATE `district` SET `suffix` = '市' WHERE `id` = '422';
+	UPDATE `district` SET `name` = '卡若' , `initial` = 'k' , `initials` = 'kr' , `pinyin` = 'karuo' , `suffix` = '区' WHERE `id` = '2853';
+	UPDATE `district` SET `suffix` = '区' , `code` = '220113' , `order` = '7' WHERE `id` = '1032'; 
+	UPDATE `district` SET `order` = '8' WHERE `id` = '1031'; 
+	UPDATE `district` SET `suffix` = '区' WHERE `id` = '2311';
+	UPDATE `district` SET `suffix` = '区' WHERE `id` = '2538'; 
+	UPDATE `district` SET `name` = '陵城' , `initials` = 'lc' , `pinyin` = 'lingcheng' , `suffix` = '区' , `code` = '371403' WHERE `id` = '1801'; 
+	DELETE FROM `district` WHERE `id` = '534'; 
+	UPDATE `district` SET `suffix` = '区' , `code` = '130109' WHERE `id` = '552'; 
+	UPDATE `district` SET `suffix` = '区' , `code` = '130110' WHERE `id` = '555'; 
+	UPDATE `district` SET `suffix` = '区' , `code` = '130111' WHERE `id` = '541'; 
+	UPDATE `district` SET `order` = '2' WHERE `id` = '535'; 
+	UPDATE `district` SET `order` = '3' WHERE `id` = '536'; 
+	UPDATE `district` SET `order` = '4' WHERE `id` = '537'; 
+	UPDATE `district` SET `order` = '5' WHERE `id` = '538'; 
+	UPDATE `district` SET `order` = '6' WHERE `id` = '552'; 
+	UPDATE `district` SET `order` = '7' WHERE `id` = '555'; 
+	UPDATE `district` SET `order` = '8' WHERE `id` = '541'; 
+	UPDATE `district` SET `order` = '9' WHERE `id` = '539'; 
+	UPDATE `district` SET `order` = '10' WHERE `id` = '540'; 
+	UPDATE `district` SET `order` = '11' WHERE `id` = '542'; 
+	UPDATE `district` SET `order` = '12' WHERE `id` = '543'; 
+	UPDATE `district` SET `order` = '13' WHERE `id` = '544'; 
+	UPDATE `district` SET `order` = '14' WHERE `id` = '545'; 
+	UPDATE `district` SET `order` = '15' WHERE `id` = '546'; 
+	UPDATE `district` SET `order` = '16' WHERE `id` = '547'; 
+	UPDATE `district` SET `order` = '17' WHERE `id` = '548'; 
+	UPDATE `district` SET `order` = '18' WHERE `id` = '549'; 
+	UPDATE `district` SET `order` = '19' WHERE `id` = '550'; 
+	UPDATE `district` SET `order` = '20' WHERE `id` = '551'; 
+	UPDATE `district` SET `order` = '21' WHERE `id` = '553'; 
+	UPDATE `district` SET `order` = '22' WHERE `id` = '554';
+	DELETE FROM `district` WHERE `id` = '1851'; 
+	UPDATE `district` SET `order` = '5' WHERE `id` = '1855'; 
+	UPDATE `district` SET `order` = '6' WHERE `id` = '1852'; 
+	UPDATE `district` SET `order` = '7' WHERE `id` = '1853'; 
+	UPDATE `district` SET `order` = '8' WHERE `id` = '1854'; 
+	UPDATE `district` SET `order` = '9' WHERE `id` = '1856'; 
+	UPDATE `district` SET `code` = '445302' WHERE `id` = '2332'; 
+	UPDATE `district` SET `order` = '2' WHERE `id` = '2332'; 
+	UPDATE `district` SET `order` = '3' WHERE `id` = '2330'; 
+	UPDATE `district` SET `order` = '4' WHERE `id` = '2331'; 
+	UPDATE `district` SET `name` = '郧阳' , `initials` = 'yy' , `pinyin` = 'yunyang' , `suffix` = '区' , `code` = '420304' WHERE `id` = '2014'; 
+	UPDATE `district` SET `code` = '500120' WHERE `id` = '109';
+	UPDATE `district` SET `code` = '500151' WHERE `id` = '107'; 
+	UPDATE `district` SET `order` = '20' WHERE `id` = '109'; 
+	UPDATE `district` SET `order` = '22' WHERE `id` = '106'; 
+	UPDATE `district` SET `order` = '23' WHERE `id` = '108'; 
+	UPDATE `district` SET `code` = '350703' WHERE `id` = '1580'; 
+	UPDATE `district` SET `order` = '2' WHERE `id` = '1580'; 
+	UPDATE `district` SET `order` = '3' WHERE `id` = '1572'; 
+	UPDATE `district` SET `order` = '4' WHERE `id` = '1573'; 
+	UPDATE `district` SET `order` = '5' WHERE `id` = '1574'; 
+	UPDATE `district` SET `order` = '6' WHERE `id` = '1575'; 
+	UPDATE `district` SET `order` = '7' WHERE `id` = '1576'; 
+	UPDATE `district` SET `order` = '8' WHERE `id` = '1577'; 
+	UPDATE `district` SET `order` = '9' WHERE `id` = '1578'; 
+	UPDATE `district` SET `order` = '10' WHERE `id` = '1579'; 
+	UPDATE `district` SET `code` = '371003' WHERE `id` = '1779'; 
+	UPDATE `district` SET `code` = '440904' WHERE `id` = '2274'; 
+	UPDATE `district` SET `code` = '440117' WHERE `id` = '2224'; 
+	UPDATE `district` SET `code` = '440118' WHERE `id` = '2223'; 
+	UPDATE `district` SET `order` = '11' WHERE `id` = '2224'; 
+	UPDATE `district` SET `order` = '12' WHERE `id` = '2223'; 
+	UPDATE `district` SET `initials` = 'fm' , `pinyin` = 'fumian' , `code` = '450903' WHERE `id` = '3584'; 
+	UPDATE `district` SET `code` = '220281' WHERE `id` = '1040';
+	UPDATE `district` SET `code` = '542431' WHERE `id` = '2894'; 
+	UPDATE `district` SET `code` = '620201' WHERE `id` = '3034'; 
+	UPDATE `district` SET `code` = '220822' WHERE `id` = '1076'; 
+	UPDATE `district` SET `order` = '3' WHERE `id` = '1076'; 
+	UPDATE `district` SET `order` = '4' WHERE `id` = '1074'; 
+	UPDATE `district` SET `order` = '5' WHERE `id` = '1075'; 
+
+Changes 7.0
+												14 Oct 2014
 	*) 删除河南省开封市开封县
 	*) 新增河南省开封市祥符区
 	*) 河南省开封市下级行政区重新排序
