@@ -1,3 +1,59 @@
+Changes 9.0
+												28 Apr 2015
+	*) 杭州市富阳市更名为杭州市富阳区
+	*) 更新杭州市下级行政区域排序
+	*) 西安市高陵县更名为西安市高陵区，行政代码更新为 610117
+	*) 更新西安市下级行政区域排序
+	*) 龙岩市永定县更名为龙岩市永定区，行政代码更新为 350803
+	*) 更新龙岩市下级行政区域排序，行政代码更新为 520403
+	*) 迪庆市香格里拉县更名为迪庆市香格里拉市
+	*) 南宁市武鸣县更名为南宁市武鸣区
+	*) 海东市平安县更名为海东市平安区
+	*) 更新海东市平乐都区行政代码为 630202
+	*) 三门峡市陕县更名为三门峡市陕州区
+	*) 更新三门峡市下级行政区域排序
+	*) 甘孜州康定县更名为甘孜州康定市，行政代码更新为 513301
+	*) 海南市县级市儋州市升级为地级市，行政代码更新为 460400
+	*) 吐鲁番地区更名为吐鲁番市
+	*) 吐鲁番地区吐鲁番市更名为吐鲁番市高昌区
+	*) 新疆维吾尔自治区设立直辖县级市可克达拉市
+	*) 林芝地区更名为林芝市
+	*) 林芝地区林芝市更名为林芝市巴宜区
+	*) 上饶市广丰县更名为上饶市广丰区
+	*) 更新上饶市下级行政区域排序
+	
+	更新脚本：
+	UPDATE `district` SET `suffix` = '区' WHERE `id` = '1328';
+	UPDATE `district` SET `order` = '10' WHERE `id` = '1328';
+	UPDATE `district` SET `order` = '11' WHERE `id` = '1326';
+	UPDATE `district` SET `order` = '12' WHERE `id` = '1327';
+	UPDATE `district` SET `suffix` = '区', `code` = '610117' WHERE `id` = '2931';
+	UPDATE `district` SET `order` = '10' WHERE `id` = '2931';
+	UPDATE `district` SET `order` = '11' WHERE `id` = '2928';
+	UPDATE `district` SET `order` = '12' WHERE `id` = '2929';
+	UPDATE `district` SET `order` = '13' WHERE `id` = '2930';
+	UPDATE `district` SET `suffix` = '区', `code` = '350803' WHERE `id` = '1583';
+	UPDATE `district` SET `order` = '2' WHERE `id` = '1583';
+	UPDATE `district` SET `order` = '3' WHERE `id` = '1582';
+	UPDATE `district` SET `suffix` = '区', `code` = '520403' WHERE `id` = '2657';
+	UPDATE `district` SET `suffix` = '市' WHERE `id` = '2837';
+	UPDATE `district` SET `suffix` = '区' WHERE `id` = '2340';
+	UPDATE `district` SET `suffix` = '区' WHERE `id` = '3123';
+	UPDATE `district` SET `code` = '630202' WHERE `id` = '3122';
+	UPDATE `district` SET `name` = '陕州' ,`initials` = 'sz' ,`pinyin` = 'shanzhou' ,`suffix` = '区' WHERE `id` = '1937';
+	UPDATE `district` SET `order` = '3' WHERE `id` = '1936';
+	UPDATE `district` SET `order` = '2' WHERE `id` = '1937';
+	UPDATE `district` SET `suffix` = '市', `code` = '513301' WHERE `id` = '2593';
+	UPDATE `district` SET `code` = '460400' WHERE `id` = '361';
+	UPDATE `district` SET `suffix` = '市' WHERE `id` = '467';
+	UPDATE `district` SET `name` = '高昌' ,`initial` = 'g' ,`initials` = 'gc' ,`pinyin` = 'gaochang' ,`suffix` = '区' WHERE `id` = '3194';
+	INSERT INTO `district` (`name`, `parentid`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('可克达拉', '31', 'k', 'kdkl', 'kedakela', '', '市', '659008', '0999', '22');
+	UPDATE `district` SET `suffix` = '市' ,`code` = '540400' WHERE `id` = '427';
+	UPDATE `district` SET `name` = '巴宜' ,`initial` = 'b' ,`initials` = 'by' ,`pinyin` = 'bayi' ,`code` = '540402' WHERE `id` = '2912';
+	UPDATE `district` SET `suffix` = '区' WHERE `id` = '1687';
+	UPDATE `district` SET `order` = '3' WHERE `id` = '1686';
+	UPDATE `district` SET `order` = '2' WHERE `id` = '1687';
+	
 Changes 8.0
 												13 Dec 2014
 	*) 撤销昌都地区，设立昌都市
