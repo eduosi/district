@@ -49,8 +49,8 @@
 49	大兴	1	d	dx	daxing		区	110115	010	14
 50	怀柔	1	h	hr	huairou		区	110116	010	15
 51	平谷	1	p	pg	pinggu		区	110117	010	16
-52	密云	1	m	my	miyun		县	110228	010	17
-53	延庆	1	y	yq	yanqing		县	110229	010	18
+52	密云	1	m	my	miyun		区	110228	010	17
+53	延庆	1	y	yq	yanqing		区	110229	010	18
 54	和平	2	h	hp	heping		区	120101	022	1
 55	河东	2	h	hd	hedong		区	120102	022	2
 56	河西	2	h	hx	hexi		区	120103	022	3
@@ -64,15 +64,14 @@
 64	武清	2	w	wq	wuqing		区	120114	022	11
 65	宝坻	2	b	bc	baochi		区	120115	022	12
 66	滨海新区	2	b	bhxq	binhaixinqu			120116	022	13
-67	宁河	2	n	nh	ninghe		县	120221	022	14
-68	蓟县	2	j	jx	jixian			120223	022	15
-69	静海	2	j	jh	jinghai		县	120225	022	16
+67	宁河	2	n	nh	ninghe		区	120221	022	14
+68	蓟州	2	j	jz	jizhou		区	120223	022	15
+69	静海	2	j	jh	jinghai		区	120225	022	16
 70	黄浦	3	h	hp	huangpu		区	310101	021	1
 71	徐汇	3	x	xh	xuhui		区	310104	021	2
 72	长宁	3	z	zn	zhangning		区	310105	021	3
 73	静安	3	j	ja	jingan		区	310106	021	4
 74	普陀	3	p	pt	putuo		区	310107	021	5
-75	闸北	3	z	zb	zhabei		区	310108	021	6
 76	虹口	3	h	hk	hongkou		区	310109	021	7
 77	杨浦	3	y	yp	yangpu		区	310110	021	8
 78	闵行	3	m	mx	minxing		区	310112	021	9
@@ -83,7 +82,7 @@
 83	松江	3	s	sj	songjiang		区	310117	021	14
 84	青浦	3	q	qp	qingpu		区	310118	021	15
 85	奉贤	3	f	fx	fengxian		区	310120	021	16
-86	崇明	3	c	cm	chongming		县	310230	021	17
+86	崇明	3	c	cm	chongming		区	310230	021	17
 87	万州	4	w	wz	wanzhou		区	500101	023	1
 88	涪陵	4	f	fl	fuling		区	500102	023	2
 89	渝中	4	y	yz	yuzhong		区	500103	023	3
@@ -103,17 +102,17 @@
 103	合川	4	h	hc	hechuan		区	500117	023	17
 104	永川	4	y	yc	yongchuan		区	500118	023	18
 105	南川	4	n	nc	nanchuan		区	500119	023	19
-106	潼南	4	t	tn	tongnan		县	500223	023	22
+106	潼南	4	t	tn	tongnan		区	500223	023	22
 107	铜梁	4	t	tl	tongliang		区	500151	023	21
-108	荣昌	4	r	rc	rongchang		县	500226	023	23
+108	荣昌	4	r	rc	rongchang		区	500226	023	23
 109	璧山	4	b	bs	bishan		区	500120	023	20
-110	梁平	4	l	lp	liangping		县	500228	023	24
+110	梁平	4	l	lp	liangping		区	500228	023	24
 111	城口	4	c	ck	chengkou		县	500229	023	25
 112	丰都	4	f	fd	fengdou		县	500230	023	26
 113	垫江	4	d	dj	dianjiang		县	500231	023	27
-114	武隆	4	w	wl	wulong		县	500232	023	28
+114	武隆	4	w	wl	wulong		区	500232	023	28
 115	忠县	4	z	zx	zhongxian			500233	023	29
-116	开县	4	k	kx	kaixian			500234	023	30
+116	开州	4	k	kz	kaizhou		区	500234	023	30
 117	云阳	4	y	yy	yunyang		县	500235	023	31
 118	奉节	4	f	fj	fengjie		县	500236	023	32
 119	巫山	4	w	ws	wushan		县	500237	023	33
@@ -420,7 +419,7 @@
 420	保山	25	b	bs	baoshan		市	678000	0875	16
 421	拉萨	26	l	ls	lasa		市	540100	0891	1
 422	昌都	26	c	cd	changdou		市	542100	0895	2
-423	山南	26	s	sn	shannan		地区	542200	0893	3
+423	山南	26	s	sn	shannan		市	542200	0893	3
 424	日喀则	26	r	rkz	rikaze		市	542300	0892	4
 425	那曲	26	n	nq	neiqu		地区	542400	0896	5
 426	阿里	26	a	al	ali		地区	542500	0897	6
@@ -465,7 +464,7 @@
 465	乌鲁木齐	31	w	wlmq	wulumuqi		市	650100	0991	1
 466	克拉玛依	31	k	klmy	kelamayi		市	650200	0990	2
 467	吐鲁番	31	t	tlf	tulufan		市	652100	0995	3
-468	哈密	31	h	hm	hami	回族	地区	652200	0902	4
+468	哈密	31	h	hm	hami		市	652200	0902	4
 469	昌吉	31	c	cj	changji		自治州	652300	0994	5
 470	博尔塔拉	31	b	betl	boertala	蒙古	自治州	652700	0909	6
 471	巴音郭楞	31	b	bygl	bayinguoleng	蒙古	自治州	652800	0996	7
@@ -571,20 +570,19 @@
 572	北戴河	127	b	bdh	beidaihe		区	130304	0335	3
 573	青龙	127	q	ql	qinglong	满族	自治县	130321	0335	4
 574	昌黎	127	c	cl	changli		县	130322	0335	5
-575	抚宁	127	f	fn	funing		县	130323	0335	6
+575	抚宁	127	f	fn	funing		区	130323	0335	6
 576	卢龙	127	l	ll	lulong		县	130324	0335	7
 577	邯山	128	h	hs	hanshan		区	130402	0310	1
 578	丛台	128	c	ct	congtai		区	130403	0310	2
 579	复兴	128	f	fx	fuxing		区	130404	0310	3
 580	峰峰矿	128	f	ffk	fengfengkuang		区	130406	0310	4
-581	邯郸	128	h	hd	handan		县	130421	0310	5
 582	临漳	128	l	lz	linzhang		县	130423	0310	6
 583	成安	128	c	ca	chengan		县	130424	0310	7
 584	大名	128	d	dm	daming		县	130425	0310	8
 585	涉县	128	s	sx	shexian			130426	0310	9
 586	磁县	128	c	cx	cixian			130427	0310	10
-587	肥乡	128	f	fx	feixiang		县	130428	0310	11
-588	永年	128	y	yn	yongnian		县	130429	0310	12
+587	肥乡	128	f	fx	feixiang		区	130428	0310	11
+588	永年	128	y	yn	yongnian		区	130429	0310	12
 589	邱县	128	q	qx	qiuxian			130430	0310	13
 590	鸡泽	128	j	jz	jize		县	130431	0310	14
 591	广平	128	g	gp	guangping		县	130432	0310	15
@@ -611,14 +609,13 @@
 612	临西	129	l	lx	linxi		县	130535	0319	17
 613	南宫	129	n	ng	nangong		市	130581	0319	18
 614	沙河	129	s	sh	shahe		市	130582	0319	19
-615	新市	130	x	xs	xinshi		区	130602	0312	1
-616	北市	130	b	bs	beishi		区	130603	0312	2
-617	南市	130	n	ns	nanshi		区	130604	0312	3
-618	满城	130	m	mc	mancheng		县	130621	0312	4
-619	清苑	130	q	qy	qingyuan		县	130622	0312	5
+615	竞秀	130	j	jx	jingxiu		区	130602	0312	1
+616	莲池	130	l	lc	lianchi		区	130603	0312	2
+618	满城	130	m	mc	mancheng		区	130621	0312	4
+619	清苑	130	q	qy	qingyuan		区	130622	0312	5
 620	涞水	130	l	ls	laishui		县	130623	0312	6
 621	阜平	130	f	fp	fuping		县	130624	0312	7
-622	徐水	130	x	xs	xushui		县	130625	0312	8
+622	徐水	130	x	xs	xushui		区	130625	0312	8
 623	定兴	130	d	dx	dingxing		县	130626	0312	9
 624	唐县	130	t	tx	tangxian			130627	0312	10
 625	高阳	130	g	gy	gaoyang		县	130628	0312	11
@@ -640,7 +637,6 @@
 641	桥西	131	q	qx	qiaoxi		区	130703	0313	2
 642	宣化	131	x	xh	xuanhua		区	130705	0313	3
 643	下花园	131	x	xhy	xiahuayuan		区	130706	0313	4
-644	宣化	131	x	xh	xuanhua		县	130721	0313	5
 645	张北	131	z	zb	zhangbei		县	130722	0313	6
 646	康保	131	k	kb	kangbao		县	130723	0313	7
 647	沽源	131	g	gy	guyuan		县	130724	0313	8
@@ -699,7 +695,7 @@
 700	故城	135	g	gc	gucheng		县	131126	0318	7
 701	景县	135	j	jx	jingxian			131127	0318	8
 702	阜城	135	f	fc	fucheng		县	131128	0318	9
-703	冀州	135	j	jz	jizhou		市	131181	0318	10
+703	冀州	135	j	jz	jizhou		区	131181	0318	10
 704	深州	135	s	sz	shenzhou		市	131182	0318	11
 705	小店	136	x	xd	xiaodian		区	140105	0351	1
 706	迎泽	136	y	yz	yingze		区	140106	0351	2
@@ -930,7 +926,7 @@
 931	浑南	159	h	hn	hunnan		区	210112	024	7
 932	沈北新区	159	s	sbxq	shenbeixinqu			210113	024	8
 933	于洪	159	y	yh	yuhong		区	210114	024	9
-934	辽中	159	l	lz	liaozhong		县	210122	024	10
+934	辽中	159	l	lz	liaozhong		区	210122	024	10
 935	康平	159	k	kp	kangping		县	210123	024	11
 936	法库	159	f	fk	faku		县	210124	024	12
 937	新民	159	x	xm	xinmin		市	210181	024	13
@@ -942,7 +938,7 @@
 943	金州	160	j	jz	jinzhou		区	210213	0411	6
 944	长海	160	z	zh	zhanghai		县	210224	0411	7
 945	瓦房店	160	w	wfd	wafangdian		市	210281	0411	8
-946	普兰店	160	p	pld	pulandian		市	210282	0411	9
+946	普兰店	160	p	pld	pulandian		区	210282	0411	9
 947	庄河	160	z	zh	zhuanghe		市	210283	0411	10
 948	铁东	161	t	td	tiedong		区	210302	0412	1
 949	铁西	161	t	tx	tiexi		区	210303	0412	2
@@ -999,7 +995,7 @@
 1000	太子河	168	t	tzh	taizihe		区	211110	0419	7
 1001	双台子	169	s	stz	shuangtaizi		区	211103	0427	1
 1002	兴隆台	169	x	xlt	xinglongtai		区	211103	0427	2
-1003	大洼	169	d	dw	dawa		县	211121	0427	3
+1003	大洼	169	d	dw	dawa		区	211121	0427	3
 1004	盘山	169	p	ps	panshan		县	211122	0427	4
 1005	银州	170	y	yz	yinzhou		区	211202	0410	1
 1006	清河	170	q	qh	qinghe		区	211204	0410	2
@@ -1173,7 +1169,7 @@
 1174	桦南	189	h	hn	huanan		县	230822	0454	5
 1175	桦川	189	h	hc	huachuan		县	230826	0454	6
 1176	汤原	189	t	ty	tangyuan		县	230828	0454	7
-1177	抚远	189	f	fy	fuyuan		县	230833	0454	8
+1177	抚远	189	f	fy	fuyuan		市	230833	0454	8
 1178	同江	189	t	tj	tongjiang		市	230881	0454	9
 1179	富锦	189	f	fj	fujin		市	230882	0454	10
 1180	新兴	190	x	xx	xinxing		区	230902	0464	1
@@ -1184,7 +1180,7 @@
 1185	阳明	191	y	ym	yangming		区	231003	0453	2
 1186	爱民	191	a	am	aimin		区	231004	0453	3
 1187	西安	191	x	xa	xian		区	231005	0453	4
-1188	东宁	191	d	dn	dongning		县	231024	0453	5
+1188	东宁	191	d	dn	dongning		市	231024	0453	5
 1189	林口	191	l	lk	linkou		县	231025	0453	6
 1190	绥芬河	191	s	sfh	suifenhe		市	231081	0453	7
 1191	海林	191	h	hl	hailin		市	231083	0453	8
@@ -1224,9 +1220,8 @@
 1225	六合	195	l	lh	liuhe		区	320116		9
 1226	溧水	195	l	ls	lishui		区	320124		10
 1227	高淳	195	g	gc	gaochun		区	320125		11
-1228	崇安	196	c	ca	chongan		区	320202	0510	1
-1229	南长	196	n	nz	nanzhang		区	320203	0510	2
-1230	北塘	196	b	bt	beitang		区	320204	0510	3
+1228	梁溪	196	l	lx	liangxi		区	320202	0510	1
+1229	新吴	196	x	xw	xinwu		区		0510	2
 1231	锡山	196	x	xs	xishan		区	320205	0510	4
 1232	惠山	196	h	hs	huishan		区	320206	0510	5
 1233	滨湖	196	b	bh	binhu		区	320211	0510	6
@@ -1244,11 +1239,10 @@
 1245	邳州	197	p	pz	pizhou		市	320382	0516	10
 1246	天宁	198	t	tn	tianning		区	320402	0519	1
 1247	钟楼	198	z	zl	zhonglou		区	320404	0519	2
-1248	戚墅堰	198	q	qsy	qishuyan		区	320405	0519	3
 1249	新北	198	x	xb	xinbei		区	320411	0519	4
 1250	武进	198	w	wj	wujin		区	320412	0519	5
 1251	溧阳	198	l	ly	liyang		市	320481	0519	6
-1252	金坛	198	j	jt	jintan		市	320482	0519	7
+1252	金坛	198	j	jt	jintan		区	320482	0519	7
 1253	虎丘	199	h	hq	huqiu		区	320505	0512	1
 1254	吴中	199	w	wz	wuzhong		区	320506	0512	2
 1255	相城	199	x	xc	xiangcheng		区	320507	0512	3
@@ -1288,7 +1282,7 @@
 1290	射阳	203	s	sy	sheyang		县	320924	0515	6
 1291	建湖	203	j	jh	jianhu		县	320925	0515	7
 1292	东台	203	d	dt	dongtai		市	320981	0515	8
-1293	大丰	203	d	df	dafeng		市	320982	0515	9
+1293	大丰	203	d	df	dafeng		区	320982	0515	9
 1294	广陵	204	g	gl	guangling		区	321002	0514	1
 1295	邗江	204	h	hj	hanjiang		区	321003	0514	2
 1296	江都	204	j	jd	jiangdou		区	321012	0514	3
@@ -1326,7 +1320,6 @@
 1328	富阳	208	f	fy	fuyang		区	330183	0571	10
 1329	临安	208	l	la	linan		市	330185	0571	13
 1330	海曙	209	h	hs	haishu		区	330203	0574	1
-1331	江东	209	j	jd	jiangdong		区	330204	0574	2
 1332	江北	209	j	jb	jiangbei		区	330205	0574	3
 1333	北仑	209	b	bl	beilun		区	330206	0574	4
 1334	镇海	209	z	zh	zhenhai		区	330211	0574	5
@@ -1335,11 +1328,11 @@
 1337	宁海	209	n	nh	ninghai		县	330226	0574	8
 1338	余姚	209	y	yy	yuyao		市	330281	0574	9
 1339	慈溪	209	c	cx	cixi		市	330282	0574	10
-1340	奉化	209	f	fh	fenghua		市	330283	0574	11
+1340	奉化	209	f	fh	fenghua		区	330283	0574	11
 1341	鹿城	210	l	lc	lucheng		区	330302	0577	1
 1342	龙湾	210	l	lw	longwan		区	330303	0577	2
 1343	瓯海	210	o	oh	ouhai		区	330304	0577	3
-1344	洞头	210	d	dt	dongtou		县	330322	0577	4
+1344	洞头	210	d	dt	dongtou		区	330322	0577	4
 1345	永嘉	210	y	yj	yongjia		县	330324	0577	5
 1346	平阳	210	p	py	pingyang		县	330326	0577	6
 1347	苍南	210	c	cn	cangnan		县	330327	0577	7
@@ -1443,14 +1436,13 @@
 1445	烈山	224	l	ls	lieshan		区	340604	0561	3
 1446	濉溪	224	s	sx	suixi		县	340621	0561	4
 1447	铜官山	225	t	tgs	tongguanshan		区	340702	0562	1
-1448	狮子山	225	s	szs	shizishan		区	340703	0562	2
 1449	郊区	225	j	jq	jiaoqu			340711	0562	3
-1450	铜陵	225	t	tl	tongling		县	340721	0562	4
+1450	义安	225	y	ya	yian		区	340721	0562	4
 1451	迎江	226	y	yj	yingjiang		区	340802	0556	1
 1452	大观	226	d	dg	daguan		区	340803	0556	2
 1453	宜秀	226	y	yx	yixiu		区	340811	0556	3
 1454	怀宁	226	h	hn	huaining		县	340822	0556	4
-1455	枞阳	226	z	zy	zongyang		县	340823	0556	5
+1455	枞阳	225	z	zy	zongyang		县	340823	0556	5
 1456	潜山	226	q	qs	qianshan		县	340824	0556	6
 1457	太湖	226	t	th	taihu		县	340825	0556	7
 1458	宿松	226	s	ss	susong		县	340826	0556	8
@@ -1487,7 +1479,7 @@
 1489	泗县	230	s	sx	sixian			341324	0557	5
 1490	金安	231	j	ja	jinan		区	341502	0564	1
 1491	裕安	231	y	ya	yuan		区	341503	0564	2
-1492	寿县	231	s	sx	shouxian			341521	0564	3
+1492	寿县	222	s	sx	shouxian			341521	0564	3
 1493	霍邱	231	h	hq	huoqiu		县	341522	0564	4
 1494	舒城	231	s	sc	shucheng		县	341523	0564	5
 1495	金寨	231	j	jz	jinzhai		县	341524	0564	6
@@ -1598,7 +1590,7 @@
 1600	湾里	244	w	wl	wanli		区	360105	0791	4
 1601	青山湖	244	q	qsh	qingshanhu		区	360111	0791	5
 1602	南昌	244	n	nc	nanchang		县	360121	0791	6
-1603	新建	244	x	xj	xinjian		县	360122	0791	7
+1603	新建	244	x	xj	xinjian		区	360122	0791	7
 1604	安义	244	a	ay	anyi		县	360123	0791	8
 1605	进贤	244	j	jx	jinxian		县	360124	0791	9
 1606	昌江	245	c	cj	changjiang		区	360202	0798	1
@@ -1610,14 +1602,14 @@
 1612	莲花	246	l	lh	lianhua		县	360321	0799	3
 1613	上栗	246	s	sl	shangli		县	360322	0799	4
 1614	芦溪	246	l	lx	luxi		县	360323	0799	5
-1615	庐山	247	l	ls	lushan		区	360402	0792	1
+1615	濂溪	247	l	lx	lianxi		区	360402	0792	1
 1616	浔阳	247	x	xy	xunyang		区	360403	0792	2
 1617	九江	247	j	jj	jiujiang		县	360421	0792	3
 1618	武宁	247	w	wn	wuning		县	360423	0792	4
 1619	修水	247	x	xs	xiushui		县	360424	0792	5
 1620	永修	247	y	yx	yongxiu		县	360425	0792	6
 1621	德安	247	d	da	dean		县	360426	0792	7
-1622	星子	247	x	xz	xingzi		县	360427	0792	8
+1622	庐山	247	l	ls	lushan		市	360427	0792	8
 1623	都昌	247	d	dc	douchang		县	360428	0792	9
 1624	湖口	247	h	hk	hukou		县	360429	0792	10
 1625	彭泽	247	p	pz	pengze		县	360430	0792	11
@@ -1629,7 +1621,7 @@
 1631	余江	249	y	yj	yujiang		县	360622	0701	2
 1632	贵溪	249	g	gx	guixi		市	360681	0701	3
 1633	章贡	250	z	zg	zhanggong		区	360702	0797	1
-1634	赣县	250	g	gx	ganxian			360721	0797	2
+1634	赣县	250	g	gx	ganxian		区	360721	0797	2
 1635	信丰	250	x	xf	xinfeng		县	360722	0797	3
 1636	大余	250	d	dy	dayu		县	360723	0797	4
 1637	上犹	250	s	sy	shangyou		县	360724	0797	5
@@ -1701,7 +1693,7 @@
 1703	平阴	255	p	py	pingyin		县	370124	0531	7
 1704	济阳	255	j	jy	jiyang		县	370125	0531	8
 1705	商河	255	s	sh	shanghe		县	370126	0531	9
-1706	章丘	255	z	zq	zhangqiu		市	370181	0531	10
+1706	章丘	255	z	zq	zhangqiu		区	370181	0531	10
 1707	市南	256	s	sn	shinan		区	370202	0532	1
 1708	市北	256	s	sb	shibei		区	370203	0532	2
 1709	黄岛	256	h	hd	huangdao		区	370211	0532	3
@@ -1728,7 +1720,7 @@
 1730	滕州	258	t	tz	tengzhou		市	370481	0632	6
 1731	东营	259	d	dy	dongying		区	370502	0546	1
 1732	河口	259	h	hk	hekou		区	370503	0546	2
-1733	垦利	259	k	kl	kenli		县	370521	0546	3
+1733	垦利	259	k	kl	kenli		区	370521	0546	3
 1734	利津	259	l	lj	lijin		县	370522	0546	4
 1735	广饶	259	g	gr	guangrao		县	370523	0546	5
 1736	芝罘	260	z	zf	zhifu		区	370602	0535	1
@@ -1827,7 +1819,7 @@
 1830	巨野	271	j	jy	juye		县	371724	0530	5
 1831	郓城	271	y	yc	yuncheng		县	371725	0530	6
 1832	鄄城	271	j	jc	juancheng		县	371726	0530	7
-1833	定陶	271	d	dt	dingtao		县	371727	0530	8
+1833	定陶	271	d	dt	dingtao		区	371727	0530	8
 1834	东明	271	d	dm	dongming		县	371728	0530	9
 1835	中原	272	z	zy	zhongyuan		区	410102	0371	1
 1836	二七	272	e	eq	erqi		区	410103	0371	2
@@ -1918,7 +1910,7 @@
 1922	台前	280	t	tq	taiqian		县	410927		5
 1923	濮阳	280	p	py	puyang		县	410928		6
 1924	魏都	281	w	wd	weidou		区	411002	0374	1
-1925	许昌	281	x	xc	xuchang		县	411023	0374	2
+1925	建安	281	j	ja	jianan		区	411023	0374	2
 1926	鄢陵	281	y	yl	yanling		县	411024	0374	3
 1927	襄城	281	x	xc	xiangcheng		县	411025	0374	4
 1928	禹州	281	y	yz	yuzhou		市	411081	0374	5
@@ -2275,7 +2267,7 @@
 2281	怀集	330	h	hj	huaiji		县	441224	0758	4
 2282	封开	330	f	fk	fengkai		县	441225	0758	5
 2283	德庆	330	d	dq	deqing		县	441226	0758	6
-2284	高要	330	g	gy	gaoyao		市	441283	0758	7
+2284	高要	330	g	gy	gaoyao		区	441283	0758	7
 2285	四会	330	s	sh	sihui		市	441284	0758	8
 2286	惠城	331	h	hc	huicheng		区	441302	0752	1
 2287	惠阳	331	h	hy	huiyang		区	441303	0752	2
@@ -2341,7 +2333,7 @@
 2347	鱼峰	343	y	yf	yufeng		区	450203	0772	2
 2348	柳南	343	l	ln	liunan		区	450204	0772	3
 2349	柳北	343	l	lb	liubei		区	450205	0772	4
-2350	柳江	343	l	lj	liujiang		县	450221	0772	5
+2350	柳江	343	l	lj	liujiang		区	450221	0772	5
 2351	柳城	343	l	lc	liucheng		县	450222	0772	6
 2352	鹿寨	343	l	lz	luzhai		县	450223	0772	7
 2353	融安	343	r	ra	rongan		县	450224	0772	8
@@ -2399,7 +2391,7 @@
 2405	田东	351	t	td	tiandong		县	451022	0776	3
 2406	平果	351	p	pg	pingguo		县	451023	0776	4
 2407	德保	351	d	db	debao		县	451024	0776	5
-2408	靖西	351	j	jx	jingxi		县	451025	0776	6
+2408	靖西	351	j	jx	jingxi		市	451025	0776	6
 2409	那坡	351	n	np	neipo		县	451026	0776	7
 2410	凌云	351	l	ly	lingyun		县	451027	0776	8
 2411	乐业	351	l	ly	leye		县	451028	0776	9
@@ -2407,20 +2399,20 @@
 2413	西林	351	x	xl	xilin		县	451030	0776	11
 2414	隆林	351	l	ll	longlin	各族	自治县	451031	0776	12
 2415	八步	352	b	bb	babu		区	451102	0774	1
-2416	昭平	352	z	zp	zhaoping		县	451121	0774	2
-2417	钟山	352	z	zs	zhongshan		县	451122	0774	3
-2418	富川	352	f	fc	fuchuan	瑶族	自治县	451123	0774	4
+2416	昭平	352	z	zp	zhaoping		县	451121	0774	3
+2417	钟山	352	z	zs	zhongshan		县	451122	0774	4
+2418	富川	352	f	fc	fuchuan	瑶族	自治县	451123	0774	5
 2419	金城江	353	j	jcj	jinchengjiang		区	451202	0778	1
-2420	南丹	353	n	nd	nandan		县	451221	0778	2
-2421	天峨	353	t	te	tiane		县	451222	0778	3
-2422	凤山	353	f	fs	fengshan		县	451223	0778	4
-2423	东兰	353	d	dl	donglan		县	451224	0778	5
-2424	罗城	353	l	lc	luocheng	仫佬族	自治县	451225	0778	6
-2425	环江	353	h	hj	huanjiang	毛南族	自治县	451226	0778	7
-2426	巴马	353	b	bm	bama	瑶族	自治县	451227	0778	8
-2427	都安	353	d	da	douan	瑶族	自治县	451228	0778	9
-2428	大化	353	d	dh	dahua	瑶族	自治县	451229	0778	10
-2429	宜州	353	y	yz	yizhou		市	451281	0778	11
+2420	南丹	353	n	nd	nandan		县	451221	0778	3
+2421	天峨	353	t	te	tiane		县	451222	0778	4
+2422	凤山	353	f	fs	fengshan		县	451223	0778	5
+2423	东兰	353	d	dl	donglan		县	451224	0778	6
+2424	罗城	353	l	lc	luocheng	仫佬族	自治县	451225	0778	7
+2425	环江	353	h	hj	huanjiang	毛南族	自治县	451226	0778	8
+2426	巴马	353	b	bm	bama	瑶族	自治县	451227	0778	9
+2427	都安	353	d	da	douan	瑶族	自治县	451228	0778	10
+2428	大化	353	d	dh	dahua	瑶族	自治县	451229	0778	11
+2429	宜州	353	y	yz	yizhou		区	451281	0778	2
 2430	兴宾	354	x	xb	xingbin		区	451302	0772	1
 2431	忻城	354	x	xc	xincheng		县	451321	0772	2
 2432	象州	354	x	xz	xiangzhou		县	451322	0772	3
@@ -2448,8 +2440,8 @@
 2454	新都	375	x	xd	xindou		区	510114	028	8
 2455	温江	375	w	wj	wenjiang		区	510115	028	9
 2456	金堂	375	j	jt	jintang		县	510121	028	10
-2457	双流	375	s	sl	shuangliu		县	510122	028	11
-2458	郫县	375	p	px	pixian			510124	028	12
+2457	双流	375	s	sl	shuangliu		区	510122	028	11
+2458	郫都	375	p	pd	pidu		区	510124	028	12
 2459	大邑	375	d	dy	dayi		县	510129	028	13
 2460	蒲江	375	p	pj	pujiang		县	510131	028	14
 2461	新津	375	x	xj	xinjin		县	510132	028	15
@@ -2485,7 +2477,7 @@
 2491	游仙	380	y	yx	youxian		区	510704	0816	2
 2492	三台	380	s	st	santai		县	510722	0816	3
 2493	盐亭	380	y	yt	yanting		县	510723	0816	4
-2494	安县	380	a	ax	anxian			510724	0816	5
+2494	安州	380	a	az	anzhou		区	510724	0816	5
 2495	梓潼	380	z	zt	zitong		县	510725	0816	6
 2496	北川	380	b	bc	beichuan	羌族	自治县	510726	0816	7
 2497	平武	380	p	pw	pingwu		县	510727	0816	8
@@ -2570,8 +2562,8 @@
 2576	雁江	392	y	yj	yanjiang		区	512002	028	1
 2577	安岳	392	a	ay	anyue		县	512021	028	2
 2578	乐至	392	l	lz	lezhi		县	512022	028	3
-2579	简阳	392	j	jy	jianyang		市	512081	028	4
-2580	马尔康	393	m	mek	maerkang		县	513229	0837	1
+2579	简阳	375	j	jy	jianyang		市	512081	028	4
+2580	马尔康	393	m	mek	maerkang		市	513229	0837	1
 2581	汶川	393	w	wc	wenchuan		县	513221	0837	2
 2582	理县	393	l	lx	lixian			513222	0837	3
 2583	茂县	393	m	mx	maoxian			513223	0837	4
@@ -2635,7 +2627,7 @@
 2641	盘县	397	p	px	panxian			520222	0858	4
 2642	红花岗	398	h	hhg	honghuagang		区	520302	0852	1
 2643	汇川	398	h	hc	huichuan		区	520303	0852	2
-2644	遵义	398	z	zy	zunyi		县	520321	0852	3
+2644	播州	398	b	bz	bozhou		区	520321	0852	3
 2645	桐梓	398	t	tz	tongzi		县	520322	0852	4
 2646	绥阳	398	s	sy	suiyang		县	520323	0852	5
 2647	正安	398	z	za	zhengan		县	520324	0852	6
@@ -2713,7 +2705,7 @@
 2719	西山	405	x	xs	xishan		区	530112	0871	4
 2720	东川	405	d	dc	dongchuan		区	530113	0871	5
 2721	呈贡	405	c	cg	chenggong		区	530114	0871	6
-2722	晋宁	405	j	jn	jinning		县	530122	0871	7
+2722	晋宁	405	j	jn	jinning		区	530122	0871	7
 2723	富民	405	f	fm	fumin		县	530124	0871	8
 2724	宜良	405	y	yl	yiliang		县	530125	0871	9
 2725	石林	405	s	sl	shilin	彝族	自治县	530126	0871	10
@@ -2728,10 +2720,10 @@
 2734	罗平	406	l	lp	luoping		县	530324	0874	5
 2735	富源	406	f	fy	fuyuan		县	530325	0874	6
 2736	会泽	406	h	hz	huize		县	530326	0874	7
-2737	沾益	406	z	zy	zhanyi		县	530328	0874	8
+2737	沾益	406	z	zy	zhanyi		区	530328	0874	8
 2738	宣威	406	x	xw	xuanwei		市	530381	0874	9
 2739	红塔	407	h	ht	hongta		区	530402	0877	1
-2740	江川	407	j	jc	jiangchuan		县	530421	0877	2
+2740	江川	407	j	jc	jiangchuan		区	530421	0877	2
 2741	澄江	407	c	cj	chengjiang		县	530422	0877	3
 2742	通海	407	t	th	tonghai		县	530423	0877	4
 2743	华宁	407	h	hn	huaning		县	530424	0877	5
@@ -2824,7 +2816,7 @@
 2830	梁河	417	l	lh	lianghe		县	533122	0692	3
 2831	盈江	417	y	yj	yingjiang		县	533123	0692	4
 2832	陇川	417	l	lc	longchuan		县	533124	0692	5
-2833	泸水	418	l	ls	lushui		县	533321	0886	1
+2833	泸水	418	l	ls	lushui		市	533321	0886	1
 2834	福贡	418	f	fg	fugong		县	533323	0886	2
 2835	贡山	418	g	gs	gongshan	独龙族怒族	县	533324	0886	3
 2836	兰坪	418	l	lp	lanping	白族普米族	县	533325	0886	4
@@ -2833,7 +2825,7 @@
 2839	维西	419	w	wx	weixi		县	533423	0887	3
 2840	隆阳	420	l	ly	longyang		区	530502	0875	1
 2841	施甸	420	s	sd	shidian		县	530521	0875	2
-2842	腾冲	420	t	tc	tengchong		县	530522	0875	3
+2842	腾冲	420	t	tc	tengchong		市	530522	0875	3
 2843	龙陵	420	l	ll	longling		县	530523	0875	4
 2844	昌宁	420	c	cn	changning		县	530524	0875	5
 2845	城关	421	c	cg	chengguan		区	540102	0891	1
@@ -2841,7 +2833,7 @@
 2847	当雄	421	d	dx	dangxiong		县	540122	0891	3
 2848	尼木	421	n	nm	nimu		县	540123	0891	4
 2849	曲水	421	q	qs	qushui		县	540124	0891	5
-2850	堆龙德庆	421	d	dldq	duilongdeqing		县	540125	0891	6
+2850	堆龙德庆	421	d	dldq	duilongdeqing		区	540125	0891	6
 2851	达孜	421	d	dz	dazi		县	540126	0891	7
 2852	墨竹工卡	421	m	mzgk	mozhugongka		县	540127	0891	8
 2853	卡若	422	k	kr	karuo		区	542121	0895	1
@@ -2855,7 +2847,7 @@
 2861	芒康	422	m	mk	mangkang		县	542129	0895	9
 2862	洛隆	422	l	ll	luolong		县	542132	0895	10
 2863	边坝	422	b	bb	bianba		县	542133	0895	11
-2864	乃东	423	n	nd	naidong		县	542221	0893	1
+2864	乃东	423	n	nd	naidong		区	542221	0893	1
 2865	扎囊	423	z	zn	zhanang		县	542222	0893	2
 2866	贡嘎	423	g	gg	gongga		县	542223	0893	3
 2867	桑日	423	s	sr	sangri		县	542224	0893	4
@@ -2903,7 +2895,7 @@
 2909	革吉	426	g	gj	geji		县	542525	0897	5
 2910	改则	426	g	gz	gaize		县	542526	0897	6
 2911	措勤	426	c	cq	cuoqin		县	542527	0897	7
-2912	巴宜	427	b	by	bayi		县	540402	0894	1
+2912	巴宜	427	b	by	bayi		区	540402	0894	1
 2913	工布江达	427	g	gbjd	gongbujiangda		县	542621	0894	2
 2914	米林	427	m	ml	milin		县	542621	0894	3
 2915	墨脱	427	m	mt	motuo		县	542621	0894	4
@@ -2921,7 +2913,7 @@
 2927	长安	428	z	za	zhangan		区	610116	029	9
 2928	蓝田	428	l	lt	lantian		县	610122	029	11
 2929	周至	428	z	zz	zhouzhi		县	610124	029	12
-2930	户县	428	h	hx	huxian			610125	029	13
+2930	鄠邑	428	h	hy	huyi		区	610125	029	13
 2931	高陵	428	g	gl	gaoling		区	610117	029	10
 2932	王益	429	w	wy	wangyi		区	610202	0919	1
 2933	印台	429	y	yt	yintai		区	610203	0919	2
@@ -2954,7 +2946,7 @@
 2960	武功	431	w	wg	wugong		县	610431	029	13
 2961	兴平	431	x	xp	xingping		市	610481	029	14
 2962	临渭	432	l	lw	linwei		区	610502	0913	1
-2963	华县	432	h	hx	huaxian			610521	0913	2
+2963	华州	432	h	hz	huazhou		区	610521	0913	2
 2964	潼关	432	t	tg	tongguan		县	610522	0913	3
 2965	大荔	432	d	dl	dali		县	610523	0913	4
 2966	合阳	432	h	hy	heyang		县	610524	0913	5
@@ -2968,7 +2960,7 @@
 2974	延长	433	y	yz	yanzhang		县	610621	0911	2
 2975	延川	433	y	yc	yanchuan		县	610622	0911	3
 2976	子长	433	z	zz	zizhang		县	610623	0911	4
-2977	安塞	433	a	as	ansai		县	610624	0911	5
+2977	安塞	433	a	as	ansai		区	610624	0911	5
 2978	志丹	433	z	zd	zhidan		县	610625	0911	6
 2979	吴起	433	w	wq	wuqi		县	610626	0911	7
 2980	甘泉	433	g	gq	ganquan		县	610627	0911	8
@@ -2991,7 +2983,7 @@
 2997	榆阳	435	y	yy	yuyang		区	610802	0912	1
 2998	神木	435	s	sm	shenmu		县	610821	0912	2
 2999	府谷	435	f	fg	fugu		县	610822	0912	3
-3000	横山	435	h	hs	hengshan		县	610823	0912	4
+3000	横山	435	h	hs	hengshan		区	610823	0912	4
 3001	靖边	435	j	jb	jingbian		县	610824	0912	5
 3002	定边	435	d	db	dingbian		县	610825	0912	6
 3003	绥德	435	s	sd	suide		县	610826	0912	7
@@ -3188,7 +3180,7 @@
 3194	高昌	467	g	gc	gaochang		区	652101	0995	1
 3195	鄯善	467	s	ss	shanshan		县	652122	0995	2
 3196	托克逊	467	t	tkx	tuokexun		县	652123	0995	3
-3197	哈密	468	h	hm	hami		市	652201	0902	1
+3197	伊州	468	y	yz	yizhou		区	652201	0902	1
 3198	巴里坤	468	b	blk	balikun	哈萨克	自治县	652222	0902	2
 3199	伊吾	468	y	yw	yiwu		县	652223	0902	3
 3200	昌吉	469	c	cj	changji		市	652301	0994	1
@@ -3576,4 +3568,10 @@
 3582	霍尔果斯	476	h	hegs	huoerguosi		市	654004	0999	3
 3583	前锋	388	q	qf	qianfeng		区		0826	2
 3584	福绵	350	f	fm	fumian		区	450903	0775	2
-\N	可克达拉	31	k	kdkl	kedakela		市	659008	0999	22
+3585	可克达拉	31	k	kdkl	kedakela		市	659008	0999	22
+7036	龙华	323	l	lh	longhua		区		0755	7
+7037	坪山	323	p	ps	pingshan		区		0755	8
+7038	昆玉	31	k	ky	kunyu		市	659009	0903	23
+7039	平桂	352	p	pg	pinggui		区		0774	2
+7040	巴什	152	b	bs	bashi		区		0477	9
+7041	叶集	231	y	yj	yeji		区		0564	8
