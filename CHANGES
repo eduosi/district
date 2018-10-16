@@ -1,3 +1,27 @@
+Changes 12.0
+												16 Oct 2018
+	*）济南市济阳县更名为济阳区
+	*）纠正吕梁拼音
+	*）福州市长乐县更新为长乐区，并更新行政代码
+	*）更新哈密市巴里坤哈萨克自治县行政代码
+
+	更新脚本：
+	UPDATE `district` SET `suffix` = '区' WHERE `id` = '1704';
+	UPDATE `district` SET `pinyin` = 'lvliang' WHERE `id` = '146';
+	UPDATE `district` SET `suffix` = '区', `code` = 350112, `order` = 6 WHERE `id` = '1524';
+	UPDATE `district` SET `order` = '7' WHERE `id` = '1517'; 
+	UPDATE `district` SET `order` = '8' WHERE `id` = '1518';
+	UPDATE `district` SET `order` = '9' WHERE `id` = '1519';
+	UPDATE `district` SET `order` = '10' WHERE `id` = '1520';
+	UPDATE `district` SET `order` = '11' WHERE `id` = '1521';
+	UPDATE `district` SET `order` = '12' WHERE `id` = '1522';
+	UPDATE `district` SET `order` = '13' WHERE `id` = '1523';
+	UPDATE `district` SET `code` = '650521' WHERE `id` = '3198';
+
+Changes 11.0
+	
+	*）纠正“都”拼音
+
 Changes 10.0
 
 												01 Mar 2017
