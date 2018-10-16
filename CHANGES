@@ -4,6 +4,8 @@ Changes 12.0
 	*）纠正吕梁拼音
 	*）福州市长乐县更新为长乐区，并更新行政代码
 	*）更新哈密市巴里坤哈萨克自治县行政代码
+	*）更新厦门市错误拼音
+	*）删除北京市宣武区、崇文区
 
 	更新脚本：
 	UPDATE `district` SET `suffix` = '区' WHERE `id` = '1704';
@@ -17,6 +19,9 @@ Changes 12.0
 	UPDATE `district` SET `order` = '12' WHERE `id` = '1522';
 	UPDATE `district` SET `order` = '13' WHERE `id` = '1523';
 	UPDATE `district` SET `code` = '650521' WHERE `id` = '3198';
+	UPDATE `district` SET `initial` = 'x' ,`initials` = 'xm' ,`pinyin` = 'xiamen' WHERE `id` = '236';
+	DELETE FROM `district` WHERE `id` = '38';
+	DELETE FROM `district` WHERE `id` = '39';
 
 Changes 11.0
 	

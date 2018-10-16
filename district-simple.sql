@@ -49,8 +49,6 @@ insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('34',
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('35','海外','0','','35');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('36','东城','1','110101','1');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('37','西城','1','110102','2');
-insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('38','崇文','1','110103','3');
-insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('39','宣武','1','110104','4');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('40','朝阳','1','110105','5');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('41','丰台','1','110106','6');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('42','石景山','1','110107','7');
