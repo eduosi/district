@@ -260,7 +260,6 @@
 263	泰安	16	taian	t	ta	市	370900	9
 264	威海	16	weihai	w	wh	市	371000	10
 265	日照	16	rizhao	r	rz	市	371100	11
-266	莱芜	16	laiwu	l	lw	市	371200	12
 267	临沂	16	linyi	l	ly	市	371300	13
 268	德州	16	dezhou	d	dz	市	371400	14
 269	聊城	16	liaocheng	l	lc	市	371500	15
@@ -1770,8 +1769,8 @@
 1783	岚山	265	lanshan	l	ls	区	371103	2
 1784	五莲	265	wulian	w	wl	县	371121	3
 1785	莒县	265	juxian	j	jx		371122	4
-1786	莱城	266	laicheng	l	lc	区	371202	1
-1787	钢城	266	gangcheng	g	gc	区	371203	2
+1786	莱芜	255	laiwu	l	lw	区	371202	1
+1787	钢城	255	gangcheng	g	gc	区	371203	2
 1788	兰山	267	lanshan	l	ls	区	371302	1
 1789	罗庄	267	luozhuang	l	lz	区	371311	2
 1790	河东	267	hedong	h	hd	区	371312	3

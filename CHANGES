@@ -1,3 +1,14 @@
+Changes 14.0
+												22 Jan 2019
+
+	*) 山东莱芜整体并入济南
+
+	更新脚本：
+	UPDATE `district` SET `name` = '莱芜' WHERE `id` = '1786'; 
+	UPDATE `liangvi`.`district` SET `parent_id` = '255', `initials` = 'lw', `pinyin` = 'laiwu' WHERE `id` = '1786'; 
+	UPDATE `liangvi`.`district` SET `parent_id` = '255' WHERE `id` = '1787'; 
+	DELETE FROM `district` WHERE `id` = '266'; 
+
 Changes 13.0
 												17 Dec 2018
 
@@ -5,7 +16,8 @@ Changes 13.0
 	*）纠正“蚌埠”拼音
 
 	更新脚本：
-	UPDATE `liangvi`.`district` SET `suffix` = '市' ,`code` = '232701' WHERE `id` = '1216'; 
+	UPDATE `district` SET `suffix` = '市' ,`code` = '232701' WHERE `id` = '1216'; 
+	UPDATE `district` SET `pinyin` = 'bengbu' WHERE `id` = '221'; 
 
 Changes 12.0
 												16 Oct 2018

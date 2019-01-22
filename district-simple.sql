@@ -274,7 +274,6 @@ insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('262'
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('263','泰安','16','370900','9');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('264','威海','16','371000','10');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('265','日照','16','371100','11');
-insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('266','莱芜','16','371200','12');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('267','临沂','16','371300','13');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('268','德州','16','371400','14');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('269','聊城','16','371500','15');
@@ -1784,8 +1783,8 @@ insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1782
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1783','岚山','265','371103','2');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1784','五莲','265','371121','3');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1785','莒县','265','371122','4');
-insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1786','莱城','266','371202','1');
-insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1787','钢城','266','371203','2');
+insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1786','莱芜','255','371202','1');
+insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1787','钢城','255','371203','2');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1788','兰山','267','371302','1');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1789','罗庄','267','371311','2');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1790','河东','267','371312','3');
