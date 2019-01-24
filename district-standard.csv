@@ -67,7 +67,7 @@
 69	静海	2	jinghai	j	jh	区	120225	16
 70	黄浦	3	huangpu	h	hp	区	310101	1
 71	徐汇	3	xuhui	x	xh	区	310104	2
-72	长宁	3	zhangning	z	zn	区	310105	3
+72	长宁	3	changning	c	cn	区	310105	3
 73	静安	3	jingan	j	ja	区	310106	4
 74	普陀	3	putuo	p	pt	区	310107	5
 76	虹口	3	hongkou	h	hk	区	310109	7
@@ -95,7 +95,7 @@
 98	渝北	4	yubei	y	yb	区	500112	12
 99	巴南	4	banan	b	bn	区	500113	13
 100	黔江	4	qianjiang	q	qj	区	500114	14
-101	长寿	4	zhangshou	z	zs	区	500115	15
+101	长寿	4	changshou	c	cs	区	500115	15
 102	江津	4	jiangjin	j	jj	区	500116	16
 103	合川	4	hechuan	h	hc	区	500117	17
 104	永川	4	yongchuan	y	yc	区	500118	18
@@ -133,7 +133,7 @@
 136	太原	6	taiyuan	t	ty	市	140100	1
 137	大同	6	datong	d	dt	市	140200	2
 138	阳泉	6	yangquan	y	yq	市	140300	3
-139	长治	6	zhangzhi	z	zz	市	140400	4
+139	长治	6	changzhi	c	cz	市	140400	4
 140	晋城	6	jincheng	j	jc	市	140500	5
 141	朔州	6	shuozhou	s	sz	市	140600	6
 142	晋中	6	jinzhong	j	jz	市	140700	7
@@ -167,7 +167,7 @@
 170	铁岭	8	tieling	t	tl	市	211200	12
 171	朝阳	8	chaoyang	c	cy	市	211300	13
 172	葫芦岛	8	huludao	h	hld	市	211400	14
-173	长春	9	zhangchun	z	zc	市	220100	1
+173	长春	9	changchun	c	cc	市	220100	1
 174	吉林	9	jilin	j	jl	市	220200	2
 175	四平	9	siping	s	sp	市	220300	3
 176	辽源	9	liaoyuan	l	ly	市	220400	4
@@ -300,7 +300,7 @@
 304	潜江	18	qianjiang	q	qj	市	429005	15
 305	天门	18	tianmen	t	tm	市	429006	16
 306	神农架林区	18	shennongjialinqu	s	snjlq		429021	17
-307	长沙	19	zhangsha	z	zs	市	430100	1
+307	长沙	19	changsha	c	cs	市	430100	1
 308	株洲	19	zhuzhou	z	zz	市	430200	2
 309	湘潭	19	xiangtan	x	xt	市	430300	3
 310	衡阳	19	hengyang	h	hy	市	430400	4
@@ -526,7 +526,7 @@
 530	嘉模	34	jiamo	j	jm	堂区		6
 531	圣方济各	34	shengfangjige	s	sfjg	堂区		7
 532	路氹城	34	ludangcheng	l	ldc			8
-533	长安	125	zhangan	z	za	区	130102	1
+533	长安	125	changan	c	ca	区	130102	1
 535	桥西	125	qiaoxi	q	qx	区	130104	2
 536	新华	125	xinhua	x	xh	区	130105	3
 537	井陉矿	125	jingxingkuang	j	jxk	区	130107	4
@@ -722,13 +722,13 @@
 730	盂县	138	yuxian	y	yx		140322	5
 731	城区	139	chengqu	c	cq		140402	1
 732	郊区	139	jiaoqu	j	jq		140411	2
-733	长治	139	zhangzhi	z	zz	县	140421	3
+733	长治	139	changzhi	c	cz	县	140421	3
 734	襄垣	139	xiangyuan	x	xy	县	140423	4
 735	屯留	139	tunliu	t	tl	县	140424	5
 736	平顺	139	pingshun	p	ps	县	140425	6
 737	黎城	139	licheng	l	lc	县	140426	7
 738	壶关	139	huguan	h	hg	县	140427	8
-739	长子	139	zhangzi	z	zz	县	140428	9
+739	长子	139	changzi	c	cz	县	140428	9
 740	武乡	139	wuxiang	w	wx	县	140429	10
 741	沁县	139	qinxian	q	qx		140430	11
 742	沁源	139	qinyuan	q	qy	县	140431	12
@@ -933,7 +933,7 @@
 941	甘井子	160	ganjingzi	g	gjz	区	210211	4
 942	旅顺口	160	lu:shunkou	l	lsk	区	210212	5
 943	金州	160	jinzhou	j	jz	区	210213	6
-944	长海	160	zhanghai	z	zh	县	210224	7
+944	长海	160	changhai	c	ch	县	210224	7
 945	瓦房店	160	wafangdian	w	wfd	市	210281	8
 946	普兰店	160	pulandian	p	pld	区	210282	9
 947	庄河	160	zhuanghe	z	zh	市	210283	10
@@ -986,7 +986,7 @@
 994	白塔	168	baita	b	bt	区	211002	1
 995	文圣	168	wensheng	w	ws	区	211003	2
 996	宏伟	168	hongwei	h	hw	区	211004	3
-997	弓长岭	168	gongzhangling	g	gzl	区	211005	4
+997	弓长岭	168	gongchangling	g	gcl	区	211005	4
 998	辽阳	168	liaoyang	l	ly	县	211021	5
 999	灯塔	168	dengta	d	dt	市	211081	6
 1000	太子河	168	taizihe	t	tzh	区	211110	7
@@ -1054,11 +1054,11 @@
 1062	江源	178	jiangyuan	j	jy	区	220604	2
 1063	抚松	178	fusong	f	fs	县	220621	3
 1064	靖宇	178	jingyu	j	jy	县	220622	4
-1065	长白	178	zhangbai	z	zb	自治县	220623	5
+1065	长白	178	changbai	c	cb	自治县	220623	5
 1066	临江	178	linjiang	l	lj	市	220681	6
 1067	宁江	179	ningjiang	n	nj	区	220702	1
 1068	前郭尔罗斯	179	qianguoerluosi	q	qgels	自治县	220721	2
-1069	长岭	179	zhangling	z	zl	县	220722	3
+1069	长岭	179	changling	c	cl	县	220722	3
 1070	乾安	179	qianan	q	qa	县	220723	4
 1071	扶余	179	fuyu	f	fy	市	220724	5
 1072	洮北	180	taobei	t	tb	区	220802	1
@@ -1347,7 +1347,7 @@
 1359	吴兴	212	wuxing	w	wx	区	330502	1
 1360	南浔	212	nanxun	n	nx	区	330503	2
 1361	德清	212	deqing	d	dq	县	330521	3
-1362	长兴	212	zhangxing	z	zx	县	330522	4
+1362	长兴	212	changxing	c	cx	县	330522	4
 1363	安吉	212	anji	a	aj	县	330523	5
 1364	越城	213	yuecheng	y	yc	区	330602	1
 1365	柯桥	213	keqiao	k	kq	区	330603	2
@@ -1396,7 +1396,7 @@
 1408	庐阳	219	luyang	l	ly	区	340103	2
 1409	蜀山	219	shushan	s	ss	区	340104	3
 1410	包河	219	baohe	b	bh	区	340111	4
-1411	长丰	219	zhangfeng	z	zf	县	340121	5
+1411	长丰	219	changfeng	c	cf	县	340121	5
 1412	肥东	219	feidong	f	fd	县	340122	6
 1413	肥西	219	feixi	f	fx	县	340123	7
 1414	庐江	219	lujiang	l	lj	县	340124	8
@@ -1459,7 +1459,7 @@
 1472	全椒	228	quanjiao	q	qj	县	341124	4
 1473	定远	228	dingyuan	d	dy	县	341125	5
 1474	凤阳	228	fengyang	f	fy	县	341126	6
-1475	天长	228	tianzhang	t	tz	市	341181	7
+1475	天长	228	tianchang	t	tc	市	341181	7
 1476	明光	228	mingguang	m	mg	市	341182	8
 1477	颍州	229	yingzhou	y	yz	区	341202	1
 1478	颍东	229	yingdong	y	yd	区	341203	2
@@ -1508,7 +1508,7 @@
 1521	永泰	235	yongtai	y	yt	县	350125	11
 1522	平潭	235	pingtan	p	pt	县	350128	12
 1523	福清	235	fuqing	f	fq	市	350181	13
-1524	长乐	235	zhangle	z	zl	区	350112	6
+1524	长乐	235	changle	c	cl	区	350112	6
 1525	思明	236	siming	s	sm	区	350203	1
 1526	海沧	236	haicang	h	hc	区	350205	2
 1527	湖里	236	huli	h	hl	区	350206	3
@@ -1549,7 +1549,7 @@
 1562	云霄	240	yunxiao	y	yx	县	350622	3
 1563	漳浦	240	zhangpu	z	zp	县	350623	4
 1564	诏安	240	zhaoan	z	za	县	350624	5
-1565	长泰	240	zhangtai	z	zt	县	350625	6
+1565	长泰	240	changtai	c	ct	县	350625	6
 1566	东山	240	dongshan	d	ds	县	350626	7
 1567	南靖	240	nanjing	n	nj	县	350627	8
 1568	平和	240	pinghe	p	ph	县	350628	9
@@ -1566,7 +1566,7 @@
 1579	建瓯	241	jianou	j	jo	市	350783	10
 1580	建阳	241	jianyang	j	jy	区	350703	2
 1581	新罗	242	xinluo	x	xl	区	350802	1
-1582	长汀	242	zhangting	z	zt	县	350821	3
+1582	长汀	242	changting	c	ct	县	350821	3
 1583	永定	242	yongding	y	yd	区	350803	2
 1584	上杭	242	shanghang	s	sh	县	350823	4
 1585	武平	242	wuping	w	wp	县	350824	5
@@ -1686,7 +1686,7 @@
 1699	槐荫	255	huaiyin	h	hy	区	370104	3
 1700	天桥	255	tianqiao	t	tq	区	370105	4
 1701	历城	255	licheng	l	lc	区	370112	5
-1702	长清	255	zhangqing	z	zq	区	370113	6
+1702	长清	255	changqing	c	cq	区	370113	6
 1703	平阴	255	pingyin	p	py	县	370124	7
 1704	济阳	255	jiyang	j	jy	区	370125	8
 1705	商河	255	shanghe	s	sh	县	370126	9
@@ -1724,7 +1724,7 @@
 1737	福山	260	fushan	f	fs	区	370611	2
 1738	牟平	260	mouping	m	mp	区	370612	3
 1739	莱山	260	laishan	l	ls	区	370613	4
-1740	长岛	260	zhangdao	z	zd	县	370634	5
+1740	长岛	260	changdao	c	cd	县	370634	5
 1741	龙口	260	longkou	l	lk	市	370681	6
 1742	莱阳	260	laiyang	l	ly	市	370682	7
 1743	莱州	260	laizhou	l	lz	市	370683	8
@@ -1887,7 +1887,7 @@
 1902	原阳	278	yuanyang	y	yy	县	410725	7
 1903	延津	278	yanjin	y	yj	县	410726	8
 1904	封丘	278	fengqiu	f	fq	县	410727	9
-1905	长垣	278	zhangyuan	z	zy	县	410728	10
+1905	长垣	278	changyuan	c	cy	县	410728	10
 1906	卫辉	278	weihui	w	wh	市	410781	11
 1907	辉县	278	huixian	h	hx	市	410782	12
 1908	解放	279	jiefang	j	jf	区	410802	1
@@ -1911,7 +1911,7 @@
 1926	鄢陵	281	yanling	y	yl	县	411024	3
 1927	襄城	281	xiangcheng	x	xc	县	411025	4
 1928	禹州	281	yuzhou	y	yz	市	411081	5
-1929	长葛	281	zhangge	z	zg	市	411082	6
+1929	长葛	281	changge	c	cg	市	411082	6
 1930	源汇	282	yuanhui	y	yh	区	411102	1
 1931	郾城	282	yancheng	y	yc	区	411103	2
 1932	召陵	282	zhaoling	z	zl	区	411104	3
@@ -2010,7 +2010,7 @@
 2025	远安	293	yuanan	y	ya	县	420525	6
 2026	兴山	293	xingshan	x	xs	县	420526	7
 2027	秭归	293	zigui	z	zg	县	420527	8
-2028	长阳	293	zhangyang	z	zy	自治县	420528	9
+2028	长阳	293	changyang	c	cy	自治县	420528	9
 2029	五峰	293	wufeng	w	wf	自治县	420529	10
 2030	宜都	293	yidu	y	yd	市	420581	11
 2031	当阳	293	dangyang	d	dy	市	420582	12
@@ -2079,7 +2079,7 @@
 2094	开福	307	kaifu	k	kf	区	430105	4
 2095	雨花	307	yuhua	y	yh	区	430111	5
 2096	望城	307	wangcheng	w	wc	区	430112	6
-2097	长沙	307	zhangsha	z	zs	县	430121	7
+2097	长沙	307	changsha	c	cs	县	430121	7
 2098	宁乡	307	ningxiang	n	nx	县	430124	8
 2099	浏阳	307	liuyang	l	ly	市	430181	9
 2100	荷塘	308	hetang	h	ht	区	430202	1
@@ -2355,7 +2355,7 @@
 2372	恭城	344	gongcheng	g	gc	自治县	450332	17
 2373	龙圩	345	longwei	l	lw	区		1
 2374	万秀	345	wanxiu	w	wx	区	450403	2
-2375	长洲	345	zhangzhou	z	zz	区	450405	3
+2375	长洲	345	changzhou	c	cz	区	450405	3
 2376	苍梧	345	cangwu	c	cw	县	450421	4
 2377	藤县	345	tengxian	t	tx		450422	5
 2378	蒙山	345	mengshan	m	ms	县	450423	6
@@ -2526,7 +2526,7 @@
 2543	南溪	387	nanxi	n	nx	区	511503	2
 2544	宜宾	387	yibin	y	yb	县	511521	3
 2545	江安	387	jiangan	j	ja	县	511523	4
-2546	长宁	387	zhangning	z	zn	县	511524	5
+2546	长宁	387	changning	c	cn	县	511524	5
 2547	高县	387	gaoxian	g	gx		511525	6
 2548	珙县	387	gongxian	g	gx		511526	7
 2549	筠连	387	yunlian	y	yl	县	511527	8
@@ -2692,7 +2692,7 @@
 2709	独山	404	dushan	d	ds	县	522726	6
 2710	平塘	404	pingtang	p	pt	县	522727	7
 2711	罗甸	404	luodian	l	ld	县	522728	8
-2712	长顺	404	zhangshun	z	zs	县	522729	9
+2712	长顺	404	changshun	c	cs	县	522729	9
 2713	龙里	404	longli	l	ll	县	522730	10
 2714	惠水	404	huishui	h	hs	县	522731	11
 2715	三都	404	sandu	s	sd	自治县	522732	12
@@ -2907,7 +2907,7 @@
 2924	雁塔	428	yanta	y	yt	区	610113	6
 2925	阎良	428	yanliang	y	yl	区	610114	7
 2926	临潼	428	lintong	l	lt	区	610115	8
-2927	长安	428	zhangan	z	za	区	610116	9
+2927	长安	428	changan	c	ca	区	610116	9
 2928	蓝田	428	lantian	l	lt	县	610122	11
 2929	周至	428	zhouzhi	z	zz	县	610124	12
 2930	鄠邑	428	huyi	h	hy	区	610125	13
@@ -2937,7 +2937,7 @@
 2954	礼泉	431	liquan	l	lq	县	610425	7
 2955	永寿	431	yongshou	y	ys	县	610426	8
 2956	彬县	431	binxian	b	bx		610427	9
-2957	长武	431	zhangwu	z	zw	县	610428	10
+2957	长武	431	changwu	c	cw	县	610428	10
 2958	旬邑	431	xunyi	x	xy	县	610429	11
 2959	淳化	431	chunhua	c	ch	县	610430	12
 2960	武功	431	wugong	w	wg	县	610431	13
@@ -2954,9 +2954,9 @@
 2971	韩城	432	hancheng	h	hc	市	610581	10
 2972	华阴	432	huayin	h	hy	市	610582	11
 2973	宝塔	433	baota	b	bt	区	610602	1
-2974	延长	433	yanzhang	y	yz	县	610621	2
+2974	延长	433	yanchang	y	yc	县	610621	2
 2975	延川	433	yanchuan	y	yc	县	610622	3
-2976	子长	433	zizhang	z	zz	县	610623	4
+2976	子长	433	zichang	z	zc	县	610623	4
 2977	安塞	433	ansai	a	as	区	610624	5
 2978	志丹	433	zhidan	z	zd	县	610625	6
 2979	吴起	433	wuqi	w	wq	县	610626	7
@@ -3015,7 +3015,7 @@
 3032	皋兰	438	gaolan	g	gl	县	620122	7
 3033	榆中	438	yuzhong	y	yz	县	620123	8
 3034	镜铁	439	jingtie	j	jt	区	620201	1
-3035	长城	439	zhangcheng	z	zc	区	620201	2
+3035	长城	439	changcheng	c	cc	区	620201	2
 3036	雄关	439	xiongguan	x	xg	区	620201	3
 3037	金川	440	jinchuan	j	jc	区	620302	1
 3038	永昌	440	yongchang	y	yc	县	620321	2
@@ -3467,7 +3467,7 @@
 3484	东势	499	dongshi	d	ds	乡	1000914	14
 3485	褒忠	499	baozhong	b	bz	乡	1000915	15
 3486	台西	499	taixi	t	tx	乡	1000916	16
-3487	元长	499	yuanzhang	y	yz	乡	1000917	17
+3487	元长	499	yuanchang	y	yc	乡	1000917	17
 3488	四湖	499	sihu	s	sh	乡	1000918	18
 3489	口湖	499	kouhu	k	kh	乡	1000919	19
 3490	水林	499	shuilin	s	sl	乡	1000920	20
@@ -3494,7 +3494,7 @@
 3511	东港	501	donggang	d	dg	镇	1001303	3
 3512	恒春	501	hengchun	h	hc	镇	1001304	4
 3513	万丹	501	wandan	w	wd	乡	1001305	5
-3514	长治	501	zhangzhi	z	zz	乡	1001306	6
+3514	长治	501	changzhi	c	cz	乡	1001306	6
 3515	麟洛	501	linluo	l	ll	乡	1001307	7
 3516	九如	501	jiuru	j	jr	乡	1001308	8
 3517	里港	501	ligang	l	lg	乡	1001309	9
@@ -3529,7 +3529,7 @@
 3546	鹿野	502	luye	l	ly	乡	1001405	5
 3547	池上	502	chishang	c	cs	乡	1001406	6
 3548	东河	502	donghe	d	dh	乡	1001407	7
-3549	长滨	502	zhangbin	z	zb	乡	1001408	8
+3549	长滨	502	changbin	c	cb	乡	1001408	8
 3550	太麻里	502	taimali	t	tml	乡	1001409	9
 3551	大武	502	dawu	d	dw	乡	1001410	10
 3552	绿岛	502	lu:dao	l	ld	乡	1001411	11

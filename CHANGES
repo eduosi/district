@@ -1,3 +1,45 @@
+Changes 15.0
+												24 Jan 2019
+
+	*) 纠正”长“的拼音
+
+	更新脚本：
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cn' ,`pinyin` = 'changning' WHERE `id` = '72'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cs', `pinyin` = 'changshou' WHERE `id` = '101'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cz' ,`pinyin` = 'changzhi' WHERE `id` = '139'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cc' ,`pinyin` = 'changchun' WHERE `id` = '173'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cs' ,`pinyin` = 'changsha' WHERE `id` = '307'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'ca' ,`pinyin` = 'changan' WHERE `id` = '533'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cz' ,`pinyin` = 'changzhi' WHERE `id` = '733'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cz' ,`pinyin` = 'changzi' WHERE `id` = '739'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'ch' ,`pinyin` = 'changhai' WHERE `id` = '944'; 
+	UPDATE `district` SET `initials` = 'gcl' ,`pinyin` = 'gongchangling' WHERE `id` = '997'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cb' ,`pinyin` = 'changbai' WHERE `id` = '1065'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cl' ,`pinyin` = 'changling' WHERE `id` = '1069'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cx' ,`pinyin` = 'changxing' WHERE `id` = '1362'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cf' ,`pinyin` = 'changfeng' WHERE `id` = '1411'; 
+	UPDATE `district` SET `initials` = 'tc' ,`pinyin` = 'tianchang' WHERE `id` = '1475'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cl' ,`pinyin` = 'changle' WHERE `id` = '1524'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'ct' ,`pinyin` = 'changtai' WHERE `id` = '1565'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'ct' ,`pinyin` = 'changting' WHERE `id` = '1582'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cq' ,`pinyin` = 'changqing' WHERE `id` = '1702'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cd' ,`pinyin` = 'changdao' WHERE `id` = '1740'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cy' ,`pinyin` = 'changyuan' WHERE `id` = '1905'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cg' ,`pinyin` = 'changge' WHERE `id` = '1929'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cy' ,`pinyin` = 'changyang' WHERE `id` = '2028'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cs' ,`pinyin` = 'changsha' WHERE `id` = '2097'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cz' ,`pinyin` = 'changzhou' WHERE `id` = '2375'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cn' ,`pinyin` = 'changning' WHERE `id` = '2546'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cs' ,`pinyin` = 'changshun' WHERE `id` = '2712'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'ca' ,`pinyin` = 'changan' WHERE `id` = '2927'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cw' ,`pinyin` = 'changwu' WHERE `id` = '2957'; 
+	UPDATE `district` SET `initials` = 'yc' ,`pinyin` = 'yanchang' WHERE `id` = '2974'; 
+	UPDATE `district` SET `initials` = 'zc' ,`pinyin` = 'zichang' WHERE `id` = '2976'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cc' ,`pinyin` = 'changcheng' WHERE `id` = '3035'; 
+	UPDATE `district` SET `initials` = 'yc' ,`pinyin` = 'yuanchang' WHERE `id` = '3487'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cz' ,`pinyin` = 'changzhi' WHERE `id` = '3514'; 
+	UPDATE `district` SET `initial` = 'c' ,`initials` = 'cb' ,`pinyin` = 'changbin' WHERE `id` = '3549'; 
+
 Changes 14.0
 												22 Jan 2019
 
@@ -5,8 +47,8 @@ Changes 14.0
 
 	更新脚本：
 	UPDATE `district` SET `name` = '莱芜' WHERE `id` = '1786'; 
-	UPDATE `liangvi`.`district` SET `parent_id` = '255', `initials` = 'lw', `pinyin` = 'laiwu' WHERE `id` = '1786'; 
-	UPDATE `liangvi`.`district` SET `parent_id` = '255' WHERE `id` = '1787'; 
+	UPDATE `district` SET `parent_id` = '255', `initials` = 'lw', `pinyin` = 'laiwu' WHERE `id` = '1786'; 
+	UPDATE `district` SET `parent_id` = '255' WHERE `id` = '1787'; 
 	DELETE FROM `district` WHERE `id` = '266'; 
 
 Changes 13.0
