@@ -1,3 +1,26 @@
+Changes 16.0
+												25 Jan 2019
+
+	*) 纠正”长子“的拼音
+	*) 那曲地区改名那曲市
+	*) 那曲地区那曲县改名那曲市色尼区
+	*) 修改那曲市所属区县行政编码及其排序
+
+	更新脚本：
+	UPDATE `district` SET `initial` = 'z' ,`initials` = 'zz' ,`pinyin` = 'zhangzi' WHERE `id` = '739'; 
+	UPDATE `district` SET `suffix` = '市' ,`code` = '540600' WHERE `id` = '425'; 
+	UPDATE `district` SET `name` = '色尼' ,`initial` = 's' ,`initials` = 'sn' ,`pinyin` = 'seni' ,`suffix` = '区' ,`code` = '540602' ,`order` = '1' WHERE `id` = '2895'; 
+	UPDATE `district` SET `code` = '540621' ,`order` = '2' WHERE `id` = '2896'; 
+	UPDATE `district` SET `code` = '540622' ,`order` = '3' WHERE `id` = '2897'; 
+	UPDATE `district` SET `code` = '540623' ,`order` = '4' WHERE `id` = '2898'; 
+	UPDATE `district` SET `code` = '540624' ,`order` = '5' WHERE `id` = '2899'; 
+	UPDATE `district` SET `code` = '540625' ,`order` = '6' WHERE `id` = '2900'; 
+	UPDATE `district` SET `code` = '540626' ,`order` = '7' WHERE `id` = '2901'; 
+	UPDATE `district` SET `code` = '540627' ,`order` = '8' WHERE `id` = '2902'; 
+	UPDATE `district` SET `code` = '540628' ,`order` = '9' WHERE `id` = '2903'; 
+	UPDATE `district` SET `code` = '540629' ,`order` = '10' WHERE `id` = '2904'; 
+	UPDATE `district` SET `code` = '540630' ,`order` = '11' WHERE `id` = '2894'; 
+
 Changes 15.0
 												24 Jan 2019
 
