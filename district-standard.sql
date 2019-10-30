@@ -1,6 +1,6 @@
 /*
 SQLyog v10.2 
-MySQL - 8.0.15 
+MySQL - 5.6.16-log 
 *********************************************************************
 */
 /*!40101 SET NAMES utf8 */;
@@ -370,22 +370,22 @@ insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyi
 insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('356','海口','22','h','hk','haikou','市','460100','1');
 insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('357','三亚','22','s','sy','sanya','市','460200','2');
 insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('358','三沙','22','s','ss','sansha','市','460300','3');
-insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('359','五指山','22','w','wzs','wuzhishan','市','469001','4');
-insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('360','琼海','22','q','qh','qionghai','市','469002','5');
-insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('361','儋州','22','d','dz','danzhou','市','460400','6');
+insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('359','五指山','22','w','wzs','wuzhishan','市','469001','5');
+insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('360','琼海','22','q','qh','qionghai','市','469002','6');
+insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('361','儋州','22','d','dz','danzhou','市','460400','4');
 insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('362','文昌','22','w','wc','wenchang','市','469005','7');
 insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('363','万宁','22','w','wn','wanning','市','469006','8');
 insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('364','东方','22','d','df','dongfang','市','469007','9');
-insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('365','定安','22','d','da','dingan','县','469025','10');
-insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('366','屯昌','22','t','tc','tunchang','县','469026','11');
-insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('367','澄迈','22','c','cm','chengmai','县','469027','12');
-insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('368','临高','22','l','lg','lingao','县','469028','13');
-insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('369','白沙','22','b','bs','baisha','自治县','469030','14');
-insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('370','昌江','22','c','cj','changjiang','自治县','469031','15');
-insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('371','乐东','22','l','ld','ledong','自治县','469033','16');
-insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('372','陵水','22','l','ls','lingshui','自治县','469034','17');
-insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('373','保亭','22','b','bt','baoting','自治县','469035','18');
-insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('374','琼中','22','q','qz','qiongzhong','自治县','469036','19');
+insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('365','定安','22','d','da','dingan','县','469021','10');
+insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('366','屯昌','22','t','tc','tunchang','县','469022','11');
+insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('367','澄迈','22','c','cm','chengmai','县','469023','12');
+insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('368','临高','22','l','lg','lingao','县','469024','13');
+insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('369','白沙','22','b','bs','baisha','自治县','469025','14');
+insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('370','昌江','22','c','cj','changjiang','自治县','469026','15');
+insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('371','乐东','22','l','ld','ledong','自治县','469027','16');
+insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('372','陵水','22','l','ls','lingshui','自治县','469028','17');
+insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('373','保亭','22','b','bt','baoting','自治县','469029','18');
+insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('374','琼中','22','q','qz','qiongzhong','自治县','469030','19');
 insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('375','成都','23','c','cd','chengdu','市','510100','1');
 insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('376','自贡','23','z','zg','zigong','市','510300','2');
 insert into `district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `suffix`, `code`, `order`) values('377','攀枝花','23','p','pzh','panzhihua','市','510400','3');
