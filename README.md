@@ -26,6 +26,7 @@ Introduction
 * 中华人民共和国国家统计局《最新县及县以上行政区划代码》（截止2012年10月31日）（ http://www.stats.gov.cn/tjbz/xzqhdm/t20130118_402867249.htm ）
 * 中华人民共和国民政部2018年行政区划代码（ http://www.mca.gov.cn/article/sj/xzqh/2018/ ）
 * 百度百科（ http://baike.baidu.com/ ）
+* 民政部2019年7月中华人民共和国县以上行政区划代码（ http://www.mca.gov.cn/article/sj/xzqh/2019/201908/201908271607.html ）
 
 错误反馈
 ============
