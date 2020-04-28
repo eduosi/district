@@ -27,6 +27,11 @@ Introduction
 * 中华人民共和国民政部2018年行政区划代码（ http://www.mca.gov.cn/article/sj/xzqh/2018/ ）
 * 百度百科（ http://baike.baidu.com/ ）
 * 民政部2019年7月中华人民共和国县以上行政区划代码（ http://www.mca.gov.cn/article/sj/xzqh/2019/201908/201908271607.html ）
+* 民政部2020年2月中华人民共和国县以上行政区划代码（ http://www.mca.gov.cn/article/sj/xzqh/2020/2020/202003301019.html ）
+* 中华人民共和国二〇一六年县级以上行政区划变更情况（ http://xzqh.mca.gov.cn/description?dcpid=2016 ）
+* 中华人民共和国二〇一七年县级以上行政区划变更情况（ http://xzqh.mca.gov.cn/description?dcpid=2017 ）
+* 中华人民共和国二〇一八年县级以上行政区划变更情况（ http://xzqh.mca.gov.cn/description?dcpid=2018 ）
+* 中华人民共和国二〇一九年县级以上行政区划变更情况（ http://xzqh.mca.gov.cn/description?dcpid=2019 ）
 
 错误反馈
 ============
