@@ -1457,7 +1457,7 @@ insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1465
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1466','休宁','227','341022','5');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1467','黟县','227','341023','6');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1468','祁门','227','341024','7');
-insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1469','琅玡','228','341102','1');
+insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1469','琅琊','228','341102','1');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1470','南谯','228','341103','2');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1471','来安','228','341122','3');
 insert into `district` (`id`, `name`, `parent_id`, `code`, `order`) values('1472','全椒','228','341124','4');
