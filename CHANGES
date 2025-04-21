@@ -1,3 +1,866 @@
+Changes 19.0
+												28 Apr 2025
+
+	数据来源：
+	http://xzqh.mca.gov.cn/map
+	https://www.dscc.gov.mo/zh-hans/geographical_location.html
+
+	*) 北京市密云区行政编码更新为：110118
+	*) 北京市延庆区行政编码更新为：110119
+	*) 重庆市潼南区行政编码更新为：500152
+	*) 重庆市荣昌区行政编码更新为：500153
+	*) 河北省唐山市滦州区行政编码更新为：130284
+	*) 河北省唐山市唐海县更名为：曹妃甸区
+	*) 河北省秦皇岛市抚宁区行政编码更新为：130306
+	*) 河北省邢台市桥东区更名为：襄都区
+	*) 河北省邢台市桥西区更名为：信都区
+	*) 河北省邢台市任县更名为：任泽区
+	*) 河北省邢台市南和县更名为：南和区
+	*) 撤销河北省邢台市邢台县
+	*) 河北省保定市莲池区行政编码更新为：130606
+	*) 河北省保定市满城区行政编码更新为：130607
+	*) 河北省保定市清苑区行政编码更新为：130608
+	*) 河北省保定市徐水区行政编码更新为：130609
+	*) 山西省大同市云冈区未加后缀
+	*) 山西省长治市潞州区未加后缀
+	*) 内蒙古自治区呼和浩特市土默特左旗，名称调整为：土默特，附加信息为：左
+	*) 内蒙古自治区包头市土默特右旗，名称调整为：土默特，附加信息为：右
+	*) 内蒙古自治区赤峰市巴林左旗，名称调整为：巴林，附加信息为：左
+	*) 内蒙古自治区赤峰市巴林右旗，名称调整为：巴林，附加信息为：右
+	*) 内蒙古自治区通辽市科尔沁左翼中旗，名称调整为：科尔沁，附加信息为：左翼中
+	*) 内蒙古自治区通辽市科尔沁左翼后旗，名称调整为：科尔沁，附加信息为：左翼后
+	*) 内蒙古自治区鄂尔多斯市康巴什区名称修正
+	*) 内蒙古自治区鄂尔多斯市科鄂托克前旗，名称调整为：鄂托克，附加信息为：前
+	*) 内蒙古自治区呼伦贝尔市新增：扎赉诺尔区
+	*) 内蒙古自治区呼伦贝尔市新巴尔虎左旗，名称调整为：新巴尔虎，附加信息为：左
+	*) 内蒙古自治区呼伦贝尔市新巴尔虎右旗，名称调整为：新巴尔虎，附加信息为：右
+	*) 内蒙古自治区巴彦淖尔市乌拉特前旗，名称调整为：乌拉特，附加信息为：前
+	*) 内蒙古自治区巴彦淖尔市乌拉特中旗，名称调整为：乌拉特，附加信息为：中
+	*) 内蒙古自治区巴彦淖尔市乌拉特后旗，名称调整为：乌拉特，附加信息为：后
+	*) 内蒙古自治区巴彦淖尔市杭锦后旗，名称调整为：杭锦，附加信息为：后
+	*) 内蒙古自治区乌兰察布市察哈尔右翼前旗，名称调整为：察哈尔，附加信息为：右翼前
+	*) 内蒙古自治区乌兰察布市察哈尔右翼中旗，名称调整为：察哈尔，附加信息为：右翼中
+	*) 内蒙古自治区乌兰察布市察哈尔右翼后旗，名称调整为：察哈尔，附加信息为：右翼后
+	*) 内蒙古自治区兴安盟科尔沁右翼前旗，名称调整为：科尔沁，附加信息为：右翼前
+	*) 内蒙古自治区兴安盟科尔沁右翼中旗，名称调整为：科尔沁，附加信息为：右翼中
+	*) 内蒙古自治区锡林郭勒盟苏尼特左旗，名称调整为：苏尼特，附加信息为：左
+	*) 内蒙古自治区锡林郭勒盟苏尼特右旗，名称调整为：苏尼特，附加信息为：右
+	*) 内蒙古自治区阿拉善盟苏尼特左旗，名称调整为：阿拉善，附加信息为：左
+	*) 内蒙古自治区阿拉善盟苏尼特右旗，名称调整为：阿拉善，附加信息为：右
+	*) 辽宁省大连市普兰店区行政编码更新为：210214
+	*) 辽宁省辽阳市太子河区行政编码更新为：211011
+	*) 辽宁省盘锦市双台子区行政编码更新为：211102
+	*) 辽宁省朝阳市喀喇沁左翼蒙古族自治县，名称调整为：喀喇沁，附加信息为：左翼蒙古族
+	*) 吉林省四平市公主岭市划拨给吉林省长春市代管
+	*) 吉林省吉林市蛟河市行政编码更新为：220281
+	*) 吉林省吉林市桦甸市行政编码更新为：220282
+	*) 吉林省松原市扶余市行政编码更新为：220781
+	*) 黑龙江省哈尔滨市双城区行政编码更新为：230113
+	*) 黑龙江省大兴安岭地区加格达奇区行政编码更新为：232761
+	*) 黑龙江省大兴安岭地区松岭区行政编码更新为：232762
+	*) 黑龙江省大兴安岭地区新林区行政编码更新为：232763
+	*) 黑龙江省大兴安岭地区呼中区行政编码更新为：232764
+	*) 澳门特别行政区大堂区，名称调整为：大
+	*) 澳门特别行政区圣安多堂区，名称调整为：大
+	*) 删除澳门特别行政区路氹城
+	*) 新疆维吾尔自治区吐鲁番市行政编码更新为：650400
+	*) 新疆维吾尔自治区哈密市行政编码更新为：650500
+	*) 修正新疆维吾尔自治区克孜勒苏柯尔克孜自治州附加信息为：柯尔克孜
+	*) 修正新疆维吾尔自治区阿克苏地区附加信息
+	*) 修正新疆维吾尔自治区和田地区附加信息
+	*) 修正新疆维吾尔自治区伊犁哈萨克自治州附加信息为：哈萨克
+	*) 新增新疆维吾尔自治区新星市
+	*) 新增新疆维吾尔自治区白杨市
+	*) 修正新疆维吾尔自治区胡杨河市区号为：0992
+	*) 修正新疆维吾尔自治区吐鲁番市鄯善县行政编码为：652121
+	*) 修正新疆维吾尔自治区吐鲁番市托克逊县行政编码为：652122
+	*) 修正新疆维吾尔自治区博尔塔拉蒙古自治州阿拉山口市行政编码为：652702
+	*) 修正新疆维吾尔自治区阿克苏地区所辖县市区号为：0997
+	*) 修正新疆维吾尔自治区喀什地区喀什市拼音为：kashi
+	*) 修正新疆维吾尔自治区伊犁哈萨克自治州奎屯市区号为：0992
+	*) 修正新疆维吾尔自治区伊犁哈萨克自治州察布查尔锡伯自治县名称为：察布查尔，附加信息为：锡伯
+	*) 修正新疆维吾尔自治区博塔城地区沙湾市行政编码为：654203
+	*) 修正新疆维吾尔自治区博塔城地区乌苏市区号为：0992
+	*) 修正新疆维吾尔自治区博塔城地区沙湾市区号为：0993
+	*) 修正新疆维吾尔自治区博塔城地区和布克赛尔蒙古自治县区号为：0993
+	*) 修正新疆维吾尔自治区克拉玛依市独山子区号为：0992
+	*) 修正新疆维吾尔自治区铁门关市区号为：0906
+	*) 修正宁夏回族自治区中卫市及其所辖区县区号为：0955
+	*) 修正宁夏回族自治区吴忠市红寺堡区行政编码为：640303
+	*) 青海省海东市行政编码更新为：630200
+	*) 青海省海东市平安区行政编码更新为：630203
+	*) 青海省海东市民和回族土族自治县行政编码更新为：630222
+	*) 青海省海东市互助土族自治县行政编码更新为：630223
+	*) 青海省海东市化隆回族自治县行政编码更新为：630224
+	*) 青海省海东市循化撒拉族自治县行政编码更新为：630225
+	*) 青海省黄南藏族自治州同仁县更改为：同仁市，行政编码更新为：632301
+	*) 青海省玉树藏族自治州玉树市行政编码更新为：632701
+	*) 新增青海省玉树藏族自治州称多县
+	*) 青海省海西蒙古族藏族自治州格尔木市区号更新为：0979
+	*) 江苏省南京市及其所辖区县区号更新为：025
+	*) 江苏省无锡市梁溪区行政编码更新为：320213
+	*) 江苏省无锡市新吴区行政编码更新为：320214
+	*) 江苏省常州市金坛区行政编码更新为：320413
+	*) 江苏省苏州市吴江市，变更为：吴江区
+	*) 江苏省连云港市赣榆区行政编码更新为：320707
+	*) 江苏省盐城市大丰区行政编码更新为：320904
+	*) 撤销浙江省杭州市下城区、江干区
+	*) 设立浙江省杭州市临平区
+	*) 浙江省杭州市富阳区行政编码更新为：330111
+	*) 浙江省温州市洞头区行政编码更新为：330305
+	*) 撤销甘肃省嘉峪关市所辖所有区县
+	*) 陕西省宝鸡市凤翔县，变更为：陕西省宝鸡市凤翔区
+	*) 陕西省渭南市华州区行政编码更新为：610503
+	*) 陕西省榆林市横山区行政编码更新为：610803
+	*) 陕西省安康市旬阳县，撤县设市，为：旬阳市
+	*) 西藏自治区日喀则市行政编码更新为：540200
+	*) 西藏自治区昌都市行政编码更新为：540300
+	*) 西藏自治区拉萨市堆龙德庆区行政编码更新为：540103
+	*) 西藏自治区日喀则市桑珠孜区行政编码更新为：540202
+	*) 西藏自治区日喀则市南木林县行政编码更新为：540221
+	*) 西藏自治区日喀则市江孜县行政编码更新为：540222
+	*) 西藏自治区日喀则市定日县行政编码更新为：540223
+	*) 西藏自治区日喀则市萨迦县行政编码更新为：540224
+	*) 西藏自治区日喀则市拉孜县行政编码更新为：540225
+	*) 西藏自治区日喀则市昂仁县行政编码更新为：540226
+	*) 西藏自治区日喀则市谢通门县行政编码更新为：540227
+	*) 西藏自治区日喀则市白朗县行政编码更新为：540228
+	*) 西藏自治区日喀则市仁布县行政编码更新为：540229
+	*) 西藏自治区日喀则市康马县行政编码更新为：540230
+	*) 西藏自治区日喀则市定结县行政编码更新为：540231
+	*) 西藏自治区日喀则市仲巴县行政编码更新为：540232
+	*) 西藏自治区日喀则市亚东县行政编码更新为：540233
+	*) 西藏自治区日喀则市吉隆县行政编码更新为：540234
+	*) 西藏自治区日喀则市聂拉木县行政编码更新为：540235
+	*) 西藏自治区日喀则市萨嘎县行政编码更新为：540236
+	*) 西藏自治区日喀则市岗巴县行政编码更新为：540237
+	*) 西藏自治区日昌都市卡若区行政编码更新为：540302
+	*) 西藏自治区日昌都市江达县行政编码更新为：540321
+	*) 西藏自治区日昌都市贡觉县行政编码更新为：540322
+	*) 西藏自治区日昌都市类乌齐县行政编码更新为：540323
+	*) 西藏自治区日昌都市丁青县行政编码更新为：540324
+	*) 西藏自治区日昌都市察雅县行政编码更新为：540325
+	*) 西藏自治区日昌都市八宿县行政编码更新为：540326
+	*) 西藏自治区日昌都市左贡县行政编码更新为：540327
+	*) 西藏自治区日昌都市芒康县行政编码更新为：540328
+	*) 西藏自治区日昌都市洛隆县行政编码更新为：540329
+	*) 西藏自治区日昌都市边坝县行政编码更新为：540330
+	*) 西藏自治区日林芝市工布江达县行政编码更新为：540421
+	*) 西藏自治区日林芝市墨脱县行政编码更新为：540423
+	*) 西藏自治区日林芝市波密县行政编码更新为：540424
+	*) 西藏自治区日林芝市察隅县行政编码更新为：540425
+	*) 西藏自治区日林芝市朗县行政编码更新为：540426
+	*) 西藏自治区日林芝市米林县，撤县设市为：米林市，行政编码更新为：540481
+	*) 西藏自治区日山南市错那县，撤县设市为：错那市，行政编码更新为：540581
+	*) 安徽省芜湖市弋江区行政编码更新为：340209
+	*) 撤销安徽省芜湖市三山区
+	*) 撤销安徽省芜湖市芜湖县，设立：湾沚区
+	*) 撤销安徽省芜湖市繁昌县，设立：繁昌区
+	*) 修正安徽省淮南市寿县行政编码更新为：340422
+	*) 修正安徽省铜陵市官山区行政编码更新为：340705
+	*) 修正安徽省铜陵市义安区行政编码更新为：340706
+	*) 修正安徽省铜陵市枞阳县行政编码更新为：340722
+	*) 修正安徽省安庆市潜山市行政编码更新为：340882
+	*) 修正安徽省六安市叶集区行政编码更新为：341504
+	*) 撤销福建省三明市梅列区
+	*) 福建省三明市三元区行政编码更新为：350404
+	*) 撤销福建省三明市沙县，设立沙县区
+	*) 撤销福建省漳州市长泰县，设立长泰区
+	*) 撤销福建省漳州市龙海市，设立龙海区
+	*) 修正江西省赣州市南康区行政编码为：360703
+	*) 撤销江西省赣州市龙南县，设立龙南市
+	*) 撤销山东省烟台市蓬莱县、长岛县，设立蓬莱区
+	*) 修正山东省滨州市沾化区行政编码为：371603
+	*) 河南省开封市及其区县区号变更为：0371
+	*) 河南省洛阳市及其区县区号变更为：0379
+	*) 河南省濮阳市及其区县区号变更为：0393
+	*) 撤销河南省洛阳市吉利区
+	*) 撤销河南省洛阳市孟津县，设立孟津区
+	*) 修正河南省三门峡市陕州区行政编码为：411203
+	*) 湖北省鄂州市及其区县区号变更为：0711
+	*) 撤销湖北省荆州市监利县，设立：监利市
+	*) 修正湖南省邵阳市新邵县行政编码为：430522
+	*) 撤销湖南省永州市祁阳县，设立：祁阳市
+	*) 修正广东省肇庆市高要区行政编码为：441204
+	*) 修正广东省阳江市阳东区行政编码为：441703
+	*) 撤销广东省清远市清新县，设立：清新区
+	*) 修正广东省潮州市潮安区行政编码为：445103
+	*) 撤销广东省揭阳市揭东县，设立：揭东区
+	*) 修正广东省云浮市云安区行政编码为：445303
+	*) 撤销广西壮族自治区南宁市横县，设立：横州市
+	*) 修正广西壮族自治区桂林市临桂区行政编码为：450312
+	*) 修正广西壮族自治区桂林市荔浦市行政编码为：450381
+	*) 修正广西壮族自治区梧州市龙圩区行政编码为：450406
+	*) 修正广西壮族自治区贵港市平南县行政编码为：450821
+	*) 修正广西壮族自治区贵港市桂平市行政编码为：450881
+	*) 修正海南省三亚市海棠区行政编码为：460202
+	*) 修正海南省三亚市吉阳区行政编码为：460203
+	*) 修正海南省三亚市天涯区行政编码为：460204
+	*) 修正海南省三亚市崖州区行政编码为：460205
+	*) 修正海南省三沙市西沙区行政编码为：460302
+	*) 修正海南省三沙市南沙区行政编码为：460303
+	*) 修正四川省内江市及其区（市）县区号为：0832
+	*) 修正四川省凉山彝族自治州行政编码为：613400
+	*) 撤销四川省成都市新津县，设立：新津区
+	*) 修正四川省眉山市彭山区行政编码为：511403
+	*) 修正四川省广安市前锋区行政编码为：511603
+	*) 修正四川省达州市达川区行政编码为：511703
+	*) 增补遗漏四川省巴中市恩阳区
+	*) 修正四川省阿坝藏族羌族自治州马尔康市行政编码为：513201
+	*) 撤销四川省凉山彝族自治州会理县，设立：会理市
+	*) 修正贵州省贵阳市观山湖区行政编码为：520115
+	*) 撤销贵州省六盘水市水城县，设立：水城区
+	*) 贵州省六盘水市六枝特区，行政类型修正为：特区
+	*) 撤销贵州省毕节市黔西县，设立：黔西市
+	*) 修正云南省保山市行政编码为：530500
+	*) 修正云南省玉溪市江川区行政编码为：530403
+	*) 修正云南省保山市腾冲市行政编码为：530581
+	*) 修正云南省昭通市水富市行政编码为：530681
+	*) 撤销云南省楚雄彝族自治州禄丰县，设立：禄丰市
+	*) 修正云南省红河哈尼族彝族自治州弥勒市行政编码为：532504
+	*) 修正台湾省台北市行政编码为：710100
+	*) 修正台湾省新北市行政编码为：710200
+	*) 台湾省桃园县，更名为：桃园市
+	*) 修正台湾省台中市行政编码为：710400
+	*) 修正台湾省台南市行政编码为：710500
+	*) 修正台湾省高雄市行政编码为：710600
+	*) 修正台湾省基隆市行政编码为：710700
+	*) 修正台湾省新竹市行政编码为：710800
+	*) 修正台湾省嘉义市行政编码为：710900
+	*) 修正台湾省各市所属区行政编码（数据来源于：通义千问，非官方数据）
+	*) 新增遗漏台湾省各市所属区
+	*) 删除台湾省各县下乡镇
+
+	更新脚本：
+	UPDATE `district` SET `code` = '110118' WHERE `id` = '52';
+	UPDATE `district` SET `code` = '110119' WHERE `id` = '53'; 
+	UPDATE `district` SET `code` = '500152', `order` = 22 WHERE `id` = '106';
+	UPDATE `district` SET `code` = '500153', `order` = 23 WHERE `id` = '108'; 
+	UPDATE `system`.`district` SET `order` = '24' WHERE `id` = '116'; 
+	UPDATE `system`.`district` SET `order` = '25' WHERE `id` = '110'; 
+	UPDATE `system`.`district` SET `order` = '26' WHERE `id` = '114'; 
+	UPDATE `system`.`district` SET `code` = '130284', `order` = '14' WHERE `id` = '562'; 
+	UPDATE `system`.`district` SET `order` = '13' WHERE `id` = '569';
+	UPDATE `system`.`district` SET `order` = '12' WHERE `id` = '568'; 
+	UPDATE `system`.`district` SET `name` = '曹妃甸' , `initial` = 'c' , `initials` = 'cfd' , `pinyin` = 'caofeidian' , `suffix` = '区' , `code` = '130209' , `order` = '7' WHERE `id` = '567'; 
+	UPDATE `system`.`district` SET `order` = '8' WHERE `id` = '563'; 
+	UPDATE `system`.`district` SET `order` = '9' WHERE `id` = '564'; 
+	UPDATE `system`.`district` SET `order` = '10' WHERE `id` = '565'; 
+	UPDATE `system`.`district` SET `order` = '11' WHERE `id` = '566'; 
+	UPDATE `system`.`district` SET `code` = '130306' , `order` = '4' WHERE `id` = '575'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '573'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '574'; 
+	UPDATE `system`.`district` SET `name` = '襄都' , `initial` = 'x' , `initials` = 'xd' , `pinyin` = 'xiangdu' WHERE `id` = '596'; 
+	UPDATE `system`.`district` SET `name` = '信都' , `initial` = 'x' , `initials` = 'xd' , `pinyin` = 'xindu' WHERE `id` = '597'; 
+	UPDATE `system`.`district` SET `name` = '任泽' , `initials` = 'rz' , `pinyin` = 'renze' , `suffix` = '区' , `code` = '130505' , `order` = '3' WHERE `id` = '603'; 
+	UPDATE `system`.`district` SET `suffix` = '区' , `code` = '130506' , `order` = '4' WHERE `id` = '604'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '599'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '600'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '601'; 
+	UPDATE `system`.`district` SET `order` = '8' WHERE `id` = '602'; 
+	UPDATE `system`.`district` SET `order` = '9' WHERE `id` = '605'; 
+	UPDATE `system`.`district` SET `order` = '10' WHERE `id` = '606'; 
+	UPDATE `system`.`district` SET `order` = '11' WHERE `id` = '607'; 
+	UPDATE `system`.`district` SET `order` = '12' WHERE `id` = '608'; 
+	UPDATE `system`.`district` SET `order` = '13' WHERE `id` = '609'; 
+	UPDATE `system`.`district` SET `order` = '14' WHERE `id` = '610'; 
+	UPDATE `system`.`district` SET `order` = '15' WHERE `id` = '611'; 
+	UPDATE `system`.`district` SET `order` = '16' WHERE `id` = '612'; 
+	UPDATE `system`.`district` SET `order` = '17' WHERE `id` = '613'; 
+	UPDATE `system`.`district` SET `order` = '18' WHERE `id` = '614'; 
+	DELETE FROM `system`.`district` WHERE `id` = '598'; 
+	UPDATE `system`.`district` SET `code` = '130606' WHERE `id` = '616'; 
+	UPDATE `system`.`district` SET `code` = '130607' WHERE `id` = '618'; 
+	UPDATE `system`.`district` SET `code` = '130608' WHERE `id` = '619'; 
+	UPDATE `system`.`district` SET `code` = '130609' , `order` = '6' WHERE `id` = '622'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '620'; 
+	UPDATE `system`.`district` SET `order` = '8' WHERE `id` = '621'; 
+	UPDATE `system`.`district` SET `suffix` = '区' WHERE `id` = '716'; 
+	UPDATE `system`.`district` SET `suffix` = '区' WHERE `id` = '731'; 
+	UPDATE `system`.`district` SET `name` = '土默特' , `extra` = '左', `initials` = 'tmt' , `pinyin` = 'tumote' WHERE `id` = '828'; 
+	UPDATE `system`.`district` SET `name` = '土默特' , `initials` = 'tmt' , `pinyin` = 'tumote' , `extra` = '右' WHERE `id` = '839'; 
+	UPDATE `system`.`district` SET `name` = '巴林' , `initials` = 'bl' , `pinyin` = 'balin' , `extra` = '左' WHERE `id` = '849'; 
+	UPDATE `system`.`district` SET `name` = '巴林' , `initials` = 'bl' , `pinyin` = 'balin' , `extra` = '右' WHERE `id` = '850'; 
+	UPDATE `system`.`district` SET `name` = '科尔沁' , `initials` = 'keq' , `pinyin` = 'keerqin' , `extra` = '左翼中' WHERE `id` = '858'; 
+	UPDATE `system`.`district` SET `name` = '科尔沁' , `initials` = 'keq' , `pinyin` = 'keerqin' , `extra` = '左翼后' WHERE `id` = '859'; 
+	UPDATE `system`.`district` SET `name` = '康巴什' , `initial` = 'k' , `initials` = 'kbs' , `pinyin` = 'kangbashi' WHERE `id` = '7040'; 
+	INSERT INTO `system`.`district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES (7047, '扎赉诺尔', '153', 'z', 'zlne', 'zhalainuoer', '', '区', '150703', '0470', '2'); 
+	UPDATE `system`.`district` SET `order` = '3' WHERE `id` = '874'; 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '875'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '876'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '877'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '878'; 
+	UPDATE `system`.`district` SET `order` = '8' WHERE `id` = '879'; 
+	UPDATE `system`.`district` SET `order` = '9' WHERE `id` = '880'; 
+	UPDATE `system`.`district` SET `order` = '10' WHERE `id` = '881'; 
+	UPDATE `system`.`district` SET `order` = '11' WHERE `id` = '882'; 
+	UPDATE `system`.`district` SET `order` = '12' WHERE `id` = '883'; 
+	UPDATE `system`.`district` SET `order` = '13' WHERE `id` = '884'; 
+	UPDATE `system`.`district` SET `order` = '14' WHERE `id` = '885'; 
+	UPDATE `system`.`district` SET `name` = '鄂托克' , `initials` = 'etk' , `pinyin` = 'etuoke' , `extra` = '前' WHERE `id` = '868'; 
+	UPDATE `system`.`district` SET `name` = '新巴尔虎' , `initials` = 'xbeh' , `pinyin` = 'xinbaerhu' , `extra` = '左' WHERE `id` = '879'; 
+	UPDATE `system`.`district` SET `name` = '新巴尔虎' , `initials` = 'xbeh' , `pinyin` = 'xinbaerhu' , `extra` = '右' WHERE `id` = '880'; 
+	UPDATE `system`.`district` SET `name` = '乌拉特' , `initials` = 'wlt' , `pinyin` = 'wulate' , `extra` = '前' WHERE `id` = '889'; 
+	UPDATE `system`.`district` SET `name` = '乌拉特' , `initials` = 'wlt' , `pinyin` = 'wulate' , `extra` = '中' WHERE `id` = '890'; 
+	UPDATE `system`.`district` SET `name` = '乌拉特' , `initials` = 'wlt' , `pinyin` = 'wulate' , `extra` = '后' WHERE `id` = '891'; 
+	UPDATE `system`.`district` SET `name` = '杭锦' , `initials` = 'hj' , `pinyin` = 'hangjin' , `extra` = '后' WHERE `id` = '892'; 
+	UPDATE `system`.`district` SET `name` = '察哈尔' , `initials` = 'che' , `pinyin` = 'chahaer' , `extra` = '右翼前' WHERE `id` = '899'; 
+	UPDATE `system`.`district` SET `name` = '察哈尔' , `initials` = 'che' , `pinyin` = 'chahaer' , `extra` = '右翼中' WHERE `id` = '900'; 
+	UPDATE `system`.`district` SET `name` = '察哈尔' , `initials` = 'che' , `pinyin` = 'chahaer' , `extra` = '右翼后' WHERE `id` = '901'; 
+	UPDATE `system`.`district` SET `name` = '科尔沁' , `initials` = 'keq' , `pinyin` = 'keerqin' , `extra` = '右翼前' WHERE `id` = '906'; 
+	UPDATE `system`.`district` SET `name` = '科尔沁' , `initials` = 'keq' , `pinyin` = 'keerqin' , `extra` = '右翼中' WHERE `id` = '907';
+	UPDATE `system`.`district` SET `name` = '苏尼特' , `initials` = 'snt' , `pinyin` = 'sunite' , `extra` = '左' WHERE `id` = '913'; 
+	UPDATE `system`.`district` SET `name` = '苏尼特' , `initials` = 'snt' , `pinyin` = 'sunite' , `extra` = '右' WHERE `id` = '914'; 
+	UPDATE `system`.`district` SET `name` = '阿拉善' , `initials` = 'als' , `pinyin` = 'alashan' , `extra` = '左' WHERE `id` = '922'; 
+	UPDATE `system`.`district` SET `name` = '阿拉善' , `initials` = 'als' , `pinyin` = 'alashan' , `extra` = '右' WHERE `id` = '923';
+	UPDATE `system`.`district` SET `code` = '210214' , `order` = '7' WHERE `id` = '946'; 
+	UPDATE `system`.`district` SET `order` = '8' WHERE `id` = '944'; 
+	UPDATE `system`.`district` SET `order` = '9' WHERE `id` = '945';
+	UPDATE `system`.`district` SET `code` = '211011' , `order` = '5' WHERE `id` = '1000'; 
+	UPDATE `system`.`district` SET `code` = '211102' WHERE `id` = '1001'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '998'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '999';
+	UPDATE `system`.`district` SET `name` = '喀喇沁' , `initials` = 'klq' , `pinyin` = 'kalaqin' , `extra` = '左翼蒙古族' WHERE `id` = '1016'; 
+	UPDATE `system`.`district` SET `parent_id` = '173' , `code` = '220184', `order` = '11' WHERE `id` = '1048'; 
+	UPDATE `system`.`district` SET `code` = '220281' , `order` = '6' WHERE `id` = '1041'; 
+	UPDATE `system`.`district` SET `code` = '220282' , `order` = '7' WHERE `id` = '1040'; 
+	UPDATE `system`.`district` SET `code` = '220781' WHERE `id` = '1071'; 
+	UPDATE `system`.`district` SET `code` = '230113' , `order` = '9' WHERE `id` = '1100'; 
+	UPDATE `system`.`district` SET `order` = '1' WHERE `id` = '1216'; 
+	UPDATE `system`.`district` SET `order` = '2' WHERE `id` = '1214'; 
+	UPDATE `system`.`district` SET `order` = '3' WHERE `id` = '1215'; 
+	UPDATE `system`.`district` SET `code` = '232761' , `order` = '4' WHERE `id` = '1210'; 
+	UPDATE `system`.`district` SET `code` = '232762' , `order` = '5' WHERE `id` = '1211'; 
+	UPDATE `system`.`district` SET `code` = '232763' , `order` = '6' WHERE `id` = '1212'; 
+	UPDATE `system`.`district` SET `code` = '232764' , `order` = '7' WHERE `id` = '1213'; 
+	UPDATE `system`.`district` SET `order` = '10' WHERE `id` = '1093'; 
+	UPDATE `system`.`district` SET `order` = '11' WHERE `id` = '1094'; 
+	UPDATE `system`.`district` SET `order` = '12' WHERE `id` = '1095'; 
+	UPDATE `system`.`district` SET `order` = '13' WHERE `id` = '1096'; 
+	UPDATE `system`.`district` SET `order` = '14' WHERE `id` = '1097'; 
+	UPDATE `system`.`district` SET `order` = '15' WHERE `id` = '1098'; 
+	UPDATE `system`.`district` SET `order` = '16' WHERE `id` = '1099'; 
+	UPDATE `system`.`district` SET `order` = '2' WHERE `id` = '528'; 
+	UPDATE `system`.`district` SET `order` = '3' WHERE `id` = '529'; 
+	UPDATE `system`.`district` SET `name` = '大' , `initials` = 'd' , `pinyin` = 'da' , `order` = '4' WHERE `id` = '527'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '525'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '530'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '531'; 
+	UPDATE `system`.`district` SET `name` = '花王' , `initial` = 'h' , `initials` = 'hw' , `pinyin` = 'huawang' , `order` = '1' WHERE `id` = '526'; 
+	UPDATE `system`.`district` SET `code` = '650400' WHERE `id` = '467'; 
+	UPDATE `system`.`district` SET `code` = '650500' WHERE `id` = '468';
+	UPDATE `system`.`district` SET `name` = '克孜勒苏' , `initials` = 'kzls' , `pinyin` = 'kezilesu' , `extra` = '柯尔克孜' WHERE `id` = '473'; 
+	UPDATE `system`.`district` SET `extra` = '' WHERE `id` = '472'; 
+	UPDATE `system`.`district` SET `extra` = '' WHERE `id` = '475'; 
+	UPDATE `system`.`district` SET `extra` = '哈萨克' WHERE `id` = '476'; 
+	INSERT INTO `system`.`district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES (7048, '新星', '31', 'x', 'xx', 'xinxing', '', '市', '659011', '0902', '25'); 
+	INSERT INTO `system`.`district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES (7049, '白杨', '31', 'b', 'by', 'baiyang', '', '市', '659012', '0901', '26'); 
+	UPDATE `system`.`district` SET `area_code` = '0992' WHERE `id` = '7044'; 
+	UPDATE `system`.`district` SET `code` = '652121' WHERE `id` = '3195'; 
+	UPDATE `system`.`district` SET `code` = '652122' WHERE `id` = '3196'; 
+	UPDATE `system`.`district` SET `order` = '1' WHERE `id` = '3208'; 
+	UPDATE `system`.`district` SET `code` = '652702' , `order` = '2' WHERE `id` = '3207'; 
+	UPDATE `district` SET area_code = '0997' WHERE parent_id = 472 ORDER BY `code` ASC;
+	UPDATE `system`.`district` SET `pinyin` = 'kashi' WHERE `id` = '3233'; 
+	UPDATE `system`.`district` SET `area_code` = '0992' WHERE `id` = '3254'; 
+	UPDATE `system`.`district` SET `name` = '察布查尔' , `initials` = 'cbce' , `pinyin` = 'chabuchaer', `extra` = '锡伯' WHERE `id` = '3256'; 
+	UPDATE `system`.`district` SET `code` = '654203', `order` = '3' WHERE `id` = '3266'; 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '3265'; 
+	UPDATE `system`.`district` SET `area_code` = '0992' WHERE `id` = '3264'; 
+	UPDATE `system`.`district` SET `area_code` = '0993' WHERE `id` = '3266'; 
+	UPDATE `system`.`district` SET `area_code` = '0990' WHERE `id` = '3269'; 
+	UPDATE `system`.`district` SET `area_code` = '0992' WHERE `id` = '3190'; 
+	UPDATE `system`.`district` SET `area_code` = '0906' WHERE `id` = '484'; 
+	UPDATE `system`.`district` SET `area_code` = '0955' WHERE `id` = '464'; 
+	UPDATE `system`.`district` SET `code` = '640303', `order` = 2 WHERE `id` = '3169'; 
+	UPDATE `system`.`district` SET `order` = '1' WHERE `id` = '3170'; 
+	UPDATE `district` SET area_code = '0955' WHERE parent_id = 464 ORDER BY `code` ASC;
+	UPDATE `system`.`district` SET `code` = '630200' WHERE `id` = '453';
+	UPDATE `system`.`district` SET `code` = '630203' WHERE `id` = '3123'; 
+	UPDATE `system`.`district` SET `code` = '630222' WHERE `id` = '3124'; 
+	UPDATE `system`.`district` SET `code` = '630223' WHERE `id` = '3125'; 
+	UPDATE `system`.`district` SET `code` = '630224' WHERE `id` = '3126'; 
+	UPDATE `system`.`district` SET `code` = '630225' WHERE `id` = '3127'; 
+	UPDATE `system`.`district` SET `suffix` = '市' , `code` = '632301' WHERE `id` = '3132'; 
+	UPDATE `system`.`district` SET `code` = '632701' WHERE `id` = '3147'; 
+	INSERT INTO `system`.`district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES (7050, '称多', '458', 'c', 'cd', 'chengduo', '', '县', '632723', '0976', '3'); 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '3149'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '3150'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '3151'; 
+	UPDATE `system`.`district` SET `area_code` = '0979' WHERE `id` = '3155'; 
+	UPDATE `system`.`district` SET `area_code` = '025' WHERE `id` = '195'; 
+	UPDATE `district` SET area_code = '025' WHERE parent_id = 195 ORDER BY `code` ASC;
+	UPDATE `system`.`district` SET `code` = '320117' WHERE `id` = '1226'; 
+	UPDATE `system`.`district` SET `code` = '320118' WHERE `id` = '1227'; 
+	UPDATE `system`.`district` SET `code` = '320213' , `order` = '4' WHERE `id` = '1228'; 
+	UPDATE `system`.`district` SET `code` = '320214' , `order` = '5' WHERE `id` = '1229';
+	UPDATE `system`.`district` SET `order` = '1' WHERE `id` = '1231'; 
+	UPDATE `system`.`district` SET `order` = '2' WHERE `id` = '1232'; 
+	UPDATE `system`.`district` SET `order` = '3' WHERE `id` = '1233'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '1234'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '1235'; 
+	UPDATE `system`.`district` SET `code` = '320413' , `order` = '6' WHERE `id` = '1252'; 
+	UPDATE `system`.`district` SET `order` = '9' WHERE `id` = '1251'; 
+	UPDATE `system`.`district` SET `suffix` = '区' WHERE `id` = '1257'; 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '1266'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '1267'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '1268'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '1269'; 
+	UPDATE `system`.`district` SET `order` = '8' WHERE `id` = '1265'; 
+	UPDATE `system`.`district` SET `code` = '320707' WHERE `id` = '1273'; 
+	UPDATE `system`.`district` SET `code` = '320904' , `order` = '3' WHERE `id` = '1293'; 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '1287'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '1288'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '1289'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '1290'; 
+	UPDATE `system`.`district` SET `order` = '8' WHERE `id` = '1291'; 
+	UPDATE `system`.`district` SET `order` = '9' WHERE `id` = '1292';
+	UPDATE `system`.`district` SET `code` = '321204' , `order` = '3' WHERE `id` = '1311'; 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '1308'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '1309'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '1310'; 
+	DELETE FROM `system`.`district` WHERE `id` = '1318'; 
+	DELETE FROM `system`.`district` WHERE `id` = '1319';
+	UPDATE `system`.`district` SET `order` = '2' WHERE `id` = '1320'; 
+	UPDATE `system`.`district` SET `order` = '3' WHERE `id` = '1321'; 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '1322'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '1323'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '1324'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '1329'; 
+	INSERT INTO `system`.`district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES (7051, '临平', '208', 'l', 'lp', 'linping', '', '区', '330113', '0571', '9'); 
+	UPDATE `system`.`district` SET `code` = '330111' , `order` = '7' WHERE `id` = '1328'; 
+	UPDATE `system`.`district` SET `order` = '8' WHERE `id` = '1329'; 
+	INSERT INTO `system`.`district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES (7052, '钱塘', '208', 'q', 'qt', 'qiantang', '', '区', '330114', '0571', '10'); 
+	UPDATE `system`.`district` SET `order` = '11' WHERE `id` = '1325'; 
+	UPDATE `system`.`district` SET `order` = '12' WHERE `id` = '1326'; 
+	UPDATE `system`.`district` SET `order` = '13' WHERE `id` = '1327'; 
+	UPDATE `system`.`district` SET `code` = '330305' WHERE `id` = '1344'; 
+	DELETE FROM `district` WHERE parent_id = 439;
+	UPDATE `system`.`district` SET `suffix` = '区' , `code` = '610305' WHERE `id` = '2939'; 
+	UPDATE `system`.`district` SET `code` = '610803' , `order` = '2' WHERE `id` = '3000'; 
+	UPDATE `system`.`district` SET `order` = '3' WHERE `id` = '2999'; 
+	UPDATE `system`.`district` SET `order` = '9' WHERE `id` = '3018'; 
+	UPDATE `system`.`district` SET `suffix` = '市' , `code` = '610981' , `order` = '10' WHERE `id` = '3017'; 
+	UPDATE `system`.`district` SET `code` = '540200' , `order` = '2' WHERE `id` = '424'; 
+	UPDATE `system`.`district` SET `code` = '540300' , `order` = '3' WHERE `id` = '422'; 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '427'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '423'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '425'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '426'; 
+	UPDATE `system`.`district` SET `code` = '540103' , `order` = '2' WHERE `id` = '2850'; 
+	UPDATE `system`.`district` SET `order` = '3' WHERE `id` = '2851'; 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '2846'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '2847'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '2848'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '2849'; 
+	UPDATE `system`.`district` SET `code` = '540202' WHERE `id` = '2876'; 
+	UPDATE `system`.`district` SET `code` = '540221' WHERE `id` = '2877'; 
+	UPDATE `system`.`district` SET `code` = '540222' WHERE `id` = '2878'; 
+	UPDATE `system`.`district` SET `code` = '540223' WHERE `id` = '2879'; 
+	UPDATE `system`.`district` SET `code` = '540224' WHERE `id` = '2880'; 
+	UPDATE `system`.`district` SET `code` = '540225' WHERE `id` = '2881'; 
+	UPDATE `system`.`district` SET `code` = '540226' WHERE `id` = '2882'; 
+	UPDATE `system`.`district` SET `code` = '540227' WHERE `id` = '2883';
+	UPDATE `system`.`district` SET `code` = '540228' WHERE `id` = '2884'; 
+	UPDATE `system`.`district` SET `code` = '540229' WHERE `id` = '2885'; 
+	UPDATE `system`.`district` SET `code` = '540231' WHERE `id` = '2887'; 
+	UPDATE `system`.`district` SET `code` = '540232' WHERE `id` = '2888'; 
+	UPDATE `system`.`district` SET `code` = '540233' WHERE `id` = '2889'; 
+	UPDATE `system`.`district` SET `code` = '540234' WHERE `id` = '2890'; 
+	UPDATE `system`.`district` SET `code` = '540235' WHERE `id` = '2891'; 
+	UPDATE `system`.`district` SET `code` = '540236' WHERE `id` = '2892'; 
+	UPDATE `system`.`district` SET `code` = '540237' WHERE `id` = '2893'; 
+	UPDATE `system`.`district` SET `code` = '540302' WHERE `id` = '2853'; 
+	UPDATE `system`.`district` SET `code` = '540302' WHERE `id` = '2853'; 
+	UPDATE `system`.`district` SET `code` = '540321' WHERE `id` = '2854'; 
+	UPDATE `system`.`district` SET `code` = '540322' WHERE `id` = '2855'; 
+	UPDATE `system`.`district` SET `code` = '540323' WHERE `id` = '2856'; 
+	UPDATE `system`.`district` SET `code` = '540324' WHERE `id` = '2857'; 
+	UPDATE `system`.`district` SET `code` = '540325' WHERE `id` = '2858'; 
+	UPDATE `system`.`district` SET `code` = '540326' WHERE `id` = '2859'; 
+	UPDATE `system`.`district` SET `code` = '540327' WHERE `id` = '2860'; 
+	UPDATE `system`.`district` SET `code` = '540328' WHERE `id` = '2861'; 
+	UPDATE `system`.`district` SET `code` = '540329' WHERE `id` = '2862'; 
+	UPDATE `system`.`district` SET `code` = '540330' WHERE `id` = '2863';
+	UPDATE `system`.`district` SET `code` = '540421' WHERE `id` = '2913'; 
+	UPDATE `system`.`district` SET `code` = '540423', order` = '3' WHERE `id` = '2915'; 
+	UPDATE `system`.`district` SET `code` = '540424' , `order` = '4' WHERE `id` = '2916'; 
+	UPDATE `system`.`district` SET `code` = '540425' , `order` = '5' WHERE `id` = '2917'; 
+	UPDATE `system`.`district` SET `code` = '540426' , `order` = '6' WHERE `id` = '2918'; 
+	UPDATE `system`.`district` SET `suffix` = '市', `code` = '540481' , `order` = '7' WHERE `id` = '2914'; 
+	UPDATE `system`.`district` SET `suffix` = '市' , `code` = '540581' , `order` = '12' WHERE `id` = '2874'; 
+	UPDATE `system`.`district` SET `order` = '11' WHERE `id` = '2875'; 
+	UPDATE `system`.`district` SET `code` = '340209' , `order` = '3' WHERE `id` = '1417'; 
+	DELETE FROM `system`.`district` WHERE `id` = '1419'; 
+	UPDATE `system`.`district` SET `name` = '湾沚' , `initials` = 'wz' , `pinyin` = 'wanzhi', `suffix` = '区' , `code` = '340210' , `order` = '4' WHERE `id` = '1420'; 
+	UPDATE `system`.`district` SET `suffix` = '区' , `code` = '340212' , `order` = '5' WHERE `id` = '1421'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '1422'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '1423'; 
+	UPDATE `system`.`district` SET `code` = '340422' , `order` = '7' WHERE `id` = '1492'; 
+	UPDATE `system`.`district` SET `code` = '340705' WHERE `id` = '1447'; 
+	UPDATE `system`.`district` SET `code` = '340706' , `order` = '2' WHERE `id` = '1450'; 
+	UPDATE `system`.`district` SET `code` = '340722' , `order` = '4' WHERE `id` = '1455'; 
+	UPDATE `system`.`district` SET `code` = '340882' , `order` = '11' WHERE `id` = '1456'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '1457'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '1458'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '1459'; 
+	UPDATE `system`.`district` SET `order` = '8' WHERE `id` = '1460'; 
+	UPDATE `system`.`district` SET `order` = '9' WHERE `id` = '1461'; 
+	UPDATE `system`.`district` SET `order` = '10' WHERE `id` = '1456';
+	UPDATE `system`.`district` SET `code` = '341504' , `order` = '3' WHERE `id` = '7041'; 
+	DELETE FROM `system`.`district` WHERE `id` = '1536'; 
+	UPDATE `system`.`district` SET `code` = '350404' , `order` = '1' WHERE `id` = '1537';
+	UPDATE `system`.`district` SET `suffix` = '区' , `code` = '350405' , `order` = '2' WHERE `id` = '1543'; 
+	UPDATE `system`.`district` SET `suffix` = '区' , `code` = '350605' , `order` = '4' WHERE `id` = '1565'; 
+	UPDATE `system`.`district` SET `suffix` = '区' , `code` = '350604' , `order` = '3' WHERE `id` = '1570'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '1562'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '1563'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '1564'; 
+	UPDATE `system`.`district` SET `order` = '8' WHERE `id` = '1566'; 
+	UPDATE `system`.`district` SET `order` = '9' WHERE `id` = '1567'; 
+	UPDATE `system`.`district` SET `order` = '10' WHERE `id` = '1568'; 
+	UPDATE `system`.`district` SET `order` = '11' WHERE `id` = '1569';
+	UPDATE `system`.`district` SET `code` = '360703' , `order` = '2' WHERE `id` = '1650'; 
+	UPDATE `system`.`district` SET `suffix` = '市' , `code` = '360783' , `order` = '18' WHERE `id` = '1640'; 
+	UPDATE `system`.`district` SET `order` = '3' WHERE `id` = '1634'; 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '1635'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '1636'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '1637'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '1638'; 
+	UPDATE `system`.`district` SET `order` = '8' WHERE `id` = '1639'; 
+	UPDATE `system`.`district` SET `suffix` = '区' , `code` = '370614' , `order` = '5' WHERE `id` = '1744'; 
+	DELETE FROM `system`.`district` WHERE `id` = '1740'; 
+	UPDATE `system`.`district` SET `code` = '371603' , `order` = '2' WHERE `id` = '1823'; 
+	UPDATE `system`.`district` SET `order` = '3' WHERE `id` = '1820'; 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '1821'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '1822'; 
+	UPDATE `district` SET area_code = '0371' WHERE id = 273; 
+	UPDATE `district` SET area_code = '0371' WHERE parent_id = 273 ORDER BY `code` ASC;
+	UPDATE `system`.`district` SET `area_code` = '0379' WHERE `id` = '274'; 
+	UPDATE `district` SET area_code = '0379' WHERE parent_id = 274 ORDER BY `code` ASC; 
+	UPDATE `system`.`district` SET `area_code` = '0393' WHERE `id` = '280'; 
+	UPDATE `district` SET area_code = '0393' WHERE parent_id = 280 ORDER BY `code` ASC; 
+	DELETE FROM `system`.`district` WHERE `id` = '1861'; 
+	UPDATE `system`.`district` SET `suffix` = '区' , `code` = '410308' , `order` = '5' WHERE `id` = '1863'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '1864'; 
+	UPDATE `system`.`district` SET `order` = '8' WHERE `id` = '1865'; 
+	UPDATE `system`.`district` SET `order` = '9' WHERE `id` = '1866'; 
+	UPDATE `system`.`district` SET `order` = '10' WHERE `id` = '1867'; 
+	UPDATE `system`.`district` SET `order` = '11' WHERE `id` = '1868'; 
+	UPDATE `system`.`district` SET `order` = '12' WHERE `id` = '1869'; 
+	UPDATE `system`.`district` SET `order` = '13' WHERE `id` = '1870'; 
+	UPDATE `system`.`district` SET `order` = '14' WHERE `id` = '1871';
+	UPDATE `system`.`district` SET `code` = '411203' WHERE `id` = '1937'; 
+	UPDATE `system`.`district` SET `area_code` = '0711' WHERE `id` = '295'; 
+	UPDATE `district` SET area_code = '0711' WHERE parent_id = 295 ORDER BY `code` ASC; 
+	UPDATE `system`.`district` SET `suffix` = '市' , `code` = '421088' , `order` = '8' WHERE `id` = '2059'; 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '2060'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '2061'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '2062'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '2063'; 
+	UPDATE `system`.`district` SET `code` = '430522' , `order` = '5' WHERE `id` = '2130'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '2131'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '2132'; 
+	UPDATE `system`.`district` SET `order` = '8' WHERE `id` = '2133'; 
+	UPDATE `system`.`district` SET `order` = '9' WHERE `id` = '2134'; 
+	UPDATE `system`.`district` SET `order` = '10' WHERE `id` = '2135'; 
+	UPDATE `system`.`district` SET `order` = '11' WHERE `id` = '2136'; 
+	UPDATE `system`.`district` SET `order` = '12' WHERE `id` = '2137'; 
+	UPDATE `system`.`district` SET `suffix` = '市' , `code` = '431181' , `order` = '11' WHERE `id` = '2179'; 
+	UPDATE `system`.`district` SET `order` = '3' WHERE `id` = '2180'; 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '2181'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '2182'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '2183'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '2184'; 
+	UPDATE `system`.`district` SET `order` = '8' WHERE `id` = '2185'; 
+	UPDATE `system`.`district` SET `order` = '9' WHERE `id` = '2186'; 
+	UPDATE `system`.`district` SET `order` = '10' WHERE `id` = '2187'; 
+	UPDATE `system`.`district` SET `code` = '441204' , `order` = '3' WHERE `id` = '2284'; 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '2280'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '2281'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '2282'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '2283';
+	UPDATE `system`.`district` SET `code` = '441703' , `order` = '2' WHERE `id` = '2311'; 
+	UPDATE `system`.`district` SET `order` = '3' WHERE `id` = '2310'; 
+	UPDATE `system`.`district` SET `suffix` = '区' , `code` = '441803' , `order` = '2' WHERE `id` = '2318'; 
+	UPDATE `system`.`district` SET `order` = '3' WHERE `id` = '2314'; 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '2315'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '2316'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '2317';
+	UPDATE `system`.`district` SET `code` = '445103' WHERE `id` = '2322'; 
+	UPDATE `system`.`district` SET `suffix` = '区' , `code` = '445203' WHERE `id` = '2325'; 
+	UPDATE `system`.`district` SET `name` = '横州' , `initials` = 'hz' , `pinyin` = 'hengzhou' , `suffix` = '市' , `code` = '450181' WHERE `id` = '2345'; 
+	UPDATE `system`.`district` SET `code` = '450312' , `order` = '6' WHERE `id` = '2362'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '2361'; 
+	UPDATE `system`.`district` SET `code` = '450381' , `order` = '17' WHERE `id` = '2371'; 
+	UPDATE `system`.`district` SET `order` = '16' WHERE `id` = '2372'; 
+	UPDATE `system`.`district` SET `code` = '450406' , `order` = '3' WHERE `id` = '2373'; 
+	UPDATE `system`.`district` SET `order` = '1' WHERE `id` = '2374'; 
+	UPDATE `system`.`district` SET `order` = '2' WHERE `id` = '2375'; 
+	UPDATE `system`.`district` SET `code` = '450881' , `order` = '5' WHERE `id` = '2395'; 
+	UPDATE `system`.`district` SET `code` = '450821' , `order` = '4' WHERE `id` = '2396'; 
+	UPDATE `system`.`district` SET `code` = '460202' WHERE `id` = '3578'; 
+	UPDATE `system`.`district` SET `code` = '460203' WHERE `id` = '3579'; 
+	UPDATE `system`.`district` SET `code` = '460204' WHERE `id` = '3580'; 
+	UPDATE `system`.`district` SET `code` = '460205' WHERE `id` = '3581'; 
+	UPDATE `system`.`district` SET `code` = '460302' WHERE `id` = '7045'; 
+	UPDATE `system`.`district` SET `code` = '460303' WHERE `id` = '7046'; 
+	UPDATE `system`.`district` SET `area_code` = '0832' WHERE `id` = '383'; 
+	UPDATE `district` SET area_code = '0832' WHERE parent_id = 383 ORDER BY `code` ASC;
+	UPDATE `system`.`district` SET `code` = '613400' WHERE `id` = '395'; 
+	UPDATE `system`.`district` SET `suffix` = '区' , `code` = '510118' , `order` = '12' WHERE `id` = '2461'; 
+	UPDATE `system`.`district` SET `order` = '13' WHERE `id` = '2456'; 
+	UPDATE `system`.`district` SET `order` = '14' WHERE `id` = '2459'; 
+	UPDATE `system`.`district` SET `order` = '15' WHERE `id` = '2460'; 
+	UPDATE `system`.`district` SET `order` = '20' WHERE `id` = '2579'; 
+	UPDATE `system`.`district` SET `code` = '511403' , `order` = '2' WHERE `id` = '2538'; 
+	UPDATE `system`.`district` SET `order` = '3' WHERE `id` = '2537'; 
+	UPDATE `system`.`district` SET `code` = '511603' WHERE `id` = '3583'; 
+	UPDATE `system`.`district` SET `code` = '511703' WHERE `id` = '2558'; 
+	INSERT INTO `system`.`district` (`id`, `name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES (7053, '恩阳', '391', 'e', 'ey', 'enyang', '', '区', '511903', '0827', '2'); 
+	UPDATE `system`.`district` SET `order` = '3' WHERE `id` = '2573'; 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '2574'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '2575'; 
+	UPDATE `system`.`district` SET `code` = '513201' WHERE `id` = '2580'; 
+	UPDATE `system`.`district` SET `suffix` = '市' , `code` = '513402' , `order` = '2' WHERE `id` = '2615'; 
+	UPDATE `system`.`district` SET `order` = '3' WHERE `id` = '2612'; 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '2613'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '2614'; 
+	UPDATE `system`.`district` SET `code` = '520115' , `order` = '6' WHERE `id` = '2628'; 
+	UPDATE `system`.`district` SET `order` = '1' WHERE `id` = '2629'; 
+	UPDATE `system`.`district` SET `order` = '2' WHERE `id` = '2630'; 
+	UPDATE `system`.`district` SET `order` = '3' WHERE `id` = '2631'; 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '2632'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '2633'; 
+	UPDATE `system`.`district` SET `suffix` = '区' , `code` = '520204' WHERE `id` = '2640'; 
+	UPDATE `system`.`district` SET `name` = '六枝' , `initials` = 'lz' , `pinyin` = 'liuzhi' , `suffix` = '特区' WHERE `id` = '2639'; 
+	UPDATE `system`.`district` SET `suffix` = '市' , `code` = '520581' , `order` = '8' WHERE `id` = '2664'; 
+	UPDATE `system`.`district` SET `order` = '3' WHERE `id` = '2665'; 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '2666'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '2667'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '2668'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '2669'; 
+	UPDATE `system`.`district` SET `code` = '530500' , `order` = '4' WHERE `id` = '420'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '408'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '409'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '410'; 
+	UPDATE `system`.`district` SET `order` = '8' WHERE `id` = '411'; 
+	UPDATE `system`.`district` SET `order` = '9' WHERE `id` = '412'; 
+	UPDATE `system`.`district` SET `order` = '10' WHERE `id` = '413'; 
+	UPDATE `system`.`district` SET `order` = '11' WHERE `id` = '414'; 
+	UPDATE `system`.`district` SET `order` = '12' WHERE `id` = '415'; 
+	UPDATE `system`.`district` SET `order` = '13' WHERE `id` = '416'; 
+	UPDATE `system`.`district` SET `order` = '14' WHERE `id` = '417'; 
+	UPDATE `system`.`district` SET `order` = '15' WHERE `id` = '418'; 
+	UPDATE `system`.`district` SET `order` = '16' WHERE `id` = '419'; 
+	UPDATE `system`.`district` SET `code` = '530403' WHERE `id` = '2740'; 
+	UPDATE `system`.`district` SET `code` = '530581' , `order` = '5' WHERE `id` = '2842'; 
+	UPDATE `system`.`district` SET `code` = '530681' WHERE `id` = '2758'; 
+	UPDATE `system`.`district` SET `suffix` = '市' , `code` = '532302' , `order` = '2' WHERE `id` = '2791'; 
+	UPDATE `system`.`district` SET `order` = '3' WHERE `id` = '2783'; 
+	UPDATE `system`.`district` SET `order` = '4' WHERE `id` = '2784'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '2785'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '2786'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '2787'; 
+	UPDATE `system`.`district` SET `order` = '8' WHERE `id` = '2788'; 
+	UPDATE `system`.`district` SET `order` = '9' WHERE `id` = '2789'; 
+	UPDATE `system`.`district` SET `order` = '10' WHERE `id` = '2790'; 
+	UPDATE `system`.`district` SET `code` = '532504' , `order` = '4' WHERE `id` = '2798'; 
+	UPDATE `system`.`district` SET `order` = '5' WHERE `id` = '2795'; 
+	UPDATE `system`.`district` SET `order` = '6' WHERE `id` = '2796'; 
+	UPDATE `system`.`district` SET `order` = '7' WHERE `id` = '2797';
+	UPDATE `system`.`district` SET `code` = '710100' WHERE `id` = '485'; 
+	UPDATE `system`.`district` SET `code` = '710200' , `order` = '2' WHERE `id` = '492'; 
+	UPDATE `system`.`district` SET `suffix` = '市' , `code` = '710300', `order` = '3' WHERE `id` = '494'; 
+	UPDATE `system`.`district` SET `code` = '710400' WHERE `id` = '488'; 
+	UPDATE `system`.`district` SET `code` = '710500' WHERE `id` = '489'; 
+	UPDATE `system`.`district` SET `code` = '710600' , `order` = '6' WHERE `id` = '486'; 
+	UPDATE `system`.`district` SET `code` = '710700' , `order` = '7' WHERE `id` = '487'; 
+	UPDATE `system`.`district` SET `code` = '710800' , `order` = '8' WHERE `id` = '490'; 
+	UPDATE `system`.`district` SET `code` = '710900' , `order` = '9' WHERE `id` = '491'; 
+	UPDATE `system`.`district` SET `code` = '711000' , `order` = '10' WHERE `id` = '495'; 
+	UPDATE `system`.`district` SET `code` = '711100' , `order` = '11' WHERE `id` = '496'; 
+	UPDATE `system`.`district` SET `code` = '711200' , `order` = '12' WHERE `id` = '497'; 
+	UPDATE `system`.`district` SET `code` = '711300' , `order` = '13' WHERE `id` = '498'; 
+	UPDATE `system`.`district` SET `code` = '711400' , `order` = '14' WHERE `id` = '499'; 
+	UPDATE `system`.`district` SET `code` = '711500' , `order` = '15' WHERE `id` = '500'; 
+	UPDATE `system`.`district` SET `code` = '711600' , `order` = '16' WHERE `id` = '501'; 
+	UPDATE `system`.`district` SET `code` = '711700' , `order` = '17' WHERE `id` = '493'; 
+	UPDATE `system`.`district` SET `code` = '711800' , `order` = '18' WHERE `id` = '503'; 
+	UPDATE `system`.`district` SET `code` = '711900' , `order` = '19' WHERE `id` = '502'; 
+	UPDATE `system`.`district` SET `code` = ' 712000' WHERE `id` = '504'; 
+	UPDATE `system`.`district` SET `order` = '21' WHERE `id` = '506'; 
+	UPDATE `system`.`district` SET `order` = '22' WHERE `id` = '505';
+	UPDATE `system`.`district` SET `code` = '710101' WHERE `id` = '3277'; 
+	UPDATE `system`.`district` SET `code` = '710102' WHERE `id` = '3278'; 
+	UPDATE `system`.`district` SET `code` = '710103' WHERE `id` = '3279'; 
+	UPDATE `system`.`district` SET `code` = '710104' WHERE `id` = '3280'; 
+	UPDATE `system`.`district` SET `code` = '710105' WHERE `id` = '3281'; 
+	UPDATE `system`.`district` SET `code` = '710106' WHERE `id` = '3282'; 
+	UPDATE `system`.`district` SET `code` = '710107' WHERE `id` = '3283'; 
+	UPDATE `system`.`district` SET `code` = '710108' WHERE `id` = '3284'; 
+	UPDATE `system`.`district` SET `code` = '710109' WHERE `id` = '3285'; 
+	UPDATE `system`.`district` SET `code` = '710110' WHERE `id` = '3286'; 
+	UPDATE `system`.`district` SET `code` = '710111' WHERE `id` = '3287'; 
+	UPDATE `system`.`district` SET `code` = '710112' WHERE `id` = '3288'; 
+	UPDATE `system`.`district` SET `code` = '710201' WHERE `id` = '3347'; 
+	UPDATE `system`.`district` SET `code` = '710202', order` = '2' WHERE `id` = '3370'; 
+	UPDATE `system`.`district` SET ` WHERE `id` = '3370'; 
+	UPDATE `system`.`district` SET `code` = '710203' , `order` = '3' WHERE `id` = '3366'; 
+	UPDATE `system`.`district` SET `code` = '710204' , `order` = '4' WHERE `id` = '3372'; 
+	UPDATE `system`.`district` SET `code` = '710205' , `order` = '5' WHERE `id` = '3348'; 
+	UPDATE `system`.`district` SET `code` = '710206' , `order` = '6' WHERE `id` = '3368'; 
+	UPDATE `system`.`district` SET `code` = '710207' , `order` = '7' WHERE `id` = '3363'; 
+	UPDATE `system`.`district` SET `code` = '710208' , `order` = '8' WHERE `id` = '3367'; 
+	UPDATE `system`.`district` SET `code` = '710209' , `order` = '9' WHERE `id` = '3365'; 
+	UPDATE `system`.`district` SET `code` = '710210' , `order` = '10' WHERE `id` = '3364'; 
+	UPDATE `system`.`district` SET `code` = '710211' , `order` = '11' WHERE `id` = '3371'; 
+	UPDATE `system`.`district` SET `code` = '710212' , `order` = '12' WHERE `id` = '3362'; 
+	UPDATE `system`.`district` SET `code` = '710213' , `order` = '13' WHERE `id` = '3373'; 
+	UPDATE `system`.`district` SET `code` = '710214' , `order` = '14' WHERE `id` = '3349'; 
+	UPDATE `system`.`district` SET `code` = '710215' , `order` = '15' WHERE `id` = '3350'; 
+	UPDATE `system`.`district` SET `code` = '710216' , `order` = '16' WHERE `id` = '3357'; 
+	UPDATE `system`.`district` SET `code` = '710217' , `order` = '17' WHERE `id` = '3358'; 
+	UPDATE `system`.`district` SET `code` = '710218' , `order` = '18' WHERE `id` = '3351'; 
+	UPDATE `system`.`district` SET `code` = '710219' , `order` = '19' WHERE `id` = '3355'; 
+	UPDATE `system`.`district` SET `code` = '710220' , `order` = '20' WHERE `id` = '3352'; 
+	UPDATE `system`.`district` SET `code` = '710221' , `order` = '21' WHERE `id` = '3353'; 
+	UPDATE `system`.`district` SET `code` = '710222' , `order` = '22' WHERE `id` = '3359'; 
+	UPDATE `system`.`district` SET `code` = '710223' , `order` = '23' WHERE `id` = '3375'; 
+	UPDATE `system`.`district` SET `code` = '710224' , `order` = '24' WHERE `id` = '3356'; 
+	UPDATE `system`.`district` SET `code` = '710225' , `order` = '25' WHERE `id` = '3354'; 
+	UPDATE `system`.`district` SET `code` = '710226' , `order` = '26' WHERE `id` = '3360'; 
+	UPDATE `system`.`district` SET `code` = '710227' , `order` = '27' WHERE `id` = '3374'; 
+	UPDATE `system`.`district` SET `code` = '710228' , `order` = '28' WHERE `id` = '3369'; 
+	UPDATE `system`.`district` SET `code` = '710229' , `order` = '29' WHERE `id` = '3361'; 
+	UPDATE `system`.`district` SET `code` = '710301', `suffix` = '区' WHERE `id` = '3388'; 
+	UPDATE `system`.`district` SET `code` = '710302', `suffix` = '区' WHERE `id` = '3389'; 
+	UPDATE `system`.`district` SET `code` = '710303' , suffix` = '区', `order` = '3' WHERE `id` = '3397'; 
+	UPDATE `system`.`district` SET `suffix` = '区' , `code` = '710304' , `order` = '4' WHERE `id` = '3395'; 
+	UPDATE `system`.`district` SET `suffix` = '区' , `code` = '710305' , `order` = '5' WHERE `id` = '3391'; 
+	UPDATE `system`.`district` SET `code` = '710306' , `suffix` = '区', `order` = '6' WHERE `id` = '3390'; 
+	UPDATE `system`.`district` SET `suffix` = '区' , `code` = '710307' , `order` = '7' WHERE `id` = '3392'; 
+	UPDATE `system`.`district` SET `code` = '710308' , `suffix` = '区', `order` = '8' WHERE `id` = '3393'; 
+	UPDATE `system`.`district` SET `code` = '710309' , `suffix` = '区', `order` = '9' WHERE `id` = '3394'; 
+	UPDATE `system`.`district` SET `suffix` = '区' , `code` = '710310' , `order` = '10' WHERE `id` = '3396'; 
+	UPDATE `system`.`district` SET `suffix` = '区' , `code` = '710311' WHERE `id` = '3398'; 
+	UPDATE `system`.`district` SET `suffix` = '区' , `code` = '710312' WHERE `id` = '3399'; 
+	UPDATE `system`.`district` SET `suffix` = '区' , `code` = '710313' WHERE `id` = '3400'; 
+	UPDATE `system`.`district` SET `code` = '710401' , `order` = '1' WHERE `id` = '3328'; 
+	UPDATE `system`.`district` SET `code` = '710402' , `order` = '2' WHERE `id` = '3329'; 
+	UPDATE `system`.`district` SET `code` = '710403' , `order` = '3' WHERE `id` = '3330'; 
+	UPDATE `system`.`district` SET `code` = '710404' , `order` = '4' WHERE `id` = '3331'; 
+	UPDATE `system`.`district` SET `code` = '710405' , `order` = '5' WHERE `id` = '3332'; 
+	UPDATE `system`.`district` SET `code` = '710406' , `order` = '6' WHERE `id` = '3335'; 
+	UPDATE `system`.`district` SET `code` = '710407' , `order` = '7' WHERE `id` = '3333'; 
+	UPDATE `system`.`district` SET `code` = '710408' , `order` = '8' WHERE `id` = '3334'; 
+	UPDATE `system`.`district` SET `code` = '710409' , `order` = '9' WHERE `id` = '3327'; 
+	UPDATE `system`.`district` SET `code` = '710410' , `order` = '10' WHERE `id` = '3326'; 
+	UPDATE `system`.`district` SET `code` = '710411' , `order` = '11' WHERE `id` = '3325'; 
+	UPDATE `system`.`district` SET `code` = '710412' , `order` = '12' WHERE `id` = '3324'; 
+	UPDATE `system`.`district` SET `code` = '710413' , `order` = '13' WHERE `id` = '3323'; 
+	UPDATE `system`.`district` SET `code` = '710414' , `order` = '14' WHERE `id` = '3322'; 
+	UPDATE `system`.`district` SET `code` = '710415' WHERE `id` = '3321'; 
+	UPDATE `system`.`district` SET `code` = '710416' , `order` = '16' WHERE `id` = '3320'; 
+	UPDATE `system`.`district` SET `code` = '710417' , `order` = '17' WHERE `id` = '3308'; 
+	UPDATE `system`.`district` SET `code` = '710418' , `order` = '18' WHERE `id` = '3309'; 
+	UPDATE `system`.`district` SET `code` = '710419' , `order` = '19' WHERE `id` = '3310'; 
+	UPDATE `system`.`district` SET `code` = '710420' , `order` = '20' WHERE `id` = '3311'; 
+	UPDATE `system`.`district` SET `code` = '710421' , `order` = '21' WHERE `id` = '3312'; 
+	UPDATE `system`.`district` SET `code` = '710422' , `order` = '22' WHERE `id` = '3313'; 
+	UPDATE `system`.`district` SET `code` = '710423' , `order` = '23' WHERE `id` = '3314'; 
+	UPDATE `system`.`district` SET `code` = '710424' , `order` = '24' WHERE `id` = '3315'; 
+	UPDATE `system`.`district` SET `code` = '710425' , `order` = '25' WHERE `id` = '3316'; 
+	UPDATE `system`.`district` SET `code` = '710426' , `order` = '26' WHERE `id` = '3317'; 
+	UPDATE `system`.`district` SET `code` = '710427' , `order` = '27' WHERE `id` = '3318'; 
+	UPDATE `system`.`district` SET `code` = '710428' , `order` = '28' WHERE `id` = '3319'; 
+	UPDATE `system`.`district` SET `code` = '710429' , `order` = '29' WHERE `id` = '3307'; 
+	UPDATE `system`.`district` SET `code` = '710501' WHERE `id` = '3336'; 
+	UPDATE `system`.`district` SET `code` = '710502' WHERE `id` = '3337'; 
+	UPDATE `system`.`district` SET `code` = '710503' WHERE `id` = '3338'; 
+	UPDATE `system`.`district` SET `code` = '710504' WHERE `id` = '3339'; 
+	UPDATE `system`.`district` SET `code` = '710505' WHERE `id` = '3340'; 
+	UPDATE `system`.`district` SET `code` = '710506' WHERE `id` = '3341'; 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('新营', '489', 'x', 'xy', 'xinying', '', '区', '710507', '06', '7'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('盐水', '489', 'y', 'ys', 'yanshui', '', '区', '710508', '06', '8'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('白河', '489', 'b', 'bh', 'baihe', '', '区', '710509', '06', '9'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('柳营', '489', 'l', 'ly', 'liuying', '', '区', '710510', '06', '10'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('后壁', '489', 'h', 'hb', 'houbi', '', '区', '710511', '06', '11'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('东山', '489', 'd', 'ds', 'dongshan', '', '区', '710512', '06', '12'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('麻豆', '489', 'm', 'md', 'madou', '', '区', '710513', '06', '13'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('下营', '489', 'x', 'xy', 'xiaying', '', '区', '710514', '06', '14'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('六甲', '489', 'l', 'lj', 'liujia', '', '区', '710515', '06', '15'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('官田', '489', 'g', 'gt', 'guantian', '', '区', '710516', '06', '16'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('大内', '489', 'd', 'dn', 'danei', '', '区', '710517', '06', '17'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('佳里', '489', 'j', 'jl', 'jiali', '', '区', '710518', '06', '18'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('学甲', '489', 'x', 'xj', 'xuejia', '', '区', '710519', '06', '19'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('西港', '489', 'x', 'xg', 'xigang', '', '区', '710520', '06', '20'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('七股', '489', 'q', 'qg', 'qigu', '', '区', '710521', '06', '21'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('将军', '489', 'j', 'jj', 'jiangjun', '' , '区' , '710522' , '06' , 22); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('玉井', '489', 'y', 'yj', 'yujing', '', '区', '710529' , '06' , '29'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('楠西', '489', 'n', 'nx', 'nanxi', '', '区', '710530', '06', '30'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('南化', '489', 'n', 'nh', 'nanhua', '', '区', '710531', '06', '31'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('左镇', '489', 'z', 'zz', 'zuozhen', '', '区', '710532', '06', '32'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('仁德', '489', 'r', 'rd', 'rende', '', '区', '710533', '06', '33'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('归仁', '489', 'g', 'gr', 'guiren', '', '区', '710534', '06', '34'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('关庙', '489', 'g', 'gm', 'guanmiao', '', '区', '710535', '06', '35'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('龙崎', '489', 'l', 'ly', 'longyi', '', '区', '710536', '06', '36'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('永康', '489', 'y', 'yk', 'yongkang', '', '区', '710537', '06', '37'); 
+	UPDATE `system`.`district` SET `code` = '710601' , `order` = '1' WHERE `id` = '3292'; 
+	UPDATE `system`.`district` SET `code` = '710602' , `order` = '2' WHERE `id` = '3291'; 
+	UPDATE `system`.`district` SET `code` = '710603' , `order` = '3' WHERE `id` = '3290'; 
+	UPDATE `system`.`district` SET `code` = '710604' , `order` = '4' WHERE `id` = '3293';
+	UPDATE `system`.`district` SET `code` = '710605' , `order` = '5' WHERE `id` = '3289'; 
+	UPDATE `system`.`district` SET `code` = '710606' , `order` = '6' WHERE `id` = '3295'; 
+	UPDATE `system`.`district` SET `code` = '710607' , `order` = '7' WHERE `id` = '3294'; 
+	UPDATE `system`.`district` SET `code` = '710608' WHERE `id` = '3296'; 
+	UPDATE `system`.`district` SET `code` = '710609' WHERE `id` = '3297'; 
+	UPDATE `system`.`district` SET `code` = '710610' WHERE `id` = '3298'; 
+	UPDATE `system`.`district` SET `code` = '710611' WHERE `id` = '3299'; 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('凤山', '486', 'f', 'fs', 'fengshan', '', '区', '710612', '07', '12'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('大寮', '486', 'd', 'dl', 'daliao', '', '区', '710613', '07', '13'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('鸟松', '486', 'n', 'dns', 'niaosong', '', '区', '710614', '07', '14'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('林园', '486', 'l', 'ly', 'linyuan', '', '区', '710615', '07', '15'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('仁武', '486', 'r', 'rw', 'renwu', '', '区', '710616', '07', '16'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('大树', '486', 'd', 'ds', 'dashu', '', '区', '710617', '07', '17'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('大社', '486', 'd', 'ds', 'dashe', '', '区', '710618', '07', '18'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('冈山', '486', 'g', 'gs', 'gangshan', '', '区', '710619', '07', '19'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('桥头', '486', 'q', 'qt', 'qiantou', '', '区', '710620', '07', '20'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('燕巢', '486', 'y', 'yc', 'yanchao', '', '区', '710621', '07', '21'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('田寮', '486', 't', 'tl', 'tianliao', '', '区', '710622', '07', '22'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('阿莲', '486', 'a', 'al', 'alian', '', '区', '710623', '07', '23'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('路竹', '486', 'l', 'lz', 'luzhu', '', '区', '710624', '07', '24'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('湖内', '486', 'h', 'hn', 'hunei', '', '区', '710625', '07', '25'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('茄萣', '486', 'j', 'jd', 'jiading', '', '区', '710626', '07', '26'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('永安', '486', 'y', 'ya', 'yongan', '', '区', '710627', '07', '27'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('弥陀', '486', 'm', 'mt', 'mituo', '' , '区' , '710628' , '07' , 28); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('梓官', '486', 'z', 'zg', 'ziguan', '', '区', '710629', '07', '29'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('旗山', '486', 'q', 'qs', 'qishan', '', '区', '710630', '07', '30'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('美浓', '486', 'm', 'mn', 'meinong', '', '区', '710631', '07', '31'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('六龟', '486', 'l', 'lg', 'liugui', '', '区', '710632', '07', '32'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('甲仙', '486', 'j', 'jx', 'jiaxian', '', '区', '710633', '07', '33'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('杉林', '486', 's', 'sl', 'shanlin', '', '区', '710634' , '07' , '34'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('内门', '486', 'n', 'nm', 'neimen', '', '区', '710635', '07', '35'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('茂林', '486', 'm', 'ml', 'maolin', '', '区', '710636', '07', '36'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('桃源', '486', 't' , 'ty' , 'taoyuan', '' , '区' , '710637' , '07' , '37'); 
+	INSERT INTO `system`.`district` (`name`, `parent_id`, `initial`, `initials`, `pinyin`, `extra`, `suffix`, `code`, `area_code`, `order`) VALUES ('那玛夏', '486', 'n', 'nmx', 'namaxia', '', '区', '710638', '07', '38'); 
+	UPDATE `system`.`district` SET `code` = '710701' WHERE `id` = '3300'; 
+	UPDATE `system`.`district` SET `code` = '710702' , `order` = '2' WHERE `id` = '3306'; 
+	UPDATE `system`.`district` SET `code` = '710703' , `order` = '3' WHERE `id` = '3303'; 
+	UPDATE `system`.`district` SET `code` = '710704' , `order` = '4' WHERE `id` = '3304'; 
+	UPDATE `system`.`district` SET `code` = '710705' , `order` = '5' WHERE `id` = '3305'; 
+	UPDATE `system`.`district` SET `code` = '710706' , `order` = '6' WHERE `id` = '3302'; 
+	UPDATE `system`.`district` SET `code` = '710707' , `order` = '7' WHERE `id` = '3301'; 
+	UPDATE `system`.`district` SET `code` = '710801' WHERE `id` = '3342'; 
+	UPDATE `system`.`district` SET `code` = '710802' WHERE `id` = '3343'; 
+	UPDATE `system`.`district` SET `code` = '710803' WHERE `id` = '3344';
+	UPDATE `system`.`district` SET `code` = '710901' WHERE `id` = '3345'; 
+	UPDATE `system`.`district` SET `code` = '710902' WHERE `id` = '3346'; 
+	DELETE FROM `district` WHERE parent_id IN(495, 496, 497, 498, 499, 500, 501, 493, 503, 502, 504)
+
+
+
+
 Changes 18.0
 												28 Apr 2020
 
