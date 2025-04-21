@@ -61,6 +61,6 @@ Introduction
 
 
 <p>
-	<img src="./alipay-qrcode.jpg" width="49.55%" />
-	<img src="./wechat-qrcode.png" width="49.55%" />
+	<img src="./alipay-qrcode.jpg" width="200" />
+	<img src="./wechat-qrcode.png" width="200" />
 </p>
