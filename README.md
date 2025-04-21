@@ -60,5 +60,5 @@ Introduction
 在整理、核对全国（含港澳台）行政区划数据，以及随着时间的推移行政区划发生变更的数据更新，需要耗费大量时间和精力。如果，您觉得该数据对您有所帮助帮助，您的一次打赏，是推动我更新数据的最大动力，一分也是爱❤️
 
 
-![支付宝打赏]<img src="./alipay-qrcode.jpg" width="50%" />
-![微信打赏]<img src="./wechat-qrcode.png" width="50%" />
+<img src="./alipay-qrcode.jpg" width="50%" />
+<img src="./wechat-qrcode.png" width="50%" />
