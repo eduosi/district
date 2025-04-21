@@ -62,5 +62,6 @@ Introduction
 
 <div style="text-align: center;">
 	<img src="./alipay-qrcode.jpg" width="200" style="margin-right: 10px;" />
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	<img src="./wechat-qrcode.png" width="200" style="margin-left: 10px;" />
 </div>
